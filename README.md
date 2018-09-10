@@ -20,6 +20,7 @@
 - 성별 여부 'gender
 - 멤버 수 'member_num'
 - 리더 이름 'leader_name'
+- 멜론 표기명 'melon_artist'
 
 
 
@@ -37,44 +38,30 @@
 
 
 
-## 크롤링 주의사항
-
-### 제목 관련
-
-- Jap ver 제거
-- Inst 제거
-- Eng 제거
-- remix / mix 제거
-- Chinese 제거
+## 파일 설명
 
 
+- melon_urlid_crawling_SoHyun_ver01.ipynb
+[링크](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/Crawling/url_crawling/melon_urlid_crawling_SoHyun_ver01.ipynb)
 
-제목에서 구분이 불가한 경우
-
-- 중국어 노래인 경우 - 우선 크롤링해오고 전처리에서 정규표현식을 이용해 노래 전체가 알파벳이면 삭제(중국어 가사는 pinyin으로 표기하는데 여기엔 성조 없이 알파벳만 적어두었음. 고로 알파벳만 걸러도 충분함 )
-- 위를 통해 영어 가사만 있는 경우도 거를 수 있음
-- 일본어의 경우 한글로만 적혀있거나 일어, 발음, 해석이 다 같이 적혀있기도 함. 이 경우 일본어의 특수한 발음을 이용해서 전처리를 해볼 수 있을 것(예: 캇, 킷, 춋, 촛 등)
+멜론 가수별 url id를 추출하기 위한 크롤링 코드입니다. 
 
 
+- melon_song_data_crawling_SoHyun_ver01.ipynb
+[링크](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/Crawling/url_crawling/melon_song_data_crawling_SoHyun_ver01.ipynb)
 
-### 중복 제목
-
-가끔 리패키지, 혹은 리믹스 버전, 피쳐링 때문에 같은 곡이 여러번 언급되는 경우가 존재.
-
-이런 경우 크롤링 해온 뒤 중복되는 제목을 삭제해야 할 것. 
+추출한 url을 이용하여 가사 및 곡 정보를 추출한 크롤링 코드입니다. 
 
 
+## 데이터 설명
 
-## 멤버명 관련
+[드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
 
-- 멤버 이름의 난해함 때문에 가끔 표기가 다르거나 괄호를 치고 영문 표기나 발음을 적어두는 경우도 있음. 이 또한 크롤링 한 뒤 전처리를 해줘야 하는 부분일 것. 
+- song_data_fixed.csv
 
+가수 이름이 한 줄 씩 밀려있던 것을 수정한 전처리 되지 않은 곡 정보 csv파일입니다. 
 
-
-## 그룹과 솔로 문제
-
-- 유닛은 크롤링 할 것인가? (소녀시대 채널에는 유닛의 곡이 없음)
-- 그렇다면 솔로는? 유닛을 크롤링할 것인가
+melon_song_data_crawling_SoHyun_ver01.ipynb 의 크롤링 코드로 추출된 내용입니다. 
 
 
 
