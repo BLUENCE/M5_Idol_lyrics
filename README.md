@@ -63,6 +63,14 @@
 
 melon_song_data_crawling_SoHyun_ver01.ipynb 의 크롤링 코드로 추출된 내용입니다. 
 
+수정일: 0910
+
+
+- song_data_fixed_0911_ver1
+
+누락된 가수를 추가하고 중복 가수를 제거했음. 가사가 없는 행은 모두 drop한 상태의 raw한 가사 데이터. 
+
+수정일
 
 
 
