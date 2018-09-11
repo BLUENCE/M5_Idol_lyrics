@@ -33,7 +33,7 @@ melon_song_data_crawling_SoHyun_ver01.ipynb 의 크롤링 코드로 추출된 �
 누락된 가수를 추가하고 중복 가수를 제거했음. 가사가 없는 행은 모두 drop한 상태의 raw한 가사 데이터. 
 수정일
 ```
-### song_data_yewon_ver1.csv
+### song_data_yewon_ver01.csv
 ```
 - 제거
 가사/가수가 없는 행
