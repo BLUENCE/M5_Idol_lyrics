@@ -22,6 +22,18 @@ Data -> song_data_yewon_ver01.csv
 
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
+
+### song_data_raw_ver02.csv
+
+**가사 전처리시 이 파일을 활용하시기 바랍니다!**
+```
+1. 가사가 null, 공백인 행은 모두 없앴습니다. 
+
+2. 아이오아이, 워너원이 중복이었기 때문에 drop 시켰습니다. 
+
+** 전처리 이전의 가장 최신 상태의 가사 크롤링 파일입니다. 가수 정보와는 merge되지 않은 raw한 상태입니다**
+```
+
 ### song_data_fixed.csv
 ```
 가수 이름이 한 줄 씩 밀려있던 것을 수정한 전처리 되지 않은 곡 정보 csv파일입니다. 
@@ -51,14 +63,7 @@ melon_song_data_crawling_SoHyun_ver01.ipynb 의 크롤링 코드로 추출된 �
 12609행의 데이터가 저장되어 있습니다.
 ```
 
-### song_data_raw_ver02.csv
-```
-1. 가사가 null, 공백인 행은 모두 없앴습니다. 
 
-2. 아이오아이, 워너원이 중복이었기 때문에 drop 시켰습니다. 
-
-** 전처리 이전의 가장 최신 상태의 가사 크롤링 파일입니다. 가수 정보와는 merge되지 않은 raw한 상태입니다**
-```
 
 
 
