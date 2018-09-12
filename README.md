@@ -8,7 +8,7 @@ Data -> song_data_yewon_ver01.csv
 ## 변수 지정
 | **아이돌 정보**  |  **곡 정보**  |
 |---|---|
-| 아이돌명 'artist' <br> 아이돌영문명 및 원표기 'artist_eng' <br> 멤버이름 'artist_m' <br> 데뷔년도/곡명 'debut_y'/'debut_t' <br> 소속사 'agency' <br> 활동장르 'genre' <br> 성별여부 'gender <br> 멤버수 'member_num' <br> 리더이름 'leader_name' <br> 멜론표기명 'melon_artist' | 타이틀여부 'is_title' <br> 노래제목 'title' <br> 앨범명 'album' <br> 발매년도 'release_date' <br> 장르 'song_genre' <br> 노래가사 'lyrics' <br> 작곡가 'composer' <br> 작사가 'lyricist' <br> 하트수 'like' |
+| 아이돌명 'artist' <br> 아이돌영문명 및 원표기 'artist_eng' <br> 멤버이름 'artist_m' <br> 데뷔년도/곡명 'debut_y'/'debut_t' <br> 소속사 'agency' <br> 활동장르 'genre' <br> 성별여부 'gender <br> 멤버수 'member_num' <br> 리더이름 'leader_name' <br> 멜론표기명 'melon_artist' | 타이틀여부 'is_title' <br> 노래제목 'title' <br> 앨범명 'album' <br> 발매년도 'release_date' <br> 장르 'song_genre' <br> 노래가사 'lyrics' <br> 작곡가 'composer' <br> 작사가 'lyricist' <br> 편곡가 'arranger' <br> 하트수 'like' |
 
 ## Code 설명
 ### [melon_urlid_crawling_SoHyun_ver01.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/Crawling/url_crawling/melon_urlid_crawling_SoHyun_ver01.ipynb)
@@ -56,14 +56,14 @@ melon_song_data_crawling_SoHyun_ver01.ipynb 의 크롤링 코드로 추출된 �
 ### song_data_yewon_ver02.csv
 ```
 1. 히라가나/가타카나를 제거한 후에도 일본어 가사가 한글로 포함되어 있는 경우 전처리 
-  --> contains로 확인한뒤 행제거 반복 --> 429곡 제거됨
+  --> contains로 확인한뒤 행제거 반복
 2. 가사가 모두 영어, 중국어인 경우 전처리 
-  --> 가사에 한글이 하나도 들어가지 않은 행 제거 --> 895곡 제거됨
-
-12609행의 데이터가 저장되어 있습니다.
+  --> 가사에 한글이 하나도 들어가지 않은 행 제거
 ```
-
-
+### song_data_yewon_ver03.csv
+```
+creator칼럼을 lyricist, composer, arranger로 나눈 데이터
+```
 
 
 
