@@ -23,6 +23,13 @@ Data -> song_data_yewon_ver01.csv
 ```
 간단하게 NLP EDA 해본 것 입니다. 
 ```
+### [NLP_sample_Jieun_ver03.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/NLP_sample_Jieun_ver03.ipynb)
+```
+1. 주석추가
+
+2. 텐서플로우 + LSTM 코드가 추가되었습니다.(미완성)
+```
+
 
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
