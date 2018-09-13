@@ -65,7 +65,7 @@ creator칼럼을 lyricist, composer, arranger로 나눈 데이터
 ### song_data_yewon_ver04.csv
 ```
 (song_tidy_yewon_ver03.ipynb)
-song_data_yewon_ver03.csv파일을 아티스트의 중복노래를 제거한 데이터
+song_data_yewon_ver03.csv파일 아티스트의 중복노래를 제거한 데이터
 ```
 
 
