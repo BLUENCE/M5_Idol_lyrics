@@ -77,5 +77,5 @@ song_data_yewon_ver03.csv파일 아티스트의 중복노래를 제거한 데이
 
 ### :pushpin: song_data_yewon_ver05.csv
 ```
-song_data_yewon_ver04에서 가수 '키스'의 노래를 모두 제거한 
+song_data_yewon_ver04에서 가수 '키스'의 노래를 모두 제거한 데이터
 ```
