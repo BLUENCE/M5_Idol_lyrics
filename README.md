@@ -19,6 +19,10 @@ Data -> song_data_yewon_ver01.csv
 ```
 추출한 url을 이용하여 가사 및 곡 정보를 추출한 크롤링 코드입니다. 
 ```
+### [NLP_sample_Jieun_ver02.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/NLP_sample_Jieun_ver02.ipynb)
+```
+간단하게 NLP EDA 해본 것 입니다. 
+```
 
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
