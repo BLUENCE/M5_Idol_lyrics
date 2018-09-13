@@ -62,7 +62,7 @@ Data -> song_data_yewon_ver01.csv
 (creator_tidy_yewon_ver01.ipynb)
 creator칼럼을 lyricist, composer, arranger로 나눈 데이터
 ```
-### song_data_yewon_ver04.csv
+### :pushpin: song_data_yewon_ver04.csv
 ```
 (song_tidy_yewon_ver03.ipynb)
 song_data_yewon_ver03.csv파일 아티스트의 중복노래를 제거한 데이터
