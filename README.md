@@ -42,14 +42,16 @@ Data -> song_data_yewon_ver01.csv
 
 ### song_data_yewon_ver01.csv
 ```
+(song_tidy_yewon_ver01.ipynb)
 1. 제거 : 가사/가수가 없는 행
          제목에 리믹스,라이브,inst,영일중,ver 인 행
          앨범에 나가수, 불명, 복면인 행
          타이틀, 가사, 앨범에 히라가나/가타카나가 들어간 행
 2. 변경 : is_title이 nan인 행을 '수록곡'으로 변경
 ```
-### song_data_yewon_ver02.csv
+### song_data_yewon_ver02.csv  
 ```
+(song_tidy_yewon_ver02.ipynb)
 1. 히라가나/가타카나를 제거한 후에도 일본어 가사가 한글로 포함되어 있는 경우 전처리 
   --> contains로 확인한뒤 행제거 반복
 2. 가사가 모두 영어, 중국어인 경우 전처리 
@@ -57,8 +59,13 @@ Data -> song_data_yewon_ver01.csv
 ```
 ### song_data_yewon_ver03.csv
 ```
+(creator_tidy_yewon_ver01.ipynb)
 creator칼럼을 lyricist, composer, arranger로 나눈 데이터
 ```
-
+### song_data_yewon_ver04.csv
+```
+(song_tidy_yewon_ver03.ipynb)
+song_data_yewon_ver03.csv파일을 아티스트의 중복노래를 제거한 데이터
+```
 
 
