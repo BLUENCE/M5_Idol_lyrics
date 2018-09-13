@@ -27,7 +27,7 @@ Data -> song_data_yewon_ver01.csv
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
 
-### :pushpin: song_data_SoHyun_ver03.csv
+### :pushpin: song_data_SoHyun_raw.csv
 
 <u>***가사 전처리시 이 파일을 활용하시기 바랍니다!**</u>*
 
@@ -39,17 +39,7 @@ Data -> song_data_yewon_ver01.csv
 ** 전처리 이전의 가장 최신 상태의 가사 크롤링 파일입니다. 가수 정보와는 merge되지 않은 raw한 상태입니다**
 ```
 
-### song_data_SoHyun_ver01.csv
-```
-가수 이름이 한 줄 씩 밀려있던 것을 수정한 전처리 되지 않은 곡 정보 csv파일입니다. 
-melon_song_data_crawling_SoHyun_ver01.ipynb 의 크롤링 코드로 추출된 내용입니다. 
-수정일: 0910
-```
-### song_data_SoHyun_ver02.csv
-```
-누락된 가수를 추가하고 중복 가수를 제거했음. 가사가 없는 행은 모두 drop한 상태의 raw한 가사 데이터. 
-수정일
-```
+
 ### song_data_yewon_ver01.csv
 ```
 1. 제거 : 가사/가수가 없는 행
