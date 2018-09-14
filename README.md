@@ -64,9 +64,9 @@ Data -> song_data_yewon_ver01.csv
 2. 가사가 모두 영어, 중국어인 경우 전처리 
   --> 가사에 한글이 하나도 들어가지 않은 행 제거
 ```
-### song_data_yewon_ver03.csv
+### song_data_kavin_ver03.csv
 ```
-(creator_tidy_yewon_ver01.ipynb)
+(creator_tidy_kavin_ver02.ipynb)
 creator칼럼을 lyricist, composer, arranger로 나눈 데이터
 ```
 ### song_data_yewon_ver04.csv
@@ -77,5 +77,5 @@ song_data_yewon_ver03.csv파일 아티스트의 중복노래를 제거한 데이
 
 ### :pushpin: song_data_yewon_ver05.csv
 ```
-song_data_yewon_ver04에서 가수 '키스'의 노래를 모두 제거한 데이터
+song_data_yewon_ver04.csv에서 가수 '키스'의 노래를 모두 제거한 데이터
 ```
