@@ -34,7 +34,7 @@ Data -> song_data_yewon_ver01.csv
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
 
-### :pushpin: song_data_SoHyun_raw.csv
+### :pushpin: Data20180915/song_data_raw_ver01.csv
 
 <u>***가사 전처리시 이 파일을 활용하시기 바랍니다!**</u>*
 
