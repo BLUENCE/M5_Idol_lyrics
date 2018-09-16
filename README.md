@@ -26,9 +26,11 @@ Data -> song_data_yewon_ver01.csv
 ```
 ### [NLP_sample_Jieun_ver03.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/NLP_sample_Jieun_ver03.ipynb)
 ```
-1. 주석추가
-
-2. 텐서플로우 + LSTM 코드가 추가되었습니다.(미완성)
+주석추가
+```
+### [LSTM_tensorflow_jieun_ver1.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/LSTM_tensorflow_jieun_ver1.ipynb)
+```
+LSTM 모델 학습코드 및 테스트 코드 추가 
 ```
 
 
