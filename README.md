@@ -32,6 +32,15 @@ Data -> song_data_yewon_ver01.csv
 ```
 LSTM 모델 학습코드 및 테스트 코드 추가 
 ```
+### [EDA_3_major_agencies_cha_ver01.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/EDA/EDA_3_major_agencies_cha_ver01.ipynb)
+```
+3대 기획사(SM, YG, JYP)소속 여자아이돌 가사분석 예시 코드입니다.
+```
+### [EDA_3_major_agencies_cha_ver02.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/EDA/EDA_3_major_agencies_cha_ver02.ipynb)
+```
+3대 기획사(SM, YG, JYP)소속 남/녀 아이돌 가사분석 코드입니다.
+```
+
 
 
 ## Data 설명
