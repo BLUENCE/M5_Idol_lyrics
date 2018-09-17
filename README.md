@@ -32,9 +32,13 @@ Data -> song_data_yewon_ver01.csv
 ```
 word2vec 최종 코드 
 ```
-### [LSTM_tensorflow_jieun_ver1.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/LSTM_tensorflow_jieun_ver1.ipynb)
+### [LSTM_Train_jieun_ver1.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/LSTM_Train_jieun_ver1.ipynb)
 ```
-LSTM 모델 학습코드 및 테스트 코드 추가 
+LSTM train model
+```
+### [LSTM_Test_jieun_ver1.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/LSTM_Test_jieun_ver1.ipynb)
+```
+LSTM test model
 ```
 ### [EDA_3_major_agencies_cha_ver01.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/EDA/EDA_3_major_agencies_cha_ver01.ipynb)
 ```
