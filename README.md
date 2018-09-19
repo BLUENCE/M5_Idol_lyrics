@@ -103,7 +103,12 @@ creator칼럼을 lyricist, composer, arranger로 나눈 데이터
 song_data_kavin_ver03.csv파일 아티스트의 중복노래를 제거한 데이터
 ```
 
-### :pushpin: song_data_yewon_ver05.csv
+### song_data_yewon_ver05.csv
 ```
 song_data_yewon_ver04.csv에서 가수 '키스'의 노래를 모두 제거한 데이터
+```
+
+### :pushpin: song_data_yoon_ver05.csv
+```
+song_data_yewon_ver05.csv에서 중복노래(띄어쓰기,대소문자,피처링에 의한)를 제거한 데이터
 ```
