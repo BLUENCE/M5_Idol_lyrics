@@ -67,7 +67,7 @@ LSTM test model
 
 ### :pushpin: Data20180915/song_data_raw_ver01.csv
 
-<u>***가사 전처리시 이 파일을 활용하시기 바랍니다!**</u>*
+_**가사 전처리시** 이 데이터을 사용해주세요_
 
 ```
 1. 가사가 null, 공백인 행은 모두 없앴습니다. 
@@ -78,12 +78,12 @@ LSTM test model
 ```
 
 ### :pushpin: SongTidy/FinalTidy/tidydata/song_tidy01.csv
-**가사 데이터로 분석시** 이 데이터를 사용해주세요
+  _**가사 분석시** 이 데이터를 사용해주세요_
 
 ## [Lyricist/Composer Data]
 
 ### :pushpin: SongTidy/FinalTidy/tidydata/lyricist_tidy01.csv
-**작사 및 작곡가 데이터로 분석시** 이 데이터를 사용해주세요
+  _**작사 및 작곡가 분석시** 이 데이터를 사용해주세요_
 
 ### 작사가_전체랭킹_kavin_ver01.csv
 ```
