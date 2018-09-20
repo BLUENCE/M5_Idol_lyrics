@@ -62,6 +62,10 @@ LSTM test model
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
 
+
+
+### [SongData]
+
 ### :pushpin: Data20180915/song_data_raw_ver01.csv
 
 <u>***가사 전처리시 이 파일을 활용하시기 바랍니다!**</u>*
@@ -112,3 +116,18 @@ song_data_yewon_ver04.csv에서 가수 '키스'의 노래를 모두 제거한 �
 ```
 song_data_yewon_ver05.csv에서 중복노래(띄어쓰기,대소문자,피처링에 의한)를 제거한 데이터
 ```
+
+
+
+
+
+
+
+### [Lyricist/Composer Ranking]
+
+### 작사가_전체랭킹_kavin_ver01.csv
+```
+song_data_yoon_ver06.csv + idol_generation_1_kavin_ver01.csv
+사용하여 작사가/작곡가 전체 랭킹 데이터 생성
+```
+
