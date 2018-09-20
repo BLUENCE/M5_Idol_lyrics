@@ -61,10 +61,9 @@ LSTM test model
 
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
+### [전처리 총정리 노트북](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/SongTidy/FinalTidy/final_tidy_yewon_ver01.ipynb)
 
-
-
-### [SongData]
+## [Song Data]
 
 ### :pushpin: Data20180915/song_data_raw_ver01.csv
 
@@ -78,52 +77,13 @@ LSTM test model
 ** 전처리 이전의 가장 최신 상태의 가사 크롤링 파일입니다. 가수 정보와는 merge되지 않은 raw한 상태입니다**
 ```
 
+### SongTidy/FinalTidy/tidydata/song_tidy01.csv
+**가사 데이터로 분석시** 이 데이터를 사용해주세요
 
-### song_data_yewon_ver01.csv
-```
-(song_tidy_yewon_ver01.ipynb)
-1. 제거 : 가사/가수가 없는 행
-         제목에 리믹스,라이브,inst,영일중,ver 인 행
-         앨범에 나가수, 불명, 복면인 행
-         타이틀, 가사, 앨범에 히라가나/가타카나가 들어간 행
-2. 변경 : is_title이 nan인 행을 '수록곡'으로 변경
-```
-### song_data_yewon_ver02.csv  
-```
-(song_tidy_yewon_ver02.ipynb)
-1. 히라가나/가타카나를 제거한 후에도 일본어 가사가 한글로 포함되어 있는 경우 전처리 
-  --> contains로 확인한뒤 행제거 반복
-2. 가사가 모두 영어, 중국어인 경우 전처리 
-  --> 가사에 한글이 하나도 들어가지 않은 행 제거
-```
-### song_data_kavin_ver03.csv
-```
-(creator_tidy_kavin_ver02.ipynb)
-creator칼럼을 lyricist, composer, arranger로 나눈 데이터
-```
-### song_data_yewon_ver04.csv
-```
-(song_tidy_yewon_ver03.ipynb)
-song_data_kavin_ver03.csv파일 아티스트의 중복노래를 제거한 데이터
-```
+## [Lyricist/Composer Data]
 
-### song_data_yewon_ver05.csv
-```
-song_data_yewon_ver04.csv에서 가수 '키스'의 노래를 모두 제거한 데이터
-```
-
-### :pushpin: song_data_yoon_ver06.csv
-```
-song_data_yewon_ver05.csv에서 중복노래(띄어쓰기,대소문자,피처링에 의한)를 제거한 데이터
-```
-
-
-
-
-
-
-
-### [Lyricist/Composer Ranking]
+### SongTidy/FinalTidy/tidydata/lyricist_tidy01.csv
+**작사 및 작곡가 데이터로 분석시** 이 데이터를 사용해주세요
 
 ### 작사가_전체랭킹_kavin_ver01.csv
 ```
