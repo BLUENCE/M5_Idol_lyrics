@@ -65,24 +65,29 @@ LSTM test model
 
 ## [Song Data]
 
-### :pushpin: Data20180915/song_data_raw_ver01.csv
+### :pushpin: Data20180921/song_data_raw_20180921.csv
 
 _**가사 전처리시** 이 데이터을 사용해주세요_
 
 ```
 1. 가사가 null, 공백인 행은 모두 없앴습니다. 
 
-2. 아이오아이, 워너원이 중복이었기 때문에 drop 시켰습니다. 
+2. 타이틀곡 여부 수정했습니다.
+
+3. 필요없는 가수는 드랍하고 크롤링 단계 자체에서 제외했습니다. 
 
 ** 전처리 이전의 가장 최신 상태의 가사 크롤링 파일입니다. 가수 정보와는 merge되지 않은 raw한 상태입니다**
 ```
 
-### :pushpin: SongTidy/FinalTidy/tidydata/song_tidy01.csv
+### :pushpin: SongTidy/FinalTidy/tidydata/song_tidy02.csv
   _**가사 분석시** 이 데이터를 사용해주세요_
+  
+### :pushpin: Data/Data20180921/artist_info_combined_ver04.csv
+  _**데뷔 날짜 업데이트 된 가수 정보입니다.**
 
 ## [Lyricist/Composer Data]
 
-### :pushpin: SongTidy/FinalTidy/tidydata/lyricist_tidy01.csv
+### :pushpin: SongTidy/FinalTidy/tidydata/lyricist_tidy02.csv
   _**작사 및 작곡가 분석시** 이 데이터를 사용해주세요_
 
 ### 작사가_전체랭킹_kavin_ver01.csv
