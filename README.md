@@ -81,6 +81,9 @@ _**가사 전처리시** 이 데이터을 사용해주세요_
 
 ### :pushpin: SongTidy/FinalTidy/tidydata/song_tidy02.csv
   _**가사 분석시** 이 데이터를 사용해주세요_
+  
+### :pushpin: Data/Data20180921/artist_info_combined_ver04.csv
+  _**데뷔 날짜 업데이트 된 가수 정보입니다.**
 
 ## [Lyricist/Composer Data]
 
