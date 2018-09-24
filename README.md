@@ -81,7 +81,7 @@ _**가사 전처리시** 이 데이터을 사용해주세요_
 ** 전처리 이전의 가장 최신 상태의 가사 크롤링 파일입니다. 가수 정보와는 merge되지 않은 raw한 상태입니다**
 ```
 
-### :pushpin: SongTidy/FinalTidy/tidydata/song_tidy02.csv
+### :pushpin: SongTidy/FinalTidy/tidydata/song_tidy03.csv
   _**가사 분석시** 이 데이터를 사용해주세요_
   
 ### :pushpin: Data/Data20180921/artist_info_combined_ver04.csv
@@ -89,7 +89,7 @@ _**가사 전처리시** 이 데이터을 사용해주세요_
 
 ## [Lyricist/Composer Data]
 
-### :pushpin: SongTidy/FinalTidy/tidydata/lyricist_tidy02.csv
+### :pushpin: SongTidy/FinalTidy/tidydata/lyricist_tidy03.csv
   _**작사 및 작곡가 분석시** 이 데이터를 사용해주세요_
 
 ### 작사가_전체랭킹_kavin_ver01.csv
