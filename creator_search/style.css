@@ -1,0 +1,114 @@
+body {
+  font-family: 'Noto Sans KR', Arial, sans-serif;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+  display: grid;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  }
+* {
+  box-sizing: border-box;
+}
+button {
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, #20C2AA 0%, #7A37F5 100%);
+  border-image-slice: 1;
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  width:200px;
+}
+
+button:hover {
+  background-color: white;
+  background: linear-gradient(to right, #20C2AA, #7A37F5);
+  color: #fff;
+}
+input {
+  border-style: none;
+  outline: none;
+  caret-color: #7A37F5;
+}
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+.webflow-style-input {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  border-radius: 2px;
+  padding: 2px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.webflow-style-input:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 999;
+  height: 2px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-position: 0% 0%;
+  background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+  background-size: 500% auto;
+  -webkit-animation: gradient 3s linear infinite;
+          animation: gradient 3s linear infinite;
+}
+
+.webflow-style-input input {
+  flex-grow: 1;
+  color: #a4b5dd;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+.webflow-style-input input::-webkit-input-placeholder {
+  color: #7881A1;
+  font-weight: normal;
+}
+
+#container {
+  width: 960px; margin: 0 auto;
+}
+#lyricist-table {
+  margin: 0 auto; text-align: center;
+}
+#lyricist-table {
+  border-collapse: collapse;
+}
+#lyricist-table > thead > tr > th {
+  padding: 3px; width: 200px;
+  color: #7A37F5;
+  border-bottom: 3px solid #7A37F5;
+}
+#lyricist-table > tbody > tr > td {
+  border-bottom: 1px solid #7A37F5; padding:3px;
+}
+#lyricist-table > tbody > tr:hover {
+  color: #7A37F5;
+}
