@@ -10,6 +10,8 @@ body {
 * {
   box-sizing: border-box;
 }
+span.male { color: #20C2AA; }
+span.female { color: #7A37F5; }
 button {
   border: 3px solid transparent;
   border-image: linear-gradient(to right, #20C2AA 0%, #7A37F5 100%);
@@ -23,7 +25,6 @@ button {
   text-transform: uppercase;
   width:200px;
 }
-
 button:hover {
   background-color: white;
   background: linear-gradient(to right, #20C2AA, #7A37F5);
@@ -34,6 +35,7 @@ input {
   outline: none;
   caret-color: #7A37F5;
 }
+
 @-webkit-keyframes gradient {
   0% {
     background-position: 0 0;
@@ -49,6 +51,12 @@ input {
   100% {
     background-position: 100% 0;
   }
+}
+
+.active-button {
+  background-color: white;
+  background: linear-gradient(to right, #20C2AA, #7A37F5);
+  color: #fff;
 }
 .webflow-style-input {
   position: relative;
@@ -78,7 +86,6 @@ input {
   -webkit-animation: gradient 3s linear infinite;
           animation: gradient 3s linear infinite;
 }
-
 .webflow-style-input input {
   flex-grow: 1;
   color: #a4b5dd;
@@ -92,9 +99,6 @@ input {
   font-weight: normal;
 }
 
-#container {
-  width: 960px; margin: 0 auto;
-}
 #lyricist-table {
   margin: 0 auto; text-align: center;
 }
@@ -103,12 +107,13 @@ input {
 }
 #lyricist-table > thead > tr > th {
   padding: 3px; width: 200px;
-  color: #7A37F5;
-  border-bottom: 3px solid #7A37F5;
+  color: #1d2028;
+  border-bottom: 2.5px solid #1d2028;
 }
 #lyricist-table > tbody > tr > td {
-  border-bottom: 1px solid #7A37F5; padding:3px;
+  border-bottom: 1px solid #1d2028; padding:3px;
 }
 #lyricist-table > tbody > tr:hover {
-  color: #7A37F5;
+  /* color: #20C2AA; */
+  background-color: #f5f5f5;
 }
