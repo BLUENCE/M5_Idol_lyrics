@@ -36,9 +36,9 @@ Data -> song_data_yewon_ver01.csv
 ```
 주석추가
 ```
-### [NLP_sample_Jieun_ver04.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/NLP_sample_Jieun_ver04.ipynb)
+### [NLP_sample_Jieun_ver05_최종.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/NLP_sample_Jieun_ver05_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC.ipynb)
 ```
-word2vec 최종 코드 
+전처리 + word2vec + tsne시각화 + 유사도및 결과물포함(최종)
 ```
 ### [LSTM_Train_jieun_ver1.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/NLP/LSTM_Train_jieun_ver1.ipynb)
 ```
