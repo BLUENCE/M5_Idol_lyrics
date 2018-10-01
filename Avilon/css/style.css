@@ -538,6 +538,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
+#about .row h2, h3 {
+  /* width: 100%; */
+  text-align: center;
+  margin:0 0 30px 0;
+}
+
+#about .row #idol_industry {
+  margin:0 auto;
+}
+
+#about .row #idol_industry img {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 768px) {
   #about .about-img {
     height: auto;
@@ -583,6 +597,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content ul li {
   padding-bottom: 10px;
+}
+
+#about .row {
+  /* padding-top: 60px; */
+  margin:0 auto;
+}
+
+#about .row h2 h3 {
+  text-align: center;
+  margin:0 0 30px 0;
+}
+
+#about #none_margin {
+  margin: 0;
+}
+
+#about .row #idol_industry {
+  padding-top: 60px;
+  margin:0 auto;
+}
+
+#about .row #idol_industry img {
+  margin-bottom: 30px;
+  max-width: 100%;
 }
 
 /* Product Featuress Section
@@ -937,6 +975,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq {
   padding: 60px 0;
   overflow: hidden;
+  background-color: #fff;
 }
 
 #faq #faq-list {
@@ -984,7 +1023,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #666666;
 }
 
 #faq #faq-list a.collapsed i::before {
