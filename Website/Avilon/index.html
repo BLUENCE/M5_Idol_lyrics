@@ -84,6 +84,14 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!-- linechart javascript Files -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.4/d3.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" type="text/javascript"></script>
+  <script src="britecharts.min.js" type="text/javascript"></script>
+  <!-- linechart css Files -->
+  <link rel="stylesheet" href="britecharts.min.css" type="text/css" />
+
   <!-- =======================================================
     Theme Name: Avilon
     Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
@@ -348,7 +356,296 @@
           ============================-->
     <section>
       <div class="container">
-        <img src="img/placeholder.jpg" alt="">
+
+        <h2 class="metricName" id="chart1label"></h2>
+        <div id="chart1"></div>
+        <div class="line" width=95% height=300></div>
+        <svg width="100%" height="800"></svg>
+
+        <script>
+         Song_G_data ={
+           dataByTopic: [
+               {
+                   topicName: 'male',
+                   topic: 1,
+                   dates: [
+                       {
+                       date: '1992',
+                       value: 21
+                       },
+                       {
+                       date: '1993',
+                       value: 40
+                       },
+                      {
+                        date: '1994',
+                        value: 27
+                      },
+                      {
+                        date: '1995',
+                        value: 83
+                      },
+                      {
+                        date: '1996',
+                        value: 108
+                      },
+                      {
+                        date: '1997',
+                        value: 111
+                      },
+                      {
+                        date: '1998',
+                        value: 174
+                      },
+                      {
+                        date: '1999',
+                        value: 189
+                      },
+                      {
+                        date: '2000',
+                        value: 173
+                      },
+                      {
+                        date: '2001',
+                        value: 215
+                      },
+                      {
+                        date: '2002',
+                        value: 212
+                      },
+                      {
+                        date: '2003',
+                        value: 178
+                      },
+                      {
+                        date: '2004',
+                        value: 145
+                      },
+                      {
+                        date: '2005',
+                        value: 141
+                      },
+                      {
+                        date: '2006',
+                        value: 159
+                      },
+                      {
+                        date: '2007',
+                        value: 124
+                      },
+                      {
+                        date: '2008',
+                        value: 173
+                      },
+                      {
+                        date: '2009',
+                        value: 180
+                      },
+                      {
+                        date: '2010',
+                        value: 215
+                      },
+                      {
+                        date: '2011',
+                        value: 250
+                      },
+                      {
+                        date: '2012',
+                        value: 311
+                      },
+                      {
+                        date: '2013',
+                        value: 372
+                      },
+                      {
+                        date: '2014',
+                        value: 419
+                      },
+                      {
+                        date: '2015',
+                        value: 459
+                      },
+                      {
+                        date: '2016',
+                        value: 454
+                      },
+                      {
+                        date: '2017',
+                        value: 484
+                      },
+                      {
+                        date: '2018',
+                        value: 406
+                      }
+                    ]
+               },
+               {
+                   topicName: 'female',
+                   topic: 4,
+                   dates: [
+                       {
+                        date: '1992',
+                        value: 0
+                       },
+                       {
+                        date: '1993',
+                        value: 5
+                       },
+                       {
+                        date: '1994',
+                        value: 0
+                       },
+                      {
+                        date: '1995',
+                        value: 5
+                      },
+                      {
+                        date: '1996',
+                        value: 10
+                      },
+                      {
+                        date: '1997',
+                        value: 17
+                      },
+                      {
+                        date: '1998',
+                        value: 33
+                      },
+                      {
+                        date: '1999',
+                        value: 105
+                      },
+                      {
+                        date: '2000',
+                        value: 122
+                      },
+                      {
+                        date: '2001',
+                        value: 147
+                      },
+                      {
+                        date: '2002',
+                        value: 109
+                      },
+                      {
+                        date: '2003',
+                        value: 74
+                      },
+                      {
+                        date: '2004',
+                        value: 35
+                      },
+                      {
+                        date: '2005',
+                        value: 48
+                      },
+                      {
+                        date: '2006',
+                        value: 44
+                      },
+                      {
+                        date: '2007',
+                        value: 85
+                      },
+                      {
+                        date: '2008',
+                        value: 66
+                      },
+                      {
+                        date: '2009',
+                        value: 104
+                      },
+                      {
+                        date: '2010',
+                        value: 149
+                      },
+                      {
+                        date: '2011',
+                        value: 206
+                      },
+                      {
+                        date: '2012',
+                        value: 250
+                      },
+                      {
+                        date: '2013',
+                        value: 286
+                      },
+                      {
+                        date: '2014',
+                        value: 239
+                      },
+                      {
+                        date: '2015',
+                        value: 294
+                      },
+                      {
+                        date: '2016',
+                        value: 320
+                      },
+                      {
+                        date: '2017',
+                        value: 367
+                      },
+                      {
+                        date: '2018',
+                        value: 216
+                      }
+                   ]
+               }
+           ]
+        };
+
+        function lineChart(metricName, chartID, chartData) {
+          // Line
+          var lineChart = new britecharts.line();
+          var tooltip   = new britecharts.tooltip();
+          var lineData  = chartData;
+
+          d3.selectAll("#"+chartID+"label").text(metricName);
+
+          lineChart
+                .margin({
+                    top: 60,
+                    bottom: 50,
+                    left: 100,
+                    right: 20
+                })
+                .lineCurve('linear')
+                .grid('full')
+                .height(350)
+                .xAxisFormat(britecharts.line().axisTimeCombinations.CUSTOM)
+                .on('customMouseOver', tooltip.show)
+                .on('customMouseMove', tooltip.update)
+                .on('customMouseOut',  tooltip.hide);
+
+          tooltip
+              .title(" ")
+              .shouldShowDateInTitle(false);
+
+
+          d3.select('#'+chartID).datum(chartData).call(lineChart);
+
+          d3.select('#'+chartID +' .metadata-group .vertical-marker-container').datum([]).call(tooltip)
+
+          const redrawChart = () => {
+              let container = d3.select('#'+chartID);
+              let newContainerWidth = container.node() ? container.node().getBoundingClientRect().width : false;
+
+              // Setting the new width on the chart
+              lineChart.width(newContainerWidth);
+
+              // Rendering the chart and line again
+              container.datum(lineData).call(lineChart);
+              d3.select('#'+chartID+' .metadata-group .vertical-marker-container').datum([]).call(tooltip)
+          };
+
+          const throttledRedraw =  _.throttle(redrawChart, 200);
+
+          window.addEventListener("resize", throttledRedraw);
+        }
+        lineChart('연도별/성별 발매 곡 수', 'chart1', Song_G_data);
+        </script>
       </div>
     </section>
 
@@ -371,7 +668,7 @@
           </div>
         </div>
       </div>
-
+      <div class="container">
       <svg width="100%" height="800" font-family="Noto Sans KR" font-size="8" text-anchor="middle"></svg>
 
       <script src="js/d3.min.js"></script>
@@ -987,7 +1284,9 @@
                   .attr('r', d => d.r);
             }
           </script>
-
+        </section>
+      </div>
+    </section>
       <!--==========================
         가설 소개
       ============================-->
