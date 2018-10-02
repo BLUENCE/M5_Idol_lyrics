@@ -360,7 +360,6 @@
         <h2 class="metricName" id="chart1label"></h2>
         <div id="chart1"></div>
         <div class="line" width=95% height=300></div>
-        <svg width="100%" height="800"></svg>
 
         <script>
          Song_G_data ={
@@ -668,7 +667,8 @@
           </div>
         </div>
       </div>
-      <div class="container">
+
+        <div id="chart2">
       <svg width="100%" height="800" font-family="Noto Sans KR" font-size="8" text-anchor="middle"></svg>
 
       <script src="js/d3.min.js"></script>
@@ -1021,7 +1021,7 @@
           </script>
 
       <script>
-        let svg = d3.select('svg');
+        let svg = d3.select('#chart2 svg');
             let width = document.body.clientWidth; // get width in pixels
             let height = +svg.attr('height');
             let centerX = width * 0.5;
@@ -1286,6 +1286,7 @@
           </script>
         </section>
       </div>
+    </div>
     </section>
       <!--==========================
         가설 소개
