@@ -67,8 +67,8 @@ input {
   margin: 0 auto;
   border-radius: 2px;
   padding: 2px;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 .webflow-style-input:after {
   content: "";
@@ -104,6 +104,7 @@ input {
 }
 #lyricist-table {
   border-collapse: collapse;
+  margin-top: 20px;
 }
 #lyricist-table > thead > tr > th {
   padding: 3px; width: 200px;
