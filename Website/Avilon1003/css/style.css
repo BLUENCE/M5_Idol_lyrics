@@ -214,7 +214,7 @@ span.big-divider{
   color: #fff;
   margin-bottom: 20px;
   padding: 0 15px;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 @media (max-width: 768px) {
@@ -311,6 +311,91 @@ span.big-divider{
 }
 
 #section-division1 .cta-text {
+  color: #fff;
+}
+
+#section-division2 {
+  overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#section-division2 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#section-division2 .cta-text {
+  color: #fff;
+}
+
+#section-division3 {
+  overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#section-division3 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#section-division3 .cta-text {
+  color: #fff;
+}
+
+#section-division4 {
+  overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#section-division4 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#section-division4 .cta-text {
+  color: #fff;
+}
+
+#section-division5 {
+  overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#section-division5 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#section-division5 .cta-text {
+  color: #fff;
+}
+
+#section-division6 {
+  overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+#section-division6 .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#section-division6 .cta-text {
   color: #fff;
 }
 /*--------------------------------------------------------------
@@ -577,7 +662,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  padding: 60px 0;
+  padding: 80px 0;
   overflow: hidden;
 }
 
@@ -630,7 +715,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content p {
-  line-height: 26px;
+  line-height: 30px;
 }
 
 #about .content p:last-child {
@@ -807,12 +892,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 30px 30px 30px;
 }
 
-#advanced-features .advanced-feature-img-middle {
-  max-width: 100%;
-  float: none;
-  text-align:center;
-  padding: 0 30px 30px 0;
-}
 
 @media (max-width: 768px) {
   #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
@@ -1057,7 +1136,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   position: relative;
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 300;
   padding-right: 20px;

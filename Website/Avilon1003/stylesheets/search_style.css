@@ -1,15 +1,10 @@
 body {
   font-family: 'Noto Sans KR', Arial, sans-serif;
-  margin: 0;
-  padding: 50px;
   text-align: center;
   display: grid;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   }
-* {
-  box-sizing: border-box;
-}
 span.male { color: #20C2AA; }
 span.female { color: #7A37F5; }
 button {
