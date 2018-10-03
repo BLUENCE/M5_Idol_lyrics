@@ -6,52 +6,59 @@
   <!-- bubble chart codes-->
 
   <style>
-    html, body {
-			padding: 0;
-			margin: 0;
-			box-sizing: border-box;
-			font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif
-			-webkit-backface-visibility: hidden;
-		}
-		#chart2 * {
-			box-sizing: inherit;
-		}
-		#chart2 h1 {
-			text-align: center;
-			font-family: "Noto Sans KR";
-		}
-		#chart2 h2 {
-			font-weight: 'bold';
-		}
-		#chart2 svg {
-			margin:auto;
-			display:block;
-		}
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Helvetica, Calibri, Roboto, Open Sans, sans-serif -webkit-backface-visibility: hidden;
+    }
 
-		#chart2 .circle-overlay {
-			font-size: 15px;
-			border-radius: 10%;
-			position: absolute;
-			overflow: hidden;
-			/*it's buggy with the foreignObject background right now*/
-			/*background-color: rgba(255,255,255,0.5);*/
-		}
-		#chart2 .circle-overlay__inner {
-			text-align: center;
-			width: 100%;
-			height: 100%;
-		}
+    #chart2 * {
+      box-sizing: inherit;
+    }
 
-		#chart2 .hidden {
-			display: none;
-		}
-		#chart2 .node-icon--faded {
-			opacity: 0.2;
-		}
-		#chart2 .legend-size circle {
-			fill: rgb(31, 119, 180);
-		}
-	</style>
+    #chart2 h1 {
+      text-align: center;
+      font-family: "Noto Sans KR";
+    }
+
+    #chart2 h2 {
+      font-weight: 'bold';
+    }
+
+    #chart2 svg {
+      margin: auto;
+      display: block;
+    }
+
+    #chart2 .circle-overlay {
+      font-size: 15px;
+      border-radius: 10%;
+      position: absolute;
+      overflow: hidden;
+      /*it's buggy with the foreignObject background right now*/
+      /*background-color: rgba(255,255,255,0.5);*/
+    }
+
+    #chart2 .circle-overlay__inner {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    #chart2 .hidden {
+      display: none;
+    }
+
+    #chart2 .node-icon--faded {
+      opacity: 0.2;
+    }
+
+    #chart2 .legend-size circle {
+      fill: rgb(31, 119, 180);
+    }
+  </style>
   <!-- bubble chart codes end -->
 
   <!-- gapminder chart codes-->
@@ -61,23 +68,22 @@
   <!-- <script src="dragit.js"></script> -->
 
   <style>
-
     body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-left:40px;
-    font-weight: 200;
-    font-size: 14px;
-  }
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin-left: 40px;
+      font-weight: 200;
+      font-size: 14px;
+    }
 
-  html,body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-
+    html,
+    body {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
   </style>
   <!-- gapminder ends -->
 
@@ -128,24 +134,24 @@
 
 <body>
 
-<!--d3 version test-->
-<script src="js/d3.min.js"></script>
-<script>
-  d3_bub = d3
-  window.d3 = null
-</script>
-<script src="d3.v3.js"></script>
-<script>
-  d3_gap = d3
-  window.d3 = null
-  // test it worked
-  console.log('v3', d3_bub.version)
-  console.log('v4', d3_gap.version)
+  <!--d3 version test-->
+  <script src="js/d3.min.js"></script>
+  <script>
+    d3_bub = d3
+    window.d3 = null
+  </script>
+  <script src="d3.v3.js"></script>
+  <script>
+    d3_gap = d3
+    window.d3 = null
+    // test it worked
+    console.log('v3', d3_bub.version)
+    console.log('v4', d3_gap.version)
 
-  d3 = d3_bub
-</script>
+    d3 = d3_bub
+  </script>
   <script src="dragit.js"></script>
-<!--version test ends-->
+  <!--version test ends-->
 
 
   <!--==========================
@@ -198,7 +204,7 @@
 
     <div class="intro-text">
       <h2>OPPA! Deja vu</h2>
-      <h3 id="subtitle">여자 아이돌과 남자 아이돌 가사 비교 분석하기 </h3>
+      <h3 id="subtitle">아이돌 음악 가사 속 젠더불균형 분석하기</h3>
       <p>Analysis of the comparison between the lyrics of female idol and male idol</p>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
@@ -1370,7 +1376,7 @@
             }
           </script>
 
-    </div>
+      </div>
     </section>
     <!--==========================
         가설 소개
@@ -1383,62 +1389,51 @@
           <span class="section-divider"></span>
           <p class="section-description">탐색에 사용된 가설과 그 결과<br><br>
             <span class="male">&bull;</span> YES<br>
-            <span class="female">&bull;</span> NO
+            <span class="female">&bull;</span> NO<br>
+            <span class="unknown">&bull;</span> ?????<br>
           </p>
         </div>
 
         <ul id="faq-list" class="wow fadeInUp">
           <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1" style="color:#7A37F5">인기 순위가 높은 여자 아이돌은 직접 작사 작곡하는 경우가 많을 것이다. <i class="ion-android-remove"></i></a>
-            <div id="faq1" class="collapse" data-parent="#faq-list">
+            <a data-toggle="collapse" class="collapsed" href="#faq1" style="color:#7A37F5">여성과 남성 아이돌의 곡 수가 비슷할 것이다.</a>
+            <!-- <div id="faq1" class="collapse" data-parent="#faq-list">
               <p>
                 Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
               </p>
-            </div>
+            </div> -->
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">아이돌 곡 전체에서 남자 아이돌 멤버가 작사, 작곡, 편곡에 참여하는 비율이 여자 아이돌보다 높을 것이다.<i class="ion-android-remove"></i></a>
-            <div id="faq2" class="collapse" data-parent="#faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-                dignissim.
-                Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">아이돌 노래 작사/작곡가들은 대다수 남성일 것이다.</a>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">여성 아이돌의 가사는 남성 아이돌의 가사에 비해 수동성이 짙은 표현의 빈도가 높을 것이다.<i class="ion-android-remove"></i></a>
-            <div id="faq2" class="collapse" data-parent="#faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-                dignissim.
-                Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">아이돌 곡 전체에서 남자 아이돌 멤버가 작사, 작곡, 편곡에 참여하는 비율이 여자 아이돌보다 높을 것이다.</a>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">아이돌 노래 작사/작곡가들은 대다수 남성일 것이다.<i class="ion-android-remove"></i></a>
-            <div id="faq2" class="collapse" data-parent="#faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-                dignissim.
-                Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">전체 곡에서 ‘오빠'라는 단어가 ‘누나'라는 단어보다 많이 나올 것이다.</a>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">가사로 소속사별 여성상을 알 수 있을 것이다.<i class="ion-android-remove"></i></a>
-            <div id="faq2" class="collapse" data-parent="#faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
-                dignissim.
-                Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#7A37F5">성적인 단어, 외모 언급 단어가 많을 것이다.</a>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">여성의 신체부위는 성적인 맥락에서 쓰인 빈도가 높을 것이다.</a>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">남자는 능동적 여자는 수동적 표현이 많을 것이다.</a>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">가사로 소속사별 여성상을 알 수 있을 것이다</a>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#CCCCCC">기계 학습으로 추출한 새로운 가사는 가사 속 고정관념을 더욱 잘 보여줄 것이다.</a>
           </li>
 
         </ul>
@@ -1470,7 +1465,12 @@
             <div class="section-header wow fadeIn" data-wow-duration="1s">
               <h3 class="section-title">작사가와 가수 네트워크 세대별 시각화</h3>
               <span class="section-divider"></span>
-              <p class="section-description">설명설명설명 </p>
+              <p class="section-description">어떤 작사가가 어떤 가수에게 곡을 써주었을까요?<br>
+                작사가와 아이돌의 네트워크입니다.</p>
+              <div align="center">
+                <img src="img/nt_ph.png" width="500px"></img>
+              </div>
+              <a href="">더 알아보기</a>
             </div>
           </div>
         </div>
@@ -1513,7 +1513,7 @@
 
               <script>
 
-              // Various accessors that specify the four dimensions of data to visualize.
+                // Various accessors that specify the four dimensions of data to visualize.
               function x(d) { return d.lyricist; }
               function y(d) { return d.composer; }
               function radius(d) { return d.group_number; }
@@ -1826,27 +1826,500 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
-      <!--==========================
+
+    <!--==========================
               전체 워드 유니크 표
             ============================-->
 
-      <section id="team" class="section-bg">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="section-title">유니크한 워드 표</h3>
-            <span class="section-divider"></span>
-            <p class="section-description">한 곡 안에서 중복되는 걸 제외해보면 어떨까?</p>
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">유니크한 워드 표</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">한 곡 안에서 중복되는 걸 제외해보면 어떨까?</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/test.jpg" alt=""></div>
+              <h4>유니크 값 빈도</h4>
+            </div>
           </div>
-          <div class="row wow fadeInUp">
+        </div>
+    </section>
+
+    <!--==========================
+                오빠 누나
+                ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">오빠와 누나</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">'오빠'와 '누나'라는 단어는 시대별로 얼마나 등장할까요?</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프1</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프2</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+                  성적인 단어, 외모 언급
+                  ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">성적인 단어, 외모 언급 단어가 많을까?</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">설명설명</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프1</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프2</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+          예쁜, 잘생긴, 멋진
+          ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">예쁘고, 잘생기고, 멋지고</h3>
+          <span class="section-divider"></span>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>'예쁜'이라는 단어를 수식하는 단어 중엔 여자와 얼굴이 많다!</h4>
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>....부처님?</h4>
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>엄청난 격차가 있다!<br>
+                그럼 그 다음 단어로 '멋지다'는 어떨까?</h4>
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>
+                남자가 나오긴 하는데 다른 단어도 많다. <br>
+                멋진꿈을 향해 달리는 남자들의 얘긴가? <br>
+                그래서 문장을 찍어보았다.</h4><br><br><br><br><br><br>
+              <h2>
+                "멋진 각선미"<br>
+                "멋진 몸매"
+              </h2>
+              <div class="pic"><img src="img/thinking_face.png" width="300px" alt=""></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+                여성 신체부위와 성적 맥락
+                ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">여성의 신체부위는 성적인 맥락에서 쓰였을까?</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">설명설명</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프1</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프2</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+                  능동 수동
+                  ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">남자는 능동적 여자는 수동적 표현이 많을까?</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">설명설명</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프1</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>바그래프2</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+                    주제로 묶기
+                    ============================-->
+    <section id="more-features" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">주제 요약</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">젠더 불균형을 주제로 바라보는 아이돌의 가사</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
+              <h4 class="title"><a href="">왜 아이돌의 음악을 분석하는가?</a></h4>
+              <p class="description"> text
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+              <h4 class="title"><a href="">왜 가사를 분석하는가?</a></h4>
+              <p class="description">text
+
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
+              <h4 class="title"><a href="">왜 문제인가?</a></h4>
+              <p class="description">text</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description">text
+              </p>
+            </div>
+          </div>
+          <a href="#features" class="btn-get-started scrollto">Next</a>
+        </div>
+      </div>
+    </section><!-- #more-features -->
+
+    <section id="section-division1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="cta-title">세대와 소속사로 나누기</h3>
+          </div>
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
+                      <a class="cta-btn align-middle" href="#">Call To Action</a> -->
+        </div>
+      </div>
+    </section><!-- #call-to-action -->
+    <div style="width:100%; height:150px"></div>
+
+    <!--==========================
+                    가사 최빈 남여 표현 차이
+                    ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">전체 가사에서 자주 등장하는 표현의 남/여 비율 비교</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">세대와 상관없이 많이 사용하는 단어를 품사별로 분석</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/방탄소년단.png" alt=""></div>
+              <h4>버블차트 이미지</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+                      세대별 특성 비교
+                      ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">1세대/2세대/3세대 가사 비교</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">세대별 가사 특성 비교</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>표1</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>표2</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>표3</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--==========================
+      3대 소속사별 가사 비교
+    ============================-->
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">1세대/2세대/3세대 가사 비교</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">세대별 가사 특성 비교</p>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>SM</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>YG</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>JYP</h4>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="section-division1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="cta-title">머신러닝</h3>
+          </div>
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
+                            <a class="cta-btn align-middle" href="#">Call To Action</a> -->
+        </div>
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+          Product Advanced Featuress Section
+        ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Word2vec</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">설명</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="advanced-features">
+
+      <div class="features-row">
+        <div class="container">
+          <div class="row">
             <div class="col-12">
-              <div class="member">
-                <div class="pic"><img src="img/test.jpg" alt=""></div>
-                <h4>유니크 값 빈도</h4>
+              <img class="advanced-feature-img-left" src="img/advanced-feature-2.jpg" alt="">
+              <div class="wow fadeInRight">
+                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum.</p>
+                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum.</p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">학습 결과?</h3>
+          <span class="section-divider"></span>
+          <!-- <p class="section-description">세대별 가사 특성 비교</p> -->
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-12">
+            <div class="member">
+              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
+              <h4>SM</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--==========================
+            Retrospect
+          ============================-->
+
+    <section id="section-division1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="cta-title">회고</h3>
+          </div>
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
+                                        <a class="cta-btn align-middle" href="#">Call To Action</a> -->
+        </div>
+      </div>
+    </section><!-- #call-to-action -->
+
+    <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">회고</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5 features-img">
+            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+          </div>
+
+          <div class="col-lg-8 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
+                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
+                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
+                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- #features -->
+
+    <!--==========================
+            마무리, 결론
+          ============================-->
+
+    <section id="intro">
+
+      <div class="intro-text">
+        <h3 id="subtitle">아이돌 가사, 어떻게 나아가야 할까?</h3>
+        <p class="con">아이돌 산업은 결국 시장 논리에 크게 영향을 받을 수밖에 없는 산업인 것은 확실합니다.<br>
+          사람들에게 익숙하면서 자극적인 요소를 잘 살려야만 경쟁에서 눈에 띌 수 있고 살아남기 때문이겠죠.<br>
+          하지만 이런 와중에도 한번쯤은 무의식 중에 소비되고 있는 음악의 가사가 어떻게 쓰여있는지 돌아보는 시간을 가져보고 싶었습니다.<br>
+        </p>
+
+        <p class="con">이제 아이돌로 대표되는 한국의 대중 가요는 해외로 뻗어나가고 있습니다. <br>
+          아직 시작 단계인 한국에 비해 해외는 이미 젠더 감수성이 아티스트의 미덕으로 자리 잡아가고 있습니다. <br>
+          해외 시장에서 경쟁력을 갖고 팬층을 확장해나가기 위해선 젠더 감수성을 갖추는 것이 분명히 플러스가 됩니다. <br>
+          내가 사랑하는 가수가 더 넓은 무대에서 활약하기 위해 다양성을 인정하는 모습을 팬과 소비자가 지지해줄 수 있기를 바랍니다. <br>
+        </p>
+          <p class="con">가사에는 정답이 없습니다. <br>
+            그래도 더 좋은 노래, 더 좋은 가사에 대한 고민은 가수도, 팬도 함께 해나가는 사회적 분위기가 형성되면 좋겠습니다. <br>
+            어린 학생만이 아니라 다양한 연령층이 ‘기시감’없이 즐길 수 있으면 좋지 않을까요.</p>
+</p></div>
+</section>
     <!--==========================
             Our Team Section
           ============================-->

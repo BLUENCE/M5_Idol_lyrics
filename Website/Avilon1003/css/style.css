@@ -59,6 +59,11 @@ span.female {
   /* font-size:2rem; */
 }
 
+span.unknown {
+  color: #CCCCCC;
+  /* font-size:2rem; */
+}
+
 span.big-divider{
    display:block;
    width:60%
@@ -203,6 +208,13 @@ span.big-divider{
   margin-bottom: 20px;
   padding: 0 15px;
   font-size: 24px;
+}
+
+#intro .con {
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -1041,7 +1053,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a {
-  padding: 18px 0;
+  padding: 14px 0;
   display: block;
   position: relative;
   font-family: 'Noto Sans KR', sans-serif;
