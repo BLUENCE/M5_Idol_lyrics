@@ -52,7 +52,7 @@
 
   dragit.playback = {playing: false, loop: false, interpolation: "none", speed: 1000};
 
-  vars.svgLine = d3.svg.line()
+  vars.svgLine = d3_gap.svg.line()
                       .x(vars.accessor_x)
                       .y(vars.accessor_y)
                       .interpolate(dragit.custom.line[vars.custom_trajectory].interpolate);
@@ -91,7 +91,7 @@ dragit.evt.call = function(evt, a) {
 dragit.init = function(container) {
 
   dragit.time.offset = dragit.time.offset ? dragit.time.offset: 0;
-  vars.container = d3.select(container);
+  vars.container = d3_gap.select(container);
 }
 
 dragit.trajectory.display = function(d, i, c) {
@@ -146,7 +146,7 @@ dragit.trajectory.toggleAll = function(c) {
   var class_c = ""
   if(c.length > 0)
     class_c = "." + c;
-  if(d3.selectAll(".gDragit"+class_c)[0].length > 0)
+  if(d3_gap.selectAll(".gDragit"+class_c)[0].length > 0)
     dragit.trajectory.removeAll(c);
   else
     dragit.trajectory.displayAll(c);
@@ -161,12 +161,12 @@ dragit.trajectory.displayAll = function(c) {
 
 dragit.trajectory.remove = function(d, i) {
   if(dragit.statemachine.current_state != "drag")
-    d3.selectAll(".gDragit.focus").remove();
+    d3_gap.selectAll(".gDragit.focus").remove();
 }
 
 dragit.trajectory.removeAll = function(c) {
   var c = c || "focus";
-  d3.selectAll(".gDragit."+c).remove();
+  d3_gap.selectAll(".gDragit."+c).remove();
 }
 
 // Main function that binds drag callbacks to the current element
@@ -175,21 +175,21 @@ dragit.object.activate = function(d, i) {
   if (vars.dev) console.log("[activate]", d, i)
 
 
-  d3.select(this)[0][0].node().addEventListener("mouseenter", function() {
+  d3_gap.select(this)[0][0].node().addEventListener("mouseenter", function() {
     if(dragit.statemachine.current_state == "idle") {
       dragit.statemachine.setState("mouseenter");
     }
   }, false)
 
-  d3.select(this)[0][0].node().addEventListener("mouseleave", function() {
+  d3_gap.select(this)[0][0].node().addEventListener("mouseleave", function() {
     if(dragit.statemachine.current_state == "idle")
       dragit.statemachine.setState("mouseleave");
   }, false)
 
-  d.call(d3.behavior.drag()
+  d.call(d3_gap.behavior.drag()
     .on("dragstart", function(d, i) {
 
-      d3.event.sourceEvent.stopPropagation();
+      d3_gap.event.sourceEvent.stopPropagation();
       dragit.statemachine.setState("dragstart");
 
       if (vars.dev) console.log("[dragstart]", d, i)
@@ -205,7 +205,7 @@ dragit.object.activate = function(d, i) {
         case "horizontal":
       }
 
-      var mousepoint = [d3.mouse(this)[0]+dragit.object.offsetX, d3.mouse(this)[1]+dragit.object.offsetY];
+      var mousepoint = [d3_gap.mouse(this)[0]+dragit.object.offsetX, d3_gap.mouse(this)[1]+dragit.object.offsetY];
 
       // Create the line guide to closest trajectory
       dragit.lineClosestTrajectory = vars.gDragit.append("line")
@@ -234,11 +234,11 @@ dragit.object.activate = function(d, i) {
     })
     .on("drag", function(d,i) {
 
-      d3.event.sourceEvent.stopPropagation();
+      d3_gap.event.sourceEvent.stopPropagation();
       dragit.time.previous = dragit.time.current;
       dragit.statemachine.setState("drag");
 
-      var mousepoint = [d3.event.x+dragit.object.offsetX, d3.event.y+dragit.object.offsetY];
+      var mousepoint = [d3_gap.event.x+dragit.object.offsetX, d3_gap.event.y+dragit.object.offsetY];
 
       if (vars.dev) console.log("[drag]", d, i)
 
@@ -246,7 +246,7 @@ dragit.object.activate = function(d, i) {
 
         case "free":
 
-          d3.select(this).attr("transform", function(d,i) {
+          d3_gap.select(this).attr("transform", function(d,i) {
             return "translate(" + [mousepoint[0], mousepoint[1]] + ")";
           })
 
@@ -256,10 +256,10 @@ dragit.object.activate = function(d, i) {
 
         case "horizontal":
 
-          d.x += d3.event.dx
+          d.x += d3_gap.event.dx
           d.y = dragit.utils.findYgivenX(d.x, dragit.lineTrajectory)
 
-          d3.select(this).attr("transform", function(d,i) {
+          d3_gap.select(this).attr("transform", function(d,i) {
             return "translate(" + [ d.x, d.y ] + ")";
           })
 
@@ -275,9 +275,9 @@ dragit.object.activate = function(d, i) {
       // Browse all the .lineTrajectory trajectories
       // If scope is focus: only current trajectory is inspected
       // If scope is selected: all trajectories are inspected
-      d3.selectAll("."+dragit.mouse.scope).selectAll(".lineTrajectory").forEach(function(e, j) {
+      d3_gap.selectAll("."+dragit.mouse.scope).selectAll(".lineTrajectory").forEach(function(e, j) {
 
-        var thisTrajectory = d3.select(e[0]);
+        var thisTrajectory = d3_gap.select(e[0]);
 
         var current_index = null;
 
@@ -311,8 +311,8 @@ dragit.object.activate = function(d, i) {
 
       // Find the index of the closest trajectory by looking at the shortest distance
       // index_min should be used to retrieve the dragit.data[min_index] data
-      var index_closest_datapoint = list_distances_datapoint.indexOf(d3.min(list_distances_datapoint));
-      var index_closest_trajectorypoint = list_distances_trajectorypoint.indexOf(d3.min(list_distances_trajectorypoint));
+      var index_closest_datapoint = list_distances_datapoint.indexOf(d3_gap.min(list_distances_datapoint));
+      var index_closest_trajectorypoint = list_distances_trajectorypoint.indexOf(d3_gap.min(list_distances_trajectorypoint));
 
       // It can happens the trajectory is not fully displayed yet, then leave because no closest one
       if(index_closest_trajectorypoint == -1)
@@ -365,7 +365,7 @@ dragit.object.activate = function(d, i) {
     })
     .on("dragend", function(d,i) {
 
-      d3.event.sourceEvent.stopPropagation();
+      d3_gap.event.sourceEvent.stopPropagation();
       dragit.statemachine.setState("dragend");
 
       if (vars.dev) console.log("[dragend]", d, i)
@@ -374,7 +374,7 @@ dragit.object.activate = function(d, i) {
 
         case "free":
 
-          d3.select(this).transition()
+          d3_gap.select(this).transition()
                          .duration(200)
                          .attr("transform", function(d,i) {
                             return "translate(" + [dragit.data[dragit.statemachine.current_id][dragit.time.current][0], dragit.data[dragit.statemachine.current_id][dragit.time.current][1]] + ")"
@@ -391,7 +391,7 @@ dragit.object.activate = function(d, i) {
       dragit.focusGuide.remove();
 
       // Remove the current focus trajectory
-      d3.selectAll(".gDragit.focus").remove();
+      d3_gap.selectAll(".gDragit.focus").remove();
 
       dragit.evt.call("dragend");
 
@@ -446,7 +446,7 @@ dragit.object.activate = function(d, i) {
 
     if(!dragit.playback.playing) {
       dragit.playback.playing = true;
-      d3.select(vars.playback.el).select("button").text("| |").attr("class", "playing")
+      d3_gap.select(vars.playback.el).select("button").text("| |").attr("class", "playing")
 
       if(dragit.time.current==dragit.time.max)
         dragit.time.current;
@@ -456,18 +456,18 @@ dragit.object.activate = function(d, i) {
   }
 
   dragit.playback.stop = function() {
-    d3.select(vars.playback.el).select("button").text("▶").attr("class", "stop");
+    d3_gap.select(vars.playback.el).select("button").text("▶").attr("class", "stop");
     dragit.playback.playing = false;
   }
 
   // Create and add a DOM HTML slider for time navigation
   dragit.utils.slider = function(el, play_button) {
     vars.playback.el = el;
-    d3.select(el).append("p")
+    d3_gap.select(el).append("p")
                  .style("clear", "both");
 
     if(play_button) {
-      d3.select(el).append("button")
+      d3_gap.select(el).append("button")
                    .style({"height": "25px", "width": "25px"})
                    .text("▶")
                    .attr("class", "stop")
@@ -480,11 +480,11 @@ dragit.object.activate = function(d, i) {
                    });
     }
 
-    d3.select(el).append("span")
+    d3_gap.select(el).append("span")
                  .attr("id", "min-time")
                  .text(dragit.time.min);
 
-    d3.select(el).append("input")
+    d3_gap.select(el).append("input")
                   .attr("type", "range")
                   .attr("class", "slider-time")
                   .property("min", dragit.time.min)
@@ -496,23 +496,23 @@ dragit.object.activate = function(d, i) {
                     dragit.evt.call("update", this.value, 0);
                   })
 
-    d3.select(el).append("span")
+    d3_gap.select(el).append("span")
                  .attr("id", "max-time")
                  .text(dragit.time.max);
 
-    d3.select(".slider-time").property("value", dragit.time.current+dragit.time.min)
+    d3_gap.select(".slider-time").property("value", dragit.time.current+dragit.time.min)
 
     dragit.evt.register("drag", function() {
-      d3.select(".slider-time").property("value", dragit.time.current);
+      d3_gap.select(".slider-time").property("value", dragit.time.current);
     });
 
   }
 
   dragit.utils.sliderUpdate = function(el) {
-    d3.select(el).select("#max-time")
+    d3_gap.select(el).select("#max-time")
                  .text(dragit.time.max);
 
-    d3.select(el).select(".slider-time")
+    d3_gap.select(el).select(".slider-time")
                 .property("max", dragit.time.max)
                 .property("value", dragit.time.current)
   }
