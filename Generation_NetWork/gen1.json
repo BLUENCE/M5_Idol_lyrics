@@ -1,0 +1,646 @@
+{
+ "links": [
+  {
+   "source": 0,
+   "target": 31,
+   "value": 68
+  },
+  {
+   "source": 1,
+   "target": 48,
+   "value": 40
+  },
+  {
+   "source": 2,
+   "target": 49,
+   "value": 26
+  },
+  {
+   "source": 3,
+   "target": 50,
+   "value": 24
+  },
+  {
+   "source": 4,
+   "target": 51,
+   "value": 23
+  },
+  {
+   "source": 5,
+   "target": 52,
+   "value": 22
+  },
+  {
+   "source": 6,
+   "target": 53,
+   "value": 19
+  },
+  {
+   "source": 7,
+   "target": 54,
+   "value": 19
+  },
+  {
+   "source": 3,
+   "target": 55,
+   "value": 18
+  },
+  {
+   "source": 8,
+   "target": 56,
+   "value": 17
+  },
+  {
+   "source": 9,
+   "target": 54,
+   "value": 16
+  },
+  {
+   "source": 10,
+   "target": 48,
+   "value": 16
+  },
+  {
+   "source": 11,
+   "target": 52,
+   "value": 14
+  },
+  {
+   "source": 12,
+   "target": 56,
+   "value": 14
+  },
+  {
+   "source": 13,
+   "target": 49,
+   "value": 14
+  },
+  {
+   "source": 14,
+   "target": 54,
+   "value": 14
+  },
+  {
+   "source": 15,
+   "target": 52,
+   "value": 13
+  },
+  {
+   "source": 7,
+   "target": 49,
+   "value": 13
+  },
+  {
+   "source": 16,
+   "target": 57,
+   "value": 13
+  },
+  {
+   "source": 17,
+   "target": 58,
+   "value": 12
+  },
+  {
+   "source": 18,
+   "target": 50,
+   "value": 12
+  },
+  {
+   "source": 19,
+   "target": 59,
+   "value": 11
+  },
+  {
+   "source": 12,
+   "target": 56,
+   "value": 11
+  },
+  {
+   "source": 20,
+   "target": 60,
+   "value": 11
+  },
+  {
+   "source": 21,
+   "target": 61,
+   "value": 11
+  },
+  {
+   "source": 22,
+   "target": 49,
+   "value": 11
+  },
+  {
+   "source": 23,
+   "target": 61,
+   "value": 11
+  },
+  {
+   "source": 7,
+   "target": 57,
+   "value": 11
+  },
+  {
+   "source": 5,
+   "target": 50,
+   "value": 10
+  },
+  {
+   "source": 7,
+   "target": 62,
+   "value": 10
+  },
+  {
+   "source": 24,
+   "target": 24,
+   "value": 10
+  },
+  {
+   "source": 25,
+   "target": 24,
+   "value": 9
+  },
+  {
+   "source": 26,
+   "target": 62,
+   "value": 9
+  },
+  {
+   "source": 27,
+   "target": 62,
+   "value": 9
+  },
+  {
+   "source": 3,
+   "target": 63,
+   "value": 9
+  },
+  {
+   "source": 28,
+   "target": 58,
+   "value": 9
+  },
+  {
+   "source": 29,
+   "target": 58,
+   "value": 9
+  },
+  {
+   "source": 30,
+   "target": 54,
+   "value": 9
+  },
+  {
+   "source": 31,
+   "target": 31,
+   "value": 9
+  },
+  {
+   "source": 32,
+   "target": 59,
+   "value": 9
+  },
+  {
+   "source": 18,
+   "target": 64,
+   "value": 9
+  },
+  {
+   "source": 33,
+   "target": 63,
+   "value": 8
+  },
+  {
+   "source": 34,
+   "target": 49,
+   "value": 8
+  },
+  {
+   "source": 35,
+   "target": 24,
+   "value": 8
+  },
+  {
+   "source": 3,
+   "target": 53,
+   "value": 8
+  },
+  {
+   "source": 36,
+   "target": 63,
+   "value": 8
+  },
+  {
+   "source": 37,
+   "target": 63,
+   "value": 7
+  },
+  {
+   "source": 27,
+   "target": 52,
+   "value": 7
+  },
+  {
+   "source": 38,
+   "target": 24,
+   "value": 7
+  },
+  {
+   "source": 39,
+   "target": 31,
+   "value": 7
+  },
+  {
+   "source": 40,
+   "target": 49,
+   "value": 7
+  },
+  {
+   "source": 41,
+   "target": 54,
+   "value": 6
+  },
+  {
+   "source": 42,
+   "target": 60,
+   "value": 6
+  },
+  {
+   "source": 43,
+   "target": 49,
+   "value": 6
+  },
+  {
+   "source": 44,
+   "target": 62,
+   "value": 6
+  },
+  {
+   "source": 9,
+   "target": 65,
+   "value": 6
+  },
+  {
+   "source": 45,
+   "target": 53,
+   "value": 6
+  },
+  {
+   "source": 46,
+   "target": 49,
+   "value": 6
+  },
+  {
+   "source": 47,
+   "target": 66,
+   "value": 6
+  }
+ ],
+ "nodes": [
+  {
+   "impor": 68,
+   "name": "박진영",
+   "type": "lyricist"
+  },
+  {
+   "impor": 40,
+   "name": "유건형",
+   "type": "lyricist"
+  },
+  {
+   "impor": 26,
+   "name": "M (이민우)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 59,
+   "name": "김영아",
+   "type": "lyricist"
+  },
+  {
+   "impor": 23,
+   "name": "이상민",
+   "type": "lyricist"
+  },
+  {
+   "impor": 32,
+   "name": "이승호",
+   "type": "lyricist"
+  },
+  {
+   "impor": 19,
+   "name": "천명훈",
+   "type": "lyricist"
+  },
+  {
+   "impor": 53,
+   "name": "유영진",
+   "type": "lyricist"
+  },
+  {
+   "impor": 17,
+   "name": "송백경",
+   "type": "lyricist"
+  },
+  {
+   "impor": 22,
+   "name": "강타 (KANGTA)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 16,
+   "name": "서정환",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "박성호 (구피)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 25,
+   "name": "테디",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "에릭",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "문희준",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "신동욱",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "바다",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "제드",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "장대성",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "Rain",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "신승희",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "장우혁",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "Brian Kim",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "이재원",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "버즈",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "이도연",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "서융근",
+   "type": "lyricist"
+  },
+  {
+   "impor": 16,
+   "name": "조은희",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "Do",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "이현도",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "토니 안",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "god",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "안성일",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "김수정",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "신혜성",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "임선아",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "렌",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "정진환",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "김진아",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "이단옆차기",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "안영민",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "장용진",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "장성재",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "지국현",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "조규만",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "이현우",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "김이나",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "양재선",
+   "type": "lyricist"
+  },
+  {
+   "impor": 0,
+   "name": "god",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "언타이틀",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "신화",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "젝스키스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "샤크라",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "구피",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "엔알지",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에이치오티",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "핑클",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "원타임",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에스이에스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "디베이스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "제이워크",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "테이크",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "제이티엘",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "플라이 투 더 스카이",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "버즈",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "오션",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "와이투케이",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "베이비 복스 리브",
+   "type": "artist"
+  }
+ ]
+}
