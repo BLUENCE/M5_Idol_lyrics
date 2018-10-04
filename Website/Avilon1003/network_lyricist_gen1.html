@@ -130,7 +130,7 @@
           <!-- <li><a href="#gallery">Appendix</a></li> -->
           <li class="menu-has-children"><a href="">Appendix</a>
             <ul>
-              <li><a href="#">Lyricist top 100</a></li>
+              <li><a href="search_lyricist.html">Lyricist top 100</a></li>
               <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a>
                 <ul>
                   <li><a href="#">Lyricist top 100</a></li>
@@ -171,7 +171,15 @@
 
         <div style="width:100%; height:50px"></div>
 
-        <div id="Network_viz"></div>
+        <div id="Network_viz">
+          <svg>
+            <defs>
+                <style type="text/css">
+                  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:700');
+                </style>
+            </defs>
+          </svg>
+        </div>
 
         <script src="https://d3js.org/d3.v4.min.js"></script>
         <script type="text/javascript" src="https://d3js.org/d3.v3.js"></script>
@@ -188,6 +196,7 @@
           }
 
           .node text {
+            font-family: 'Noto Sans KR';
             stroke-width: 0px;
             pointer-events: none;
           }
@@ -215,8 +224,8 @@
         //Load Color Scale
         var c10 = d3.scale.category10();
         //Create an SVG element and append it to the DOM
-        var svgElement = d3.select("#Network_viz")
-                  .append("svg").attr({"width": width+margin.left+margin.right, "height": height+margin.top+margin.bottom})
+        var svgElement = d3.select("#Network_viz svg")
+                  .attr({"width": width+margin.left+margin.right, "height": height+margin.top+margin.bottom})
                   .append("g")
                   .attr("transform","translate("+margin.left+","+margin.top+")")
                   .call(zoom)
@@ -267,6 +276,8 @@
           var label = node.append("text")
                   .attr("dx", 12)
                   .attr("dy", "0.35em")
+                  .attr("font-family", "Noto Sans KR")
+                  .attr("font-weight", 700)
                   .attr("font-size", function(d){ return Math.max(25, d.impor * 2.5);  })
                   .text(function(d){ return d.name; });
           //Add circles to each node

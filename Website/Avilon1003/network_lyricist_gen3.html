@@ -3,8 +3,6 @@
 
 <head>
 
-  <!-- bubble chart codes-->
-
   <style>
     html,
     body {
@@ -58,40 +56,13 @@
     #chart2 .legend-size circle {
       fill: rgb(31, 119, 180);
     }
-  </style>
-  <!-- bubble chart codes end -->
 
-  <!-- gapminder chart codes-->
-  <meta charset="utf-8">
-  <link href="dragit.css" rel="stylesheet" />
-  <!-- <script src="d3.v3.js"></script> -->
-  <!-- <script src="dragit.js"></script> -->
+    #test {
 
-  <style>
-    body {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin-left: 40px;
-      font-weight: 200;
-      font-size: 14px;
     }
 
-    html,
-    body {
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-  </style>
-  <!-- gapminder ends -->
 
-  <meta charset="utf-8">
-  <title>Avilon Bootstrap Template</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  </style>
 
 
   <!-- Favicons -->
@@ -122,8 +93,9 @@
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" type="text/javascript"></script>
   <script src="britecharts.min.js" type="text/javascript"></script> -->
   <!-- linechart css Files -->
-  <link rel="stylesheet" href="britecharts.min.css" type="text/css" />
-
+  <!-- <link rel="stylesheet" href="britecharts.min.css" type="text/css" /> -->
+<!--   <link rel="stylesheet" href="britecharts.min.css" type="text/css" />
+ -->
   <!-- =======================================================
     Theme Name: Avilon
     Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
@@ -134,24 +106,7 @@
 
 <body>
 
-  <!--d3 version test-->
-  <script src="js/d3.min.js"></script>
-  <script>
-    d3_bub = d3
-    window.d3 = null
-  </script>
-  <script src="d3.v3.js"></script>
-  <script>
-    d3_gap = d3
-    window.d3 = null
-    // test it worked
-    console.log('v3', d3_bub.version)
-    console.log('v4', d3_gap.version)
 
-    d3 = d3_bub
-  </script>
-  <script src="dragit.js"></script>
-  <!--version test ends-->
 
 
   <!--==========================
@@ -175,7 +130,7 @@
           <!-- <li><a href="#gallery">Appendix</a></li> -->
           <li class="menu-has-children"><a href="">Appendix</a>
             <ul>
-              <li><a href="#">Lyricist top 100</a></li>
+              <li><a href="search_lyricist.html">Lyricist top 100</a></li>
               <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a>
                 <ul>
                   <li><a href="#">Lyricist top 100</a></li>
@@ -186,7 +141,7 @@
                 </ul>
               </li> -->
               <li><a href="#">Member participation ratio</a></li>
-              <li><a href="network_lyricist_gen3.html">Lyricist Network</a></li>
+              <li><a href="network_lyricist_gen1.html">Lyricist Network</a></li>
               <li><a href="#">소영님 버블차트</a></li>
             </ul>
           </li>
@@ -198,537 +153,177 @@
   <section id="intro" style="height:90px;">
   </section>
     <!--==========================
-      검색차트
+      Network Vizualization
     ============================-->
-    <section id="features" style="padding: 50px;">
+    <section id="Nework" style="padding: 50px;">
+        <meta charset="euc-kr"> 
         <link rel="stylesheet" href="stylesheets/search_style.css">
         <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&amp;subset=korean">
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/search.js"></script>
-      <body>
+      
         <div>
           <button type="button" onclick="location.href='network_lyricist_gen1.html'">1세대</button>
           <button type="button" onclick="location.href='network_lyricist_gen2.html'">2세대</button>
           <button type="button" class="active-button" onclick="location.href='network_lyricist_gen3.html'">3세대</button>
         </div>
 
-        <div class="webflow-style-input">
-          <input type="text" placeholder="궁금한 작사가와 가수를 검색해보세요." id="left-keyword"></input>
+        <div style="width:100%; height:50px"></div>
+
+        <div id="Network_viz">
+          <svg>
+            <defs>
+                <style type="text/css">
+                  @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:700');
+                </style>
+            </defs>
+          </svg>
         </div>
 
-        <div>
-          <span class="female">&bull;</span> 여성&nbsp;&nbsp; &nbsp;<span class="male">&bull;</span> 남성
-          <br>
-          <table id="lyricist-table">
-            <thead>
-    					<tr>
-    						<th>순위</th>
-    						<th>작사가</th>
-    						<th>곡 수</th>
-    					</tr>
-    				</thead>
-    				<tbody>
-    					<tr>
-    						<td>1</td>
-    						<td><span class="male">&bull;</span> 용감한 형제</td>
-    						<td>138</td>
-    					</tr>
-    					<tr>
-    						<td>2</td>
-    						<td><span class="female">&bull;</span> 송수윤</td>
-    						<td>137</td>
-    					</tr>
-    					<tr>
-    						<td>3</td>
-    						<td><span class="male">&bull;</span> 박진영</td>
-    						<td>132</td>
-    					</tr>
-    					<tr>
-    						<td>4</td>
-    						<td><span class="female">&bull;</span> 김영아</td>
-    						<td>119</td>
-    					</tr>
-    					<tr>
-    						<td>5</td>
-    						<td><span class="male">&bull;</span> 이승호</td>
-    						<td>117</td>
-    					</tr>
-    					<tr>
-    						<td>6</td>
-    						<td><span class="male">&bull;</span> 이단옆차기</td>
-    						<td>113</td>
-    					</tr>
-    					<tr>
-    						<td>7</td>
-    						<td><span class="female">&bull;</span> 김이나</td>
-    						<td>107</td>
-    					</tr>
-    					<tr>
-    						<td>8</td>
-    						<td><span class="male">&bull;</span> 유영진</td>
-    						<td>101</td>
-    					</tr>
-    					<tr>
-    						<td>9</td>
-    						<td><span class="male">&bull;</span> 한성호</td>
-    						<td>97</td>
-    					</tr>
-    					<tr>
-    						<td>10</td>
-    						<td><span class="female">&bull;</span> kenzie (켄지)</td>
-    						<td>88</td>
-    					</tr>
-    					<tr>
-    						<td>10</td>
-    						<td><span class="male">&bull;</span> 신사동 호랭이</td>
-    						<td>88</td>
-    					</tr>
-    					<tr>
-    						<td>12</td>
-    						<td><span class="male">&bull;</span> 랩몬스터 (방탄소년단)</td>
-    						<td>86</td>
-    					</tr>
-    					<tr>
-    						<td>13</td>
-    						<td><span class="male">&bull;</span> 테디</td>
-    						<td>85</td>
-    					</tr>
-    					<tr>
-    						<td>14</td>
-    						<td><span class="female">&bull;</span> 서지음</td>
-    						<td>83</td>
-    					</tr>
-    					<tr>
-    						<td>15</td>
-    						<td><span class="male">&bull;</span> Pdogg (피독)</td>
-    						<td>76</td>
-    					</tr>
-    					<tr>
-    						<td>15</td>
-    						<td><span class="female">&bull;</span> 조윤경</td>
-    						<td>76</td>
-    					</tr>
-    					<tr>
-    						<td>17</td>
-    						<td><span class="male">&bull;</span> 슈가 (방탄소년단)</td>
-    						<td>73</td>
-    					</tr>
-    					<tr>
-    						<td>18</td>
-    						<td><span class="male">&bull;</span> 지드래곤 (빅뱅)</td>
-    						<td>72</td>
-    					</tr>
-    					<tr>
-    						<td>19</td>
-    						<td><span class="male">&bull;</span> 정일훈 (비투비)</td>
-    						<td>71</td>
-    					</tr>
-    					<tr>
-    						<td>20</td>
-    						<td><span class="male">&bull;</span> 방시혁</td>
-    						<td>69</td>
-    					</tr>
-    					<tr>
-    						<td>20</td>
-    						<td><span class="male">&bull;</span> 방용국 (비에이피)</td>
-    						<td>69</td>
-    					</tr>
-    					<tr>
-    						<td>22</td>
-    						<td><span class="male">&bull;</span> 제이홉 (방탄소년단)</td>
-    						<td>68</td>
-    					</tr>
-    					<tr>
-    						<td>22</td>
-    						<td><span class="male">&bull;</span> 이기 (오레오)</td>
-    						<td>68</td>
-    					</tr>
-    					<tr>
-    						<td>24</td>
-    						<td><span class="male">&bull;</span> 이현도 (듀스)</td>
-    						<td>67</td>
-    					</tr>
-    					<tr>
-    						<td>25</td>
-    						<td><span class="male">&bull;</span> 라비 (빅스)</td>
-    						<td>65</td>
-    					</tr>
-    					<tr>
-    						<td>26</td>
-    						<td><span class="male">&bull;</span> 이상민 (룰라)</td>
-    						<td>62</td>
-    					</tr>
-    					<tr>
-    						<td>27</td>
-    						<td><span class="male">&bull;</span> 민연재</td>
-    						<td>60</td>
-    					</tr>
-    					<tr>
-    						<td>28</td>
-    						<td><span class="male">&bull;</span> JQ (제이큐)</td>
-    						<td>58</td>
-    					</tr>
-    					<tr>
-    						<td>29</td>
-    						<td><span class="male">&bull;</span> 서용배 (TENTEN)</td>
-    						<td>57</td>
-    					</tr>
-    					<tr>
-    						<td>30</td>
-    						<td><span class="male">&bull;</span> BUMZU (범주)</td>
-    						<td>56</td>
-    					</tr>
-    					<tr>
-    						<td>30</td>
-    						<td><span class="female">&bull;</span> Mafly (마플라이)</td>
-    						<td>56</td>
-    					</tr>
-    					<tr>
-    						<td>30</td>
-    						<td><span class="male">&bull;</span> 최갑원</td>
-    						<td>56</td>
-    					</tr>
-    					<tr>
-    						<td>33</td>
-    						<td><span class="male">&bull;</span> 이민혁 (비투비)</td>
-    						<td>55</td>
-    					</tr>
-    					<tr>
-    						<td>33</td>
-    						<td><span class="male">&bull;</span> 장대성</td>
-    						<td>55</td>
-    					</tr>
-    					<tr>
-    						<td>35</td>
-    						<td><span class="male">&bull;</span> 바로 (비원에이포)</td>
-    						<td>54</td>
-    					</tr>
-    					<tr>
-    						<td>36</td>
-    						<td><span class="male">&bull;</span> 차쿤 (일렉트로보이즈)</td>
-    						<td>53</td>
-    					</tr>
-    					<tr>
-    						<td>37</td>
-    						<td><span class="male">&bull;</span> 우지 (세븐틴)</td>
-    						<td>52</td>
-    					</tr>
-    					<tr>
-    						<td>37</td>
-    						<td><span class="male">&bull;</span> 용준형 (하이라이트)</td>
-    						<td>52</td>
-    					</tr>
-    					<tr>
-    						<td>37</td>
-    						<td><span class="male">&bull;</span> 주헌 (몬스타엑스)</td>
-    						<td>52</td>
-    					</tr>
-    					<tr>
-    						<td>40</td>
-    						<td><span class="male">&bull;</span> 안영민</td>
-    						<td>51</td>
-    					</tr>
-    					<tr>
-    						<td>40</td>
-    						<td><span class="male">&bull;</span> 정용화 (씨엔블루)</td>
-    						<td>51</td>
-    					</tr>
-    					<tr>
-    						<td>42</td>
-    						<td><span class="male">&bull;</span> David Kim</td>
-    						<td>50</td>
-    					</tr>
-    					<tr>
-    						<td>43</td>
-    						<td><span class="male">&bull;</span> 홍지유</td>
-    						<td>49</td>
-    					</tr>
-    					<tr>
-    						<td>44</td>
-    						<td><span class="male">&bull;</span> 아이엠 (몬스타엑스)</td>
-    						<td>48</td>
-    					</tr>
-    					<tr>
-    						<td>45</td>
-    						<td><span class="male">&bull;</span> 김기범</td>
-    						<td>47</td>
-    					</tr>
-    					<tr>
-    						<td>45</td>
-    						<td><span class="male">&bull;</span> 한재호</td>
-    						<td>47</td>
-    					</tr>
-    					<tr>
-    						<td>47</td>
-    						<td><span class="male">&bull;</span> 마부스</td>
-    						<td>46</td>
-    					</tr>
-    					<tr>
-    						<td>48</td>
-    						<td><span class="male">&bull;</span> 강지원</td>
-    						<td>44</td>
-    					</tr>
-    					<tr>
-    						<td>48</td>
-    						<td><span class="male">&bull;</span> 김태윤</td>
-    						<td>44</td>
-    					</tr>
-    					<tr>
-    						<td>48</td>
-    						<td><span class="male">&bull;</span> 라도</td>
-    						<td>44</td>
-    					</tr>
-    					<tr>
-    						<td>48</td>
-    						<td><span class="male">&bull;</span> 마르코</td>
-    						<td>44</td>
-    					</tr>
-    					<tr>
-    						<td>52</td>
-    						<td><span class="male">&bull;</span> 김창락</td>
-    						<td>43</td>
-    					</tr>
-    					<tr>
-    						<td>53</td>
-    						<td><span class="male">&bull;</span> e.one (정호현)</td>
-    						<td>41</td>
-    					</tr>
-    					<tr>
-    						<td>53</td>
-    						<td><span class="male">&bull;</span> 김승수</td>
-    						<td>41</td>
-    					</tr>
-    					<tr>
-    						<td>55</td>
-    						<td><span class="male">&bull;</span> 별들의 전쟁</td>
-    						<td>40</td>
-    					</tr>
-    					<tr>
-    						<td>55</td>
-    						<td><span class="male">&bull;</span> 유건형</td>
-    						<td>40</td>
-    					</tr>
-    					<tr>
-    						<td>55</td>
-    						<td><span class="male">&bull;</span> 진영 (비원에이포)</td>
-    						<td>40</td>
-    					</tr>
-    					<tr>
-    						<td>58</td>
-    						<td><span class="male">&bull;</span> 영케이 (데이식스)</td>
-    						<td>39</td>
-    					</tr>
-    					<tr>
-    						<td>58</td>
-    						<td><span class="male">&bull;</span> 서재우 (TENTEN)</td>
-    						<td>39</td>
-    					</tr>
-    					<tr>
-    						<td>60</td>
-    						<td><span class="male">&bull;</span> 김도훈 (RBW)</td>
-    						<td>38</td>
-    					</tr>
-    					<tr>
-    						<td>60</td>
-    						<td><span class="male">&bull;</span> 용배 (RBW)</td>
-    						<td>38</td>
-    					</tr>
-    					<tr>
-    						<td>62</td>
-    						<td><span class="female">&bull;</span> 조은희</td>
-    						<td>37</td>
-    					</tr>
-    					<tr>
-    						<td>62</td>
-    						<td><span class="male">&bull;</span> 최규성</td>
-    						<td>37</td>
-    					</tr>
-    					<tr>
-    						<td>64</td>
-    						<td><span class="female">&bull;</span> 엘이 (이엑스아이디)</td>
-    						<td>36</td>
-    					</tr>
-    					<tr>
-    						<td>64</td>
-    						<td>SWEETUNE</td>
-    						<td>36</td>
-    					</tr>
-    					<tr>
-    						<td>64</td>
-    						<td><span class="male">&bull;</span> 김태주</td>
-    						<td>36</td>
-    					</tr>
-    					<tr>
-    						<td>64</td>
-    						<td><span class="female">&bull;</span> 이희승</td>
-    						<td>36</td>
-    					</tr>
-    					<tr>
-    						<td>64</td>
-    						<td><span class="male">&bull;</span> 지코 (블락비)</td>
-    						<td>36</td>
-    					</tr>
-    					<tr>
-    						<td>64</td>
-    						<td><span class="male">&bull;</span> 진리 (Full8loom)</td>
-    						<td>36</td>
-    					</tr>
-    					<tr>
-    						<td>70</td>
-    						<td><span class="female">&bull;</span> 강은경</td>
-    						<td>35</td>
-    					</tr>
-    					<tr>
-    						<td>70</td>
-    						<td><span class="male">&bull;</span> 박수석</td>
-    						<td>35</td>
-    					</tr>
-    					<tr>
-    						<td>70</td>
-    						<td><span class="male">&bull;</span> 프니엘 (비투비)</td>
-    						<td>35</td>
-    					</tr>
-    					<tr>
-    						<td>73</td>
-    						<td><span class="male">&bull;</span> 버논 (세븐틴)</td>
-    						<td>34</td>
-    					</tr>
-    					<tr>
-    						<td>73</td>
-    						<td><span class="male">&bull;</span> 남기상</td>
-    						<td>34</td>
-    					</tr>
-    					<tr>
-    						<td>75</td>
-    						<td><span class="male">&bull;</span> 비아이 (아이콘)</td>
-    						<td>33</td>
-    					</tr>
-    					<tr>
-    						<td>75</td>
-    						<td><span class="male">&bull;</span> 에스쿱스 (세븐틴)</td>
-    						<td>33</td>
-    					</tr>
-    					<tr>
-    						<td>75</td>
-    						<td><span class="male">&bull;</span> Slow Rabbit</td>
-    						<td>33</td>
-    					</tr>
-    					<tr>
-    						<td>75</td>
-    						<td><span class="female">&bull;</span> 미료 (브라운아이드걸스)</td>
-    						<td>33</td>
-    					</tr>
-    					<tr>
-    						<td>75</td>
-    						<td><span class="male">&bull;</span> 우석 (펜타곤)</td>
-    						<td>33</td>
-    					</tr>
-    					<tr>
-    						<td>75</td>
-    						<td><span class="female">&bull;</span> 한경혜</td>
-    						<td>33</td>
-    					</tr>
-    					<tr>
-    						<td>81</td>
-    						<td><span class="female">&bull;</span> 김지향</td>
-    						<td>32</td>
-    					</tr>
-    					<tr>
-    						<td>81</td>
-    						<td><span class="male">&bull;</span> 서태지</td>
-    						<td>32</td>
-    					</tr>
-    					<tr>
-    						<td>81</td>
-    						<td><span class="male">&bull;</span> 정진환</td>
-    						<td>32</td>
-    					</tr>
-    					<tr>
-    						<td>81</td>
-    						<td><span class="male">&bull;</span> 황현 (MonoTree)</td>
-    						<td>32</td>
-    					</tr>
-    					<tr>
-    						<td>85</td>
-    						<td><span class="male">&bull;</span> 이민우 (신화)</td>
-    						<td>31</td>
-    					</tr>
-    					<tr>
-    						<td>85</td>
-    						<td><span class="male">&bull;</span> 송민호 (위너)</td>
-    						<td>31</td>
-    					</tr>
-    					<tr>
-    						<td>85</td>
-    						<td><span class="female">&bull;</span> Misfit</td>
-    						<td>31</td>
-    					</tr>
-    					<tr>
-    						<td>85</td>
-    						<td><span class="male">&bull;</span> 강타 (에이치오티)</td>
-    						<td>31</td>
-    					</tr>
-    					<tr>
-    						<td>85</td>
-    						<td><span class="male">&bull;</span> 슈퍼창따이</td>
-    						<td>31</td>
-    					</tr>
-    					<tr>
-    						<td>85</td>
-    						<td><span class="male">&bull;</span> 이던 (펜타곤)</td>
-    						<td>31</td>
-    					</tr>
-    					<tr>
-    						<td>91</td>
-    						<td><span class="male">&bull;</span> 바비 (아이콘)</td>
-    						<td>30</td>
-    					</tr>
-    					<tr>
-    						<td>91</td>
-    						<td><span class="male">&bull;</span> 김태훈</td>
-    						<td>30</td>
-    					</tr>
-    					<tr>
-    						<td>91</td>
-    						<td><span class="male">&bull;</span> 노는어린이</td>
-    						<td>30</td>
-    					</tr>
-    					<tr>
-    						<td>91</td>
-    						<td><span class="male">&bull;</span> 박우상</td>
-    						<td>30</td>
-    					</tr>
-    					<tr>
-    						<td>91</td>
-    						<td><span class="male">&bull;</span> 이홍기 (에프티아일랜드)</td>
-    						<td>30</td>
-    					</tr>
-    					<tr>
-    						<td>96</td>
-    						<td><span class="male">&bull;</span> KZ</td>
-    						<td>29</td>
-    					</tr>
-    					<tr>
-    						<td>96</td>
-    						<td><span class="male">&bull;</span> Long Candy</td>
-    						<td>29</td>
-    					</tr>
-    					<tr>
-    						<td>96</td>
-    						<td><span class="male">&bull;</span> ZeroZine (MosPick)</td>
-    						<td>29</td>
-    					</tr>
-    					<tr>
-    						<td>96</td>
-    						<td><span class="male">&bull;</span> 낯선</td>
-    						<td>29</td>
-    					</tr>
-    				</tbody>
-    			</table>
-        </div>
-      </body>
-    </section><!-- #contact -->
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script type="text/javascript" src="https://d3js.org/d3.v3.js"></script>
+        <script src = "https://d3js.org/d3-zoom.v1.min.js"></script>
+        <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:700&amp;subset=korean" rel="stylesheet">
+
+        <style>
+          body{font-family: 'Noto Sans KR';}
+/*          #test { font-family: 'Noto Sans KR', sans-serif; text-align: center;}*/
+
+          .link {
+            stroke: #ccc;
+          }
+
+          .node text {
+            font-family: 'Noto Sans KR';
+            stroke-width: 0px;
+            pointer-events: none;
+          }
+        </style>
+
+        <body>
+
+        <script type="text/javascript">
+        //Set margins and sizes
+        var margin = {
+          top: 20,
+          bottom: 50,
+          right: 30,
+          left: 50
+        };
+
+        var zoom = d3.behavior.zoom()
+              .scaleExtent([0.1, 8])
+              .on("zoom", zoomed);
+
+       
+        var width = 960 - margin.left - margin.right;
+        var height = 700 - margin.top - margin.bottom;
+
+        //Load Color Scale
+        var c10 = d3.scale.category10();
+        //Create an SVG element and append it to the DOM
+        var svgElement = d3.select("#Network_viz svg")
+                  .attr({"width": width+margin.left+margin.right, "height": height+margin.top+margin.bottom})
+                  .append("g")
+                  .attr("transform","translate("+margin.left+","+margin.top+")")
+                  .call(zoom)
+                  .on("dblclick.zoom", null);
+
+        var rect = svgElement.append("rect")
+            .attr("width", width)
+            .attr("height", height)
+            .style("fill", "none")
+            .style("pointer-events", "all");
+
+        //Load External Data
+        d3.json("gen3.json", function(dataset){
+          //Extract data from dataset
+          var nodes = dataset.nodes,
+              links = dataset.links;
+          //Create Force Layout
+          var force = d3.layout.force()
+                  .size([width, height])
+                  .nodes(nodes)
+                  .links(links)
+                  .gravity(0.1) // 중심으로 끌어당기는 힘의 정도
+                  .charge(-800) // 전하를 의미하며 마이너스로 설정할 경우 척력이고, +로 설정할 경우 인력
+                  .distance(250) //  노드 사이의 거리
+                  .linkDistance(300)
+                  // .linkDistance(function(d) {  return d.value * 10;})
+                  .start();
+          var drag = force.drag()
+              .on("dragstart", dragstart);
+
+
+          //Add links to SVG
+          var link = svgElement.selectAll(".link")
+                .data(links)
+                .enter()
+                .append("line")
+                .attr("stroke-width", function(d){ return d.value*0.5; })
+                .attr("class", "link");
+          //Add nodes to SVG -> 글자색 설정 가능 
+          var node = svgElement.selectAll(".node")
+                .data(nodes)
+                .enter()
+                .append("g")
+                .attr("class", "node")
+                .call(force.drag)
+                .call(drag);
+          //Add labels to each node
+          var label = node.append("text")
+                  .attr("dx", 12)
+                  .attr("dy", "0.35em")
+                  .attr("font-family", "Noto Sans KR")
+                  .attr("font-weight", 700)
+                  .attr("font-size", function(d){ return Math.max(25, d.impor * 2.5);  })
+                  .text(function(d){ return d.name; });
+          //Add circles to each node
+          var circle = node.append("circle")
+                  .attr("r", function(d){ return Math.max(7, Math.sqrt(d.impor * 30 || 0)); })
+                  .attr("fill", circleColour)
+                  .attr("opacity", 0.5)
+                  // .attr("fill", function(d){ return c10(d.type); });
+          //This function will be executed for every tick of force layoutz
+          force.on("tick", function(){
+            //Set X and Y of node
+            node
+              .attr("cx", function(d){ return d.x; })
+              .attr("cy", function(d){ return d.y; });
+            //Set X, Y of link
+            link.attr("x1", function(d){ return d.source.x; })
+            link.attr("y1", function(d){ return d.source.y; })
+            link.attr("x2", function(d){ return d.target.x; })
+            link.attr("y2", function(d){ return d.target.y; });
+            //Shift node a little
+            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+          });
+        })
+
+        function circleColour(d){
+        if(d.type =="lyricist"){
+          return "#20C2AA";
+        } else {
+          return "red";
+         }
+        }
+
+        function zoomed() {
+            svgElement.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+        }
+        function dblclick(d) {
+            d3.select(this).classed("fixed", d.fixed = false);
+        }
+        function dragstart(d) {
+            d3.event.sourceEvent.stopPropagation();
+            d3.select(this).classed("fixed", d.fixed = true);
+        }
+      </script>
+    </body>
+    </div>
+  </section><!-- #contact -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
