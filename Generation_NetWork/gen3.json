@@ -1,0 +1,2271 @@
+{
+ "links": [
+  {
+   "source": 0,
+   "target": 177,
+   "value": 86
+  },
+  {
+   "source": 1,
+   "target": 177,
+   "value": 73
+  },
+  {
+   "source": 2,
+   "target": 177,
+   "value": 70
+  },
+  {
+   "source": 3,
+   "target": 178,
+   "value": 69
+  },
+  {
+   "source": 4,
+   "target": 177,
+   "value": 68
+  },
+  {
+   "source": 5,
+   "target": 179,
+   "value": 61
+  },
+  {
+   "source": 6,
+   "target": 180,
+   "value": 58
+  },
+  {
+   "source": 7,
+   "target": 181,
+   "value": 51
+  },
+  {
+   "source": 8,
+   "target": 182,
+   "value": 50
+  },
+  {
+   "source": 9,
+   "target": 180,
+   "value": 48
+  },
+  {
+   "source": 10,
+   "target": 181,
+   "value": 48
+  },
+  {
+   "source": 11,
+   "target": 177,
+   "value": 41
+  },
+  {
+   "source": 12,
+   "target": 183,
+   "value": 37
+  },
+  {
+   "source": 13,
+   "target": 182,
+   "value": 34
+  },
+  {
+   "source": 14,
+   "target": 177,
+   "value": 33
+  },
+  {
+   "source": 15,
+   "target": 182,
+   "value": 33
+  },
+  {
+   "source": 16,
+   "target": 184,
+   "value": 32
+  },
+  {
+   "source": 17,
+   "target": 182,
+   "value": 31
+  },
+  {
+   "source": 18,
+   "target": 185,
+   "value": 30
+  },
+  {
+   "source": 19,
+   "target": 180,
+   "value": 30
+  },
+  {
+   "source": 20,
+   "target": 186,
+   "value": 28
+  },
+  {
+   "source": 21,
+   "target": 184,
+   "value": 27
+  },
+  {
+   "source": 22,
+   "target": 187,
+   "value": 27
+  },
+  {
+   "source": 23,
+   "target": 177,
+   "value": 27
+  },
+  {
+   "source": 24,
+   "target": 188,
+   "value": 27
+  },
+  {
+   "source": 25,
+   "target": 187,
+   "value": 26
+  },
+  {
+   "source": 26,
+   "target": 189,
+   "value": 25
+  },
+  {
+   "source": 27,
+   "target": 182,
+   "value": 22
+  },
+  {
+   "source": 28,
+   "target": 190,
+   "value": 22
+  },
+  {
+   "source": 29,
+   "target": 188,
+   "value": 21
+  },
+  {
+   "source": 30,
+   "target": 186,
+   "value": 21
+  },
+  {
+   "source": 31,
+   "target": 187,
+   "value": 21
+  },
+  {
+   "source": 32,
+   "target": 190,
+   "value": 21
+  },
+  {
+   "source": 33,
+   "target": 179,
+   "value": 21
+  },
+  {
+   "source": 34,
+   "target": 191,
+   "value": 20
+  },
+  {
+   "source": 35,
+   "target": 192,
+   "value": 19
+  },
+  {
+   "source": 36,
+   "target": 192,
+   "value": 19
+  },
+  {
+   "source": 37,
+   "target": 180,
+   "value": 19
+  },
+  {
+   "source": 38,
+   "target": 193,
+   "value": 19
+  },
+  {
+   "source": 39,
+   "target": 192,
+   "value": 19
+  },
+  {
+   "source": 40,
+   "target": 182,
+   "value": 18
+  },
+  {
+   "source": 41,
+   "target": 180,
+   "value": 18
+  },
+  {
+   "source": 42,
+   "target": 194,
+   "value": 17
+  },
+  {
+   "source": 43,
+   "target": 195,
+   "value": 17
+  },
+  {
+   "source": 44,
+   "target": 196,
+   "value": 16
+  },
+  {
+   "source": 45,
+   "target": 197,
+   "value": 16
+  },
+  {
+   "source": 46,
+   "target": 186,
+   "value": 15
+  },
+  {
+   "source": 47,
+   "target": 198,
+   "value": 15
+  },
+  {
+   "source": 48,
+   "target": 199,
+   "value": 15
+  },
+  {
+   "source": 49,
+   "target": 188,
+   "value": 15
+  },
+  {
+   "source": 50,
+   "target": 196,
+   "value": 15
+  },
+  {
+   "source": 51,
+   "target": 185,
+   "value": 15
+  },
+  {
+   "source": 52,
+   "target": 197,
+   "value": 15
+  },
+  {
+   "source": 53,
+   "target": 200,
+   "value": 15
+  },
+  {
+   "source": 54,
+   "target": 178,
+   "value": 15
+  },
+  {
+   "source": 55,
+   "target": 196,
+   "value": 15
+  },
+  {
+   "source": 56,
+   "target": 182,
+   "value": 14
+  },
+  {
+   "source": 57,
+   "target": 198,
+   "value": 14
+  },
+  {
+   "source": 58,
+   "target": 201,
+   "value": 14
+  },
+  {
+   "source": 59,
+   "target": 178,
+   "value": 14
+  },
+  {
+   "source": 60,
+   "target": 178,
+   "value": 14
+  },
+  {
+   "source": 61,
+   "target": 186,
+   "value": 13
+  },
+  {
+   "source": 62,
+   "target": 200,
+   "value": 13
+  },
+  {
+   "source": 63,
+   "target": 202,
+   "value": 13
+  },
+  {
+   "source": 64,
+   "target": 203,
+   "value": 13
+  },
+  {
+   "source": 65,
+   "target": 180,
+   "value": 13
+  },
+  {
+   "source": 66,
+   "target": 182,
+   "value": 13
+  },
+  {
+   "source": 67,
+   "target": 204,
+   "value": 13
+  },
+  {
+   "source": 68,
+   "target": 204,
+   "value": 13
+  },
+  {
+   "source": 69,
+   "target": 178,
+   "value": 13
+  },
+  {
+   "source": 70,
+   "target": 205,
+   "value": 13
+  },
+  {
+   "source": 71,
+   "target": 206,
+   "value": 12
+  },
+  {
+   "source": 72,
+   "target": 207,
+   "value": 12
+  },
+  {
+   "source": 47,
+   "target": 190,
+   "value": 12
+  },
+  {
+   "source": 50,
+   "target": 208,
+   "value": 12
+  },
+  {
+   "source": 73,
+   "target": 178,
+   "value": 12
+  },
+  {
+   "source": 69,
+   "target": 209,
+   "value": 12
+  },
+  {
+   "source": 74,
+   "target": 210,
+   "value": 12
+  },
+  {
+   "source": 75,
+   "target": 210,
+   "value": 12
+  },
+  {
+   "source": 76,
+   "target": 211,
+   "value": 12
+  },
+  {
+   "source": 77,
+   "target": 186,
+   "value": 12
+  },
+  {
+   "source": 78,
+   "target": 212,
+   "value": 12
+  },
+  {
+   "source": 79,
+   "target": 213,
+   "value": 11
+  },
+  {
+   "source": 17,
+   "target": 214,
+   "value": 11
+  },
+  {
+   "source": 80,
+   "target": 215,
+   "value": 11
+  },
+  {
+   "source": 81,
+   "target": 208,
+   "value": 11
+  },
+  {
+   "source": 82,
+   "target": 193,
+   "value": 11
+  },
+  {
+   "source": 76,
+   "target": 214,
+   "value": 11
+  },
+  {
+   "source": 83,
+   "target": 180,
+   "value": 11
+  },
+  {
+   "source": 84,
+   "target": 177,
+   "value": 11
+  },
+  {
+   "source": 85,
+   "target": 216,
+   "value": 11
+  },
+  {
+   "source": 86,
+   "target": 205,
+   "value": 11
+  },
+  {
+   "source": 87,
+   "target": 210,
+   "value": 11
+  },
+  {
+   "source": 88,
+   "target": 183,
+   "value": 10
+  },
+  {
+   "source": 89,
+   "target": 217,
+   "value": 10
+  },
+  {
+   "source": 90,
+   "target": 218,
+   "value": 10
+  },
+  {
+   "source": 91,
+   "target": 187,
+   "value": 10
+  },
+  {
+   "source": 42,
+   "target": 219,
+   "value": 10
+  },
+  {
+   "source": 92,
+   "target": 217,
+   "value": 10
+  },
+  {
+   "source": 93,
+   "target": 215,
+   "value": 10
+  },
+  {
+   "source": 94,
+   "target": 220,
+   "value": 10
+  },
+  {
+   "source": 95,
+   "target": 199,
+   "value": 10
+  },
+  {
+   "source": 96,
+   "target": 195,
+   "value": 10
+  },
+  {
+   "source": 78,
+   "target": 213,
+   "value": 10
+  },
+  {
+   "source": 83,
+   "target": 205,
+   "value": 10
+  },
+  {
+   "source": 97,
+   "target": 214,
+   "value": 9
+  },
+  {
+   "source": 98,
+   "target": 221,
+   "value": 9
+  },
+  {
+   "source": 99,
+   "target": 203,
+   "value": 9
+  },
+  {
+   "source": 100,
+   "target": 204,
+   "value": 9
+  },
+  {
+   "source": 101,
+   "target": 196,
+   "value": 9
+  },
+  {
+   "source": 102,
+   "target": 178,
+   "value": 9
+  },
+  {
+   "source": 103,
+   "target": 205,
+   "value": 9
+  },
+  {
+   "source": 104,
+   "target": 222,
+   "value": 9
+  },
+  {
+   "source": 105,
+   "target": 223,
+   "value": 9
+  },
+  {
+   "source": 106,
+   "target": 178,
+   "value": 9
+  },
+  {
+   "source": 107,
+   "target": 224,
+   "value": 9
+  },
+  {
+   "source": 108,
+   "target": 195,
+   "value": 9
+  },
+  {
+   "source": 109,
+   "target": 225,
+   "value": 9
+  },
+  {
+   "source": 110,
+   "target": 226,
+   "value": 8
+  },
+  {
+   "source": 54,
+   "target": 227,
+   "value": 8
+  },
+  {
+   "source": 111,
+   "target": 197,
+   "value": 8
+  },
+  {
+   "source": 112,
+   "target": 195,
+   "value": 8
+  },
+  {
+   "source": 113,
+   "target": 217,
+   "value": 8
+  },
+  {
+   "source": 114,
+   "target": 228,
+   "value": 8
+  },
+  {
+   "source": 115,
+   "target": 223,
+   "value": 8
+  },
+  {
+   "source": 116,
+   "target": 206,
+   "value": 8
+  },
+  {
+   "source": 117,
+   "target": 205,
+   "value": 8
+  },
+  {
+   "source": 118,
+   "target": 195,
+   "value": 8
+  },
+  {
+   "source": 57,
+   "target": 190,
+   "value": 8
+  },
+  {
+   "source": 119,
+   "target": 181,
+   "value": 8
+  },
+  {
+   "source": 120,
+   "target": 224,
+   "value": 8
+  },
+  {
+   "source": 121,
+   "target": 215,
+   "value": 8
+  },
+  {
+   "source": 122,
+   "target": 195,
+   "value": 8
+  },
+  {
+   "source": 99,
+   "target": 202,
+   "value": 8
+  },
+  {
+   "source": 63,
+   "target": 203,
+   "value": 8
+  },
+  {
+   "source": 123,
+   "target": 226,
+   "value": 8
+  },
+  {
+   "source": 53,
+   "target": 203,
+   "value": 8
+  },
+  {
+   "source": 17,
+   "target": 211,
+   "value": 8
+  },
+  {
+   "source": 124,
+   "target": 195,
+   "value": 8
+  },
+  {
+   "source": 125,
+   "target": 229,
+   "value": 8
+  },
+  {
+   "source": 126,
+   "target": 182,
+   "value": 8
+  },
+  {
+   "source": 127,
+   "target": 230,
+   "value": 8
+  },
+  {
+   "source": 128,
+   "target": 231,
+   "value": 7
+  },
+  {
+   "source": 129,
+   "target": 232,
+   "value": 7
+  },
+  {
+   "source": 130,
+   "target": 130,
+   "value": 7
+  },
+  {
+   "source": 131,
+   "target": 204,
+   "value": 7
+  },
+  {
+   "source": 132,
+   "target": 187,
+   "value": 7
+  },
+  {
+   "source": 133,
+   "target": 195,
+   "value": 7
+  },
+  {
+   "source": 134,
+   "target": 178,
+   "value": 7
+  },
+  {
+   "source": 135,
+   "target": 216,
+   "value": 7
+  },
+  {
+   "source": 69,
+   "target": 191,
+   "value": 7
+  },
+  {
+   "source": 53,
+   "target": 233,
+   "value": 7
+  },
+  {
+   "source": 136,
+   "target": 234,
+   "value": 7
+  },
+  {
+   "source": 137,
+   "target": 180,
+   "value": 7
+  },
+  {
+   "source": 138,
+   "target": 191,
+   "value": 7
+  },
+  {
+   "source": 101,
+   "target": 208,
+   "value": 7
+  },
+  {
+   "source": 139,
+   "target": 235,
+   "value": 7
+  },
+  {
+   "source": 140,
+   "target": 195,
+   "value": 7
+  },
+  {
+   "source": 117,
+   "target": 180,
+   "value": 7
+  },
+  {
+   "source": 141,
+   "target": 178,
+   "value": 7
+  },
+  {
+   "source": 142,
+   "target": 227,
+   "value": 7
+  },
+  {
+   "source": 143,
+   "target": 204,
+   "value": 7
+  },
+  {
+   "source": 144,
+   "target": 235,
+   "value": 7
+  },
+  {
+   "source": 145,
+   "target": 236,
+   "value": 7
+  },
+  {
+   "source": 146,
+   "target": 224,
+   "value": 7
+  },
+  {
+   "source": 114,
+   "target": 237,
+   "value": 7
+  },
+  {
+   "source": 147,
+   "target": 238,
+   "value": 7
+  },
+  {
+   "source": 55,
+   "target": 209,
+   "value": 7
+  },
+  {
+   "source": 148,
+   "target": 203,
+   "value": 7
+  },
+  {
+   "source": 65,
+   "target": 190,
+   "value": 6
+  },
+  {
+   "source": 149,
+   "target": 195,
+   "value": 6
+  },
+  {
+   "source": 114,
+   "target": 236,
+   "value": 6
+  },
+  {
+   "source": 150,
+   "target": 198,
+   "value": 6
+  },
+  {
+   "source": 151,
+   "target": 203,
+   "value": 6
+  },
+  {
+   "source": 152,
+   "target": 228,
+   "value": 6
+  },
+  {
+   "source": 153,
+   "target": 179,
+   "value": 6
+  },
+  {
+   "source": 154,
+   "target": 179,
+   "value": 6
+  },
+  {
+   "source": 155,
+   "target": 183,
+   "value": 6
+  },
+  {
+   "source": 156,
+   "target": 239,
+   "value": 6
+  },
+  {
+   "source": 157,
+   "target": 200,
+   "value": 6
+  },
+  {
+   "source": 86,
+   "target": 180,
+   "value": 6
+  },
+  {
+   "source": 73,
+   "target": 227,
+   "value": 6
+  },
+  {
+   "source": 73,
+   "target": 240,
+   "value": 6
+  },
+  {
+   "source": 158,
+   "target": 241,
+   "value": 6
+  },
+  {
+   "source": 159,
+   "target": 190,
+   "value": 6
+  },
+  {
+   "source": 160,
+   "target": 230,
+   "value": 6
+  },
+  {
+   "source": 161,
+   "target": 181,
+   "value": 6
+  },
+  {
+   "source": 162,
+   "target": 187,
+   "value": 6
+  },
+  {
+   "source": 163,
+   "target": 208,
+   "value": 6
+  },
+  {
+   "source": 164,
+   "target": 188,
+   "value": 6
+  },
+  {
+   "source": 165,
+   "target": 186,
+   "value": 6
+  },
+  {
+   "source": 166,
+   "target": 186,
+   "value": 6
+  },
+  {
+   "source": 167,
+   "target": 195,
+   "value": 6
+  },
+  {
+   "source": 168,
+   "target": 181,
+   "value": 6
+  },
+  {
+   "source": 169,
+   "target": 242,
+   "value": 6
+  },
+  {
+   "source": 170,
+   "target": 204,
+   "value": 6
+  },
+  {
+   "source": 171,
+   "target": 179,
+   "value": 6
+  },
+  {
+   "source": 6,
+   "target": 205,
+   "value": 6
+  },
+  {
+   "source": 172,
+   "target": 191,
+   "value": 6
+  },
+  {
+   "source": 37,
+   "target": 205,
+   "value": 6
+  },
+  {
+   "source": 173,
+   "target": 242,
+   "value": 6
+  },
+  {
+   "source": 53,
+   "target": 181,
+   "value": 6
+  },
+  {
+   "source": 172,
+   "target": 196,
+   "value": 6
+  },
+  {
+   "source": 103,
+   "target": 180,
+   "value": 6
+  },
+  {
+   "source": 174,
+   "target": 243,
+   "value": 6
+  },
+  {
+   "source": 175,
+   "target": 182,
+   "value": 6
+  },
+  {
+   "source": 176,
+   "target": 244,
+   "value": 6
+  }
+ ],
+ "nodes": [
+  {
+   "impor": 86,
+   "name": "RM",
+   "type": "lyricist"
+  },
+  {
+   "impor": 73,
+   "name": "SUGA",
+   "type": "lyricist"
+  },
+  {
+   "impor": 70,
+   "name": "Pdogg",
+   "type": "lyricist"
+  },
+  {
+   "impor": 69,
+   "name": "방용국",
+   "type": "lyricist"
+  },
+  {
+   "impor": 68,
+   "name": "j-hope",
+   "type": "lyricist"
+  },
+  {
+   "impor": 61,
+   "name": "라비 (빅스)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 64,
+   "name": "정일훈",
+   "type": "lyricist"
+  },
+  {
+   "impor": 51,
+   "name": "주헌 (몬스타엑스)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 50,
+   "name": "WOOZI (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 48,
+   "name": "이민혁",
+   "type": "lyricist"
+  },
+  {
+   "impor": 48,
+   "name": "I.M (몬스타엑스)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 41,
+   "name": "방시혁",
+   "type": "lyricist"
+  },
+  {
+   "impor": 37,
+   "name": "Young K",
+   "type": "lyricist"
+  },
+  {
+   "impor": 34,
+   "name": "Vernon (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 33,
+   "name": "Slow Rabbit",
+   "type": "lyricist"
+  },
+  {
+   "impor": 33,
+   "name": "S.COUPS (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 32,
+   "name": "B.I",
+   "type": "lyricist"
+  },
+  {
+   "impor": 50,
+   "name": "BUMZU",
+   "type": "lyricist"
+  },
+  {
+   "impor": 30,
+   "name": "LE (EXID)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 30,
+   "name": "프니엘",
+   "type": "lyricist"
+  },
+  {
+   "impor": 28,
+   "name": "문별 (마마무)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "BOBBY",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "우석 (펜타곤)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "Supreme Boi",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "MINO",
+   "type": "lyricist"
+  },
+  {
+   "impor": 26,
+   "name": "이던",
+   "type": "lyricist"
+  },
+  {
+   "impor": 25,
+   "name": "엑시",
+   "type": "lyricist"
+  },
+  {
+   "impor": 22,
+   "name": "민규 (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 22,
+   "name": "진진 (ASTRO)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "이승훈",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "박우상",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "유토",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "라키 (ASTRO)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "김지향",
+   "type": "lyricist"
+  },
+  {
+   "impor": 20,
+   "name": "이승협 (J.DON)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 19,
+   "name": "한 (3RACHA)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 19,
+   "name": "방찬 (3RACHA)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 25,
+   "name": "서재우 (TENTEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 19,
+   "name": "도한세 (VICTON)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 19,
+   "name": "창빈 (3RACHA)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 18,
+   "name": "원우 (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 18,
+   "name": "임현식",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "SWEETUNE",
+   "type": "lyricist"
+  },
+  {
+   "impor": 17,
+   "name": "JB (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 16,
+   "name": "지민 (AOA)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 16,
+   "name": "T.K",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "김도훈 (RBW)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "이기 (오레오)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "HighTop",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "강승윤",
+   "type": "lyricist"
+  },
+  {
+   "impor": 27,
+   "name": "용감한 형제",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "신사동 호랭이",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "Rome",
+   "type": "lyricist"
+  },
+  {
+   "impor": 36,
+   "name": "서지음",
+   "type": "lyricist"
+  },
+  {
+   "impor": 23,
+   "name": "박수석",
+   "type": "lyricist"
+  },
+  {
+   "impor": 22,
+   "name": "한성호",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "디노 (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 22,
+   "name": "용배 (RBW)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "김태주",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "강지원",
+   "type": "lyricist"
+  },
+  {
+   "impor": 14,
+   "name": "김기범",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "화사 (마마무)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "미미 (오마이걸)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "kenzie",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "JQ",
+   "type": "lyricist"
+  },
+  {
+   "impor": 19,
+   "name": "서용배 (TENTEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "호시 (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "예빈 (다이아)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "기희현",
+   "type": "lyricist"
+  },
+  {
+   "impor": 32,
+   "name": "김창락",
+   "type": "lyricist"
+  },
+  {
+   "impor": 13,
+   "name": "장예은",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "KZ",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "정욱",
+   "type": "lyricist"
+  },
+  {
+   "impor": 24,
+   "name": "마르코",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "낯선",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "BM",
+   "type": "lyricist"
+  },
+  {
+   "impor": 23,
+   "name": "JR (뉴이스트)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "솔라 (마마무)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 22,
+   "name": "마크 (MARK)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "태용 (TAEYONG)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "Sofar",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "마부스 (Maboos)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "한승우 (VICTON)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "조성호",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "ADORA",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "Hip Wave Sound",
+   "type": "lyricist"
+  },
+  {
+   "impor": 17,
+   "name": "빅싼초 (Yummy Tone)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 11,
+   "name": "J.seph",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "원필",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "알렉스 (하이포)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "장이정 (JANGYIJEONG)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "후이 (펜타곤)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "임영준 (하이포)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "신준섭",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "예지",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "Z-uK (지욱)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 10,
+   "name": "뱀뱀 (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "백호 (뉴이스트)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "용준형",
+   "type": "lyricist"
+  },
+  {
+   "impor": 17,
+   "name": "조윤경",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "은진",
+   "type": "lyricist"
+  },
+  {
+   "impor": 16,
+   "name": "차쿤 (일렉트로보이즈)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "인우",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "ZeroZine (MosPick)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "P.O (블락비)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "권현빈",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "젤로",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "비토",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "earattack",
+   "type": "lyricist"
+  },
+  {
+   "impor": 9,
+   "name": "테디",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "장준",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "라도",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "Chloe",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "최갑원",
+   "type": "lyricist"
+  },
+  {
+   "impor": 21,
+   "name": "이단옆차기",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "김상균",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "미친감성",
+   "type": "lyricist"
+  },
+  {
+   "impor": 15,
+   "name": "Ferdy (MosPick)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "NODAY",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "리시",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "웨이",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "은수",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "마크 (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "TAG",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "박진영",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "버피 (BUFFY)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "승관 (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 8,
+   "name": "성연",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "황현 (MonoTree)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "소연",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "임팩트",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "몬스터팩토리",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "강동하",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "진영 (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "슬리피",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "함길수",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "리나",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "일 (IL)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "이노베이터",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "윤후",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "잭슨 (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "전다운",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "박은우",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "유니스",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "정하",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "우태운",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "쿤",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "John K",
+   "type": "lyricist"
+  },
+  {
+   "impor": 7,
+   "name": "찬열",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "영재 (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "Mafly",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "서림",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "David Kim",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "김미진",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "김이나",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "DAY6 (데이식스)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "Ollounder",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "72",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "슈퍼창따이",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "진리 (Full8loom)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "로아",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "ESBEE",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "키노",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "별들의 전쟁",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "남태현",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "코스믹 사운드",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "코스믹 걸 (Cosmic Girl)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "유겸 (GOT7)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "원호 (몬스타엑스)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "HOYA (호야)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "제니",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "MELODESIGN",
+   "type": "lyricist"
+  },
+  {
+   "impor": 12,
+   "name": "한승훈",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "장동우 (인피니트)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "성현",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "정한 (SEVENTEEN)",
+   "type": "lyricist"
+  },
+  {
+   "impor": 6,
+   "name": "가면라이더",
+   "type": "lyricist"
+  },
+  {
+   "impor": 0,
+   "name": "방탄소년단",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "비에이피",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "빅스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "비투비",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "몬스타엑스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "세븐틴",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "데이식스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "아이콘",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "이엑스아이디",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "마마무",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "펜타곤",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "위너",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "우주소녀",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "아스트로",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "엔플라잉",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "스트레이 키즈",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "빅톤",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "스누퍼",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "갓세븐",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에이오에이",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "씨클라운",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "여자친구",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "빅플로",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "오마이걸",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "크나큰",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "레드벨벳",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "엑소",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "다이아",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "씨엘씨",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "헤일로",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "투포케이",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "빅스타",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에스에프나인",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "카드",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "뉴이스트",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "엔시티 드림",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "엔시티 일이칠",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "뉴이스트 W",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "마이틴",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "비비드",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "하이포",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "히스토리",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "백퍼센트",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "피에스타",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "하이라이트",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "블락비 바스타즈",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "제이비제이",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "업텐션",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "블랙핑크",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "골든차일드",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "소나무",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "제이제이씨씨",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "매드타운",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "프리스틴",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "온앤오프",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "(여자)아이들",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "임팩트",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "러블리즈",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "미스터미스터",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "비트윈",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "스피드",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "모모랜드",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "비비드걸",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "드림캐쳐",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "비아이지",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "레이디스 코드",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "인피니트 에이치",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "인투잇",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "리얼걸프로젝트",
+   "type": "artist"
+  }
+ ]
+}
