@@ -1054,7 +1054,11 @@
   },
   {
    "impor": 69,
+<<<<<<< HEAD
    "name": "ë°©ìš©êµ­",
+=======
+   "name": "¹æ¿ë±¹",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1064,17 +1068,29 @@
   },
   {
    "impor": 61,
+<<<<<<< HEAD
    "name": "ë¼ë¹„ (ë¹…ìŠ¤)",
+=======
+   "name": "¶óºñ (ºò½º)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 64,
+<<<<<<< HEAD
    "name": "ì •ì¼í›ˆ",
+=======
+   "name": "Á¤ÀÏÈÆ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 51,
+<<<<<<< HEAD
    "name": "ì£¼í—Œ (ëª¬ìŠ¤íƒ€ì—‘ìŠ¤)",
+=======
+   "name": "ÁÖÇå (¸ó½ºÅ¸¿¢½º)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1084,17 +1100,29 @@
   },
   {
    "impor": 48,
+<<<<<<< HEAD
    "name": "ì´ë¯¼í˜",
+=======
+   "name": "ÀÌ¹ÎÇõ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 48,
+<<<<<<< HEAD
    "name": "I.M (ëª¬ìŠ¤íƒ€ì—‘ìŠ¤)",
+=======
+   "name": "I.M (¸ó½ºÅ¸¿¢½º)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 41,
+<<<<<<< HEAD
    "name": "ë°©ì‹œí˜",
+=======
+   "name": "¹æ½ÃÇõ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1134,12 +1162,20 @@
   },
   {
    "impor": 30,
+<<<<<<< HEAD
    "name": "í”„ë‹ˆì—˜",
+=======
+   "name": "ÇÁ´Ï¿¤",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 28,
+<<<<<<< HEAD
    "name": "ë¬¸ë³„ (ë§ˆë§ˆë¬´)",
+=======
+   "name": "¹®º° (¸¶¸¶¹«)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1149,7 +1185,11 @@
   },
   {
    "impor": 27,
+<<<<<<< HEAD
    "name": "ìš°ì„ (íŽœíƒ€ê³¤)",
+=======
+   "name": "¿ì¼® (ÆæÅ¸°ï)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1164,87 +1204,155 @@
   },
   {
    "impor": 26,
+<<<<<<< HEAD
    "name": "ì´ë˜",
+=======
+   "name": "ÀÌ´ø",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 25,
+<<<<<<< HEAD
    "name": "ì—‘ì‹œ",
+=======
+   "name": "¿¢½Ã",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 22,
+<<<<<<< HEAD
    "name": "ë¯¼ê·œ (SEVENTEEN)",
+=======
+   "name": "¹Î±Ô (SEVENTEEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 22,
+<<<<<<< HEAD
    "name": "ì§„ì§„ (ASTRO)",
+=======
+   "name": "ÁøÁø (ASTRO)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ì´ìŠ¹í›ˆ",
+=======
+   "name": "ÀÌ½ÂÈÆ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ë°•ìš°ìƒ",
+=======
+   "name": "¹Ú¿ì»ó",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ìœ í† ",
+=======
+   "name": "À¯Åä",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ë¼í‚¤ (ASTRO)",
+=======
+   "name": "¶óÅ° (ASTRO)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ê¹€ì§€í–¥",
+=======
+   "name": "±èÁöÇâ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 20,
+<<<<<<< HEAD
    "name": "ì´ìŠ¹í˜‘ (J.DON)",
+=======
+   "name": "ÀÌ½ÂÇù (J.DON)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 19,
+<<<<<<< HEAD
    "name": "í•œ (3RACHA)",
+=======
+   "name": "ÇÑ (3RACHA)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 19,
+<<<<<<< HEAD
    "name": "ë°©ì°¬ (3RACHA)",
+=======
+   "name": "¹æÂù (3RACHA)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 25,
+<<<<<<< HEAD
    "name": "ì„œìž¬ìš° (TENTEN)",
+=======
+   "name": "¼­Àç¿ì (TENTEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 19,
+<<<<<<< HEAD
    "name": "ë„í•œì„¸ (VICTON)",
+=======
+   "name": "µµÇÑ¼¼ (VICTON)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 19,
+<<<<<<< HEAD
    "name": "ì°½ë¹ˆ (3RACHA)",
+=======
+   "name": "Ã¢ºó (3RACHA)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 18,
+<<<<<<< HEAD
    "name": "ì›ìš° (SEVENTEEN)",
+=======
+   "name": "¿ø¿ì (SEVENTEEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 18,
+<<<<<<< HEAD
    "name": "ìž„í˜„ì‹",
+=======
+   "name": "ÀÓÇö½Ä",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1259,7 +1367,11 @@
   },
   {
    "impor": 16,
+<<<<<<< HEAD
    "name": "ì§€ë¯¼ (AOA)",
+=======
+   "name": "Áö¹Î (AOA)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1269,12 +1381,20 @@
   },
   {
    "impor": 15,
+<<<<<<< HEAD
    "name": "ê¹€ë„í›ˆ (RBW)",
+=======
+   "name": "±èµµÈÆ (RBW)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 27,
+<<<<<<< HEAD
    "name": "ì´ê¸° (ì˜¤ë ˆì˜¤)",
+=======
+   "name": "ÀÌ±â (¿À·¹¿À)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1284,17 +1404,29 @@
   },
   {
    "impor": 15,
+<<<<<<< HEAD
    "name": "ê°•ìŠ¹ìœ¤",
+=======
+   "name": "°­½ÂÀ±",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 27,
+<<<<<<< HEAD
    "name": "ìš©ê°í•œ í˜•ì œ",
+=======
+   "name": "¿ë°¨ÇÑ ÇüÁ¦",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 15,
+<<<<<<< HEAD
    "name": "ì‹ ì‚¬ë™ í˜¸ëž­ì´",
+=======
+   "name": "½Å»çµ¿ È£·©ÀÌ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1304,52 +1436,92 @@
   },
   {
    "impor": 36,
+<<<<<<< HEAD
    "name": "ì„œì§€ìŒ",
+=======
+   "name": "¼­ÁöÀ½",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 23,
+<<<<<<< HEAD
    "name": "ë°•ìˆ˜ì„",
+=======
+   "name": "¹Ú¼ö¼®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 22,
+<<<<<<< HEAD
    "name": "í•œì„±í˜¸",
+=======
+   "name": "ÇÑ¼ºÈ£",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 14,
+<<<<<<< HEAD
    "name": "ë””ë…¸ (SEVENTEEN)",
+=======
+   "name": "µð³ë (SEVENTEEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 22,
+<<<<<<< HEAD
    "name": "ìš©ë°° (RBW)",
+=======
+   "name": "¿ë¹è (RBW)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 14,
+<<<<<<< HEAD
    "name": "ê¹€íƒœì£¼",
+=======
+   "name": "±èÅÂÁÖ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 14,
+<<<<<<< HEAD
    "name": "ê°•ì§€ì›",
+=======
+   "name": "°­Áö¿ø",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 14,
+<<<<<<< HEAD
    "name": "ê¹€ê¸°ë²”",
+=======
+   "name": "±è±â¹ü",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 13,
+<<<<<<< HEAD
    "name": "í™”ì‚¬ (ë§ˆë§ˆë¬´)",
+=======
+   "name": "È­»ç (¸¶¸¶¹«)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 13,
+<<<<<<< HEAD
    "name": "ë¯¸ë¯¸ (ì˜¤ë§ˆì´ê±¸)",
+=======
+   "name": "¹Ì¹Ì (¿À¸¶ÀÌ°É)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1364,32 +1536,56 @@
   },
   {
    "impor": 19,
+<<<<<<< HEAD
    "name": "ì„œìš©ë°° (TENTEN)",
+=======
+   "name": "¼­¿ë¹è (TENTEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 13,
+<<<<<<< HEAD
    "name": "í˜¸ì‹œ (SEVENTEEN)",
+=======
+   "name": "È£½Ã (SEVENTEEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 13,
+<<<<<<< HEAD
    "name": "ì˜ˆë¹ˆ (ë‹¤ì´ì•„)",
+=======
+   "name": "¿¹ºó (´ÙÀÌ¾Æ)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 13,
+<<<<<<< HEAD
    "name": "ê¸°í¬í˜„",
+=======
+   "name": "±âÈñÇö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 32,
+<<<<<<< HEAD
    "name": "ê¹€ì°½ë½",
+=======
+   "name": "±èÃ¢¶ô",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 13,
+<<<<<<< HEAD
    "name": "ìž¥ì˜ˆì€",
+=======
+   "name": "Àå¿¹Àº",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1399,17 +1595,29 @@
   },
   {
    "impor": 12,
+<<<<<<< HEAD
    "name": "ì •ìš±",
+=======
+   "name": "Á¤¿í",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 24,
+<<<<<<< HEAD
    "name": "ë§ˆë¥´ì½”",
+=======
+   "name": "¸¶¸£ÄÚ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 12,
+<<<<<<< HEAD
    "name": "ë‚¯ì„ ",
+=======
+   "name": "³¸¼±",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1419,22 +1627,38 @@
   },
   {
    "impor": 23,
+<<<<<<< HEAD
    "name": "JR (ë‰´ì´ìŠ¤íŠ¸)",
+=======
+   "name": "JR (´ºÀÌ½ºÆ®)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 12,
+<<<<<<< HEAD
    "name": "ì†”ë¼ (ë§ˆë§ˆë¬´)",
+=======
+   "name": "¼Ö¶ó (¸¶¸¶¹«)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 22,
+<<<<<<< HEAD
    "name": "ë§ˆí¬ (MARK)",
+=======
+   "name": "¸¶Å© (MARK)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 11,
+<<<<<<< HEAD
    "name": "íƒœìš© (TAEYONG)",
+=======
+   "name": "ÅÂ¿ë (TAEYONG)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1444,17 +1668,29 @@
   },
   {
    "impor": 11,
+<<<<<<< HEAD
    "name": "ë§ˆë¶€ìŠ¤ (Maboos)",
+=======
+   "name": "¸¶ºÎ½º (Maboos)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 11,
+<<<<<<< HEAD
    "name": "í•œìŠ¹ìš° (VICTON)",
+=======
+   "name": "ÇÑ½Â¿ì (VICTON)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ì¡°ì„±í˜¸",
+=======
+   "name": "Á¶¼ºÈ£",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1469,7 +1705,11 @@
   },
   {
    "impor": 17,
+<<<<<<< HEAD
    "name": "ë¹…ì‹¼ì´ˆ (Yummy Tone)",
+=======
+   "name": "ºò½ÑÃÊ (Yummy Tone)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1479,77 +1719,137 @@
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ì›í•„",
+=======
+   "name": "¿øÇÊ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ì•Œë ‰ìŠ¤ (í•˜ì´í¬)",
+=======
+   "name": "¾Ë·º½º (ÇÏÀÌÆ÷)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ìž¥ì´ì • (JANGYIJEONG)",
+=======
+   "name": "ÀåÀÌÁ¤ (JANGYIJEONG)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "í›„ì´ (íŽœíƒ€ê³¤)",
+=======
+   "name": "ÈÄÀÌ (ÆæÅ¸°ï)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ìž„ì˜ì¤€ (í•˜ì´í¬)",
+=======
+   "name": "ÀÓ¿µÁØ (ÇÏÀÌÆ÷)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ì‹ ì¤€ì„­",
+=======
+   "name": "½ÅÁØ¼·",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ì˜ˆì§€",
+=======
+   "name": "¿¹Áö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "Z-uK (ì§€ìš±)",
+=======
+   "name": "Z-uK (Áö¿í)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 10,
+<<<<<<< HEAD
    "name": "ë±€ë±€ (GOT7)",
+=======
+   "name": "¹ì¹ì (GOT7)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ë°±í˜¸ (ë‰´ì´ìŠ¤íŠ¸)",
+=======
+   "name": "¹éÈ£ (´ºÀÌ½ºÆ®)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ìš©ì¤€í˜•",
+=======
+   "name": "¿ëÁØÇü",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 17,
+<<<<<<< HEAD
    "name": "ì¡°ìœ¤ê²½",
+=======
+   "name": "Á¶À±°æ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ì€ì§„",
+=======
+   "name": "ÀºÁø",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 16,
+<<<<<<< HEAD
    "name": "ì°¨ì¿¤ (ì¼ë ‰íŠ¸ë¡œë³´ì´ì¦ˆ)",
+=======
+   "name": "Â÷Äï (ÀÏ·ºÆ®·Îº¸ÀÌÁî)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ì¸ìš°",
+=======
+   "name": "ÀÎ¿ì",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1559,22 +1859,38 @@
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "P.O (ë¸”ë½ë¹„)",
+=======
+   "name": "P.O (ºí¶ôºñ)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ê¶Œí˜„ë¹ˆ",
+=======
+   "name": "±ÇÇöºó",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ì ¤ë¡œ",
+=======
+   "name": "Á©·Î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "ë¹„í† ",
+=======
+   "name": "ºñÅä",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1584,17 +1900,29 @@
   },
   {
    "impor": 9,
+<<<<<<< HEAD
    "name": "í…Œë””",
+=======
+   "name": "Å×µð",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ìž¥ì¤€",
+=======
+   "name": "ÀåÁØ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ë¼ë„",
+=======
+   "name": "¶óµµ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1604,22 +1932,38 @@
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ìµœê°‘ì›",
+=======
+   "name": "ÃÖ°©¿ø",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 21,
+<<<<<<< HEAD
    "name": "ì´ë‹¨ì˜†ì°¨ê¸°",
+=======
+   "name": "ÀÌ´Ü¿·Â÷±â",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ê¹€ìƒê· ",
+=======
+   "name": "±è»ó±Õ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ë¯¸ì¹œê°ì„±",
+=======
+   "name": "¹ÌÄ£°¨¼º",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1634,22 +1978,38 @@
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ë¦¬ì‹œ",
+=======
+   "name": "¸®½Ã",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ì›¨ì´",
+=======
+   "name": "¿þÀÌ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ì€ìˆ˜",
+=======
+   "name": "Àº¼ö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ë§ˆí¬ (GOT7)",
+=======
+   "name": "¸¶Å© (GOT7)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1659,117 +2019,209 @@
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ë°•ì§„ì˜",
+=======
+   "name": "¹ÚÁø¿µ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ë²„í”¼ (BUFFY)",
+=======
+   "name": "¹öÇÇ (BUFFY)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ìŠ¹ê´€ (SEVENTEEN)",
+=======
+   "name": "½Â°ü (SEVENTEEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 8,
+<<<<<<< HEAD
    "name": "ì„±ì—°",
+=======
+   "name": "¼º¿¬",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "í™©í˜„ (MonoTree)",
+=======
+   "name": "È²Çö (MonoTree)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì†Œì—°",
+=======
+   "name": "¼Ò¿¬",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ìž„íŒ©íŠ¸",
+=======
+   "name": "ÀÓÆÑÆ®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ëª¬ìŠ¤í„°íŒ©í† ë¦¬",
+=======
+   "name": "¸ó½ºÅÍÆÑÅä¸®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ê°•ë™í•˜",
+=======
+   "name": "°­µ¿ÇÏ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì§„ì˜ (GOT7)",
+=======
+   "name": "Áø¿µ (GOT7)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ìŠ¬ë¦¬í”¼",
+=======
+   "name": "½½¸®ÇÇ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "í•¨ê¸¸ìˆ˜",
+=======
+   "name": "ÇÔ±æ¼ö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ë¦¬ë‚˜",
+=======
+   "name": "¸®³ª",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì¼ (IL)",
+=======
+   "name": "ÀÏ (IL)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì´ë…¸ë² ì´í„°",
+=======
+   "name": "ÀÌ³ëº£ÀÌÅÍ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ìœ¤í›„",
+=======
+   "name": "À±ÈÄ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ìž­ìŠ¨ (GOT7)",
+=======
+   "name": "Àè½¼ (GOT7)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì „ë‹¤ìš´",
+=======
+   "name": "Àü´Ù¿î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ë°•ì€ìš°",
+=======
+   "name": "¹ÚÀº¿ì",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ìœ ë‹ˆìŠ¤",
+=======
+   "name": "À¯´Ï½º",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì •í•˜",
+=======
+   "name": "Á¤ÇÏ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ìš°íƒœìš´",
+=======
+   "name": "¿ìÅÂ¿î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì¿¤",
+=======
+   "name": "Äï",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1779,12 +2231,20 @@
   },
   {
    "impor": 7,
+<<<<<<< HEAD
    "name": "ì°¬ì—´",
+=======
+   "name": "Âù¿­",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì˜ìž¬ (GOT7)",
+=======
+   "name": "¿µÀç (GOT7)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1794,7 +2254,11 @@
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì„œë¦¼",
+=======
+   "name": "¼­¸²",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1804,17 +2268,29 @@
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ê¹€ë¯¸ì§„",
+=======
+   "name": "±è¹ÌÁø",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ê¹€ì´ë‚˜",
+=======
+   "name": "±èÀÌ³ª",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "DAY6 (ë°ì´ì‹ìŠ¤)",
+=======
+   "name": "DAY6 (µ¥ÀÌ½Ä½º)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1829,17 +2305,29 @@
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ìŠˆí¼ì°½ë”°ì´",
+=======
+   "name": "½´ÆÛÃ¢µûÀÌ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì§„ë¦¬ (Full8loom)",
+=======
+   "name": "Áø¸® (Full8loom)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ë¡œì•„",
+=======
+   "name": "·Î¾Æ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1849,47 +2337,83 @@
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "í‚¤ë…¸",
+=======
+   "name": "Å°³ë",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ë³„ë“¤ì˜ ì „ìŸ",
+=======
+   "name": "º°µéÀÇ ÀüÀï",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ë‚¨íƒœí˜„",
+=======
+   "name": "³²ÅÂÇö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì½”ìŠ¤ë¯¹ ì‚¬ìš´ë“œ",
+=======
+   "name": "ÄÚ½º¹Í »ç¿îµå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì½”ìŠ¤ë¯¹ ê±¸ (Cosmic Girl)",
+=======
+   "name": "ÄÚ½º¹Í °É (Cosmic Girl)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ìœ ê²¸ (GOT7)",
+=======
+   "name": "À¯°â (GOT7)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì›í˜¸ (ëª¬ìŠ¤íƒ€ì—‘ìŠ¤)",
+=======
+   "name": "¿øÈ£ (¸ó½ºÅ¸¿¢½º)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "HOYA (í˜¸ì•¼)",
+=======
+   "name": "HOYA (È£¾ß)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì œë‹ˆ",
+=======
+   "name": "Á¦´Ï",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
@@ -1899,372 +2423,668 @@
   },
   {
    "impor": 12,
+<<<<<<< HEAD
    "name": "í•œìŠ¹í›ˆ",
+=======
+   "name": "ÇÑ½ÂÈÆ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ìž¥ë™ìš° (ì¸í”¼ë‹ˆíŠ¸)",
+=======
+   "name": "Àåµ¿¿ì (ÀÎÇÇ´ÏÆ®)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì„±í˜„",
+=======
+   "name": "¼ºÇö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ì •í•œ (SEVENTEEN)",
+=======
+   "name": "Á¤ÇÑ (SEVENTEEN)",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 6,
+<<<<<<< HEAD
    "name": "ê°€ë©´ë¼ì´ë”",
+=======
+   "name": "°¡¸é¶óÀÌ´õ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "lyricist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë°©íƒ„ì†Œë…„ë‹¨",
+=======
+   "name": "¹æÅº¼Ò³â´Ü",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹„ì—ì´í”¼",
+=======
+   "name": "ºñ¿¡ÀÌÇÇ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹…ìŠ¤",
+=======
+   "name": "ºò½º",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹„íˆ¬ë¹„",
+=======
+   "name": "ºñÅõºñ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ëª¬ìŠ¤íƒ€ì—‘ìŠ¤",
+=======
+   "name": "¸ó½ºÅ¸¿¢½º",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì„¸ë¸í‹´",
+=======
+   "name": "¼¼ºìÆ¾",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë°ì´ì‹ìŠ¤",
+=======
+   "name": "µ¥ÀÌ½Ä½º",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì•„ì´ì½˜",
+=======
+   "name": "¾ÆÀÌÄÜ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì´ì—‘ìŠ¤ì•„ì´ë””",
+=======
+   "name": "ÀÌ¿¢½º¾ÆÀÌµð",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë§ˆë§ˆë¬´",
+=======
+   "name": "¸¶¸¶¹«",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "íŽœíƒ€ê³¤",
+=======
+   "name": "ÆæÅ¸°ï",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ìœ„ë„ˆ",
+=======
+   "name": "À§³Ê",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ìš°ì£¼ì†Œë…€",
+=======
+   "name": "¿ìÁÖ¼Ò³à",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì•„ìŠ¤íŠ¸ë¡œ",
+=======
+   "name": "¾Æ½ºÆ®·Î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—”í”Œë¼ìž‰",
+=======
+   "name": "¿£ÇÃ¶óÀ×",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ìŠ¤íŠ¸ë ˆì´ í‚¤ì¦ˆ",
+=======
+   "name": "½ºÆ®·¹ÀÌ Å°Áî",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹…í†¤",
+=======
+   "name": "ºòÅæ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ìŠ¤ëˆ„í¼",
+=======
+   "name": "½º´©ÆÛ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ê°“ì„¸ë¸",
+=======
+   "name": "°«¼¼ºì",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—ì´ì˜¤ì—ì´",
+=======
+   "name": "¿¡ÀÌ¿À¿¡ÀÌ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì”¨í´ë¼ìš´",
+=======
+   "name": "¾¾Å¬¶ó¿î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—¬ìžì¹œêµ¬",
+=======
+   "name": "¿©ÀÚÄ£±¸",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹…í”Œë¡œ",
+=======
+   "name": "ºòÇÃ·Î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì˜¤ë§ˆì´ê±¸",
+=======
+   "name": "¿À¸¶ÀÌ°É",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "í¬ë‚˜í°",
+=======
+   "name": "Å©³ªÅ«",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë ˆë“œë²¨ë²³",
+=======
+   "name": "·¹µåº§ºª",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—‘ì†Œ",
+=======
+   "name": "¿¢¼Ò",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë‹¤ì´ì•„",
+=======
+   "name": "´ÙÀÌ¾Æ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì”¨ì—˜ì”¨",
+=======
+   "name": "¾¾¿¤¾¾",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "í—¤ì¼ë¡œ",
+=======
+   "name": "ÇìÀÏ·Î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "íˆ¬í¬ì¼€ì´",
+=======
+   "name": "ÅõÆ÷ÄÉÀÌ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹…ìŠ¤íƒ€",
+=======
+   "name": "ºò½ºÅ¸",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—ìŠ¤ì—í”„ë‚˜ì¸",
+=======
+   "name": "¿¡½º¿¡ÇÁ³ªÀÎ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì¹´ë“œ",
+=======
+   "name": "Ä«µå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë‰´ì´ìŠ¤íŠ¸",
+=======
+   "name": "´ºÀÌ½ºÆ®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—”ì‹œí‹° ë“œë¦¼",
+=======
+   "name": "¿£½ÃÆ¼ µå¸²",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—”ì‹œí‹° ì¼ì´ì¹ ",
+=======
+   "name": "¿£½ÃÆ¼ ÀÏÀÌÄ¥",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë‰´ì´ìŠ¤íŠ¸ W",
+=======
+   "name": "´ºÀÌ½ºÆ® W",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë§ˆì´í‹´",
+=======
+   "name": "¸¶ÀÌÆ¾",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹„ë¹„ë“œ",
+=======
+   "name": "ºñºñµå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "í•˜ì´í¬",
+=======
+   "name": "ÇÏÀÌÆ÷",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ížˆìŠ¤í† ë¦¬",
+=======
+   "name": "È÷½ºÅä¸®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë°±í¼ì„¼íŠ¸",
+=======
+   "name": "¹éÆÛ¼¾Æ®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "í”¼ì—ìŠ¤íƒ€",
+=======
+   "name": "ÇÇ¿¡½ºÅ¸",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "í•˜ì´ë¼ì´íŠ¸",
+=======
+   "name": "ÇÏÀÌ¶óÀÌÆ®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¸”ë½ë¹„ ë°”ìŠ¤íƒ€ì¦ˆ",
+=======
+   "name": "ºí¶ôºñ ¹Ù½ºÅ¸Áî",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì œì´ë¹„ì œì´",
+=======
+   "name": "Á¦ÀÌºñÁ¦ÀÌ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì—…í…ì…˜",
+=======
+   "name": "¾÷ÅÙ¼Ç",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¸”ëž™í•‘í¬",
+=======
+   "name": "ºí·¢ÇÎÅ©",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ê³¨ë“ ì°¨ì¼ë“œ",
+=======
+   "name": "°ñµçÂ÷ÀÏµå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì†Œë‚˜ë¬´",
+=======
+   "name": "¼Ò³ª¹«",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì œì´ì œì´ì”¨ì”¨",
+=======
+   "name": "Á¦ÀÌÁ¦ÀÌ¾¾¾¾",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë§¤ë“œíƒ€ìš´",
+=======
+   "name": "¸ÅµåÅ¸¿î",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "í”„ë¦¬ìŠ¤í‹´",
+=======
+   "name": "ÇÁ¸®½ºÆ¾",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì˜¨ì•¤ì˜¤í”„",
+=======
+   "name": "¿Â¾Ø¿ÀÇÁ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "(ì—¬ìž)ì•„ì´ë“¤",
+=======
+   "name": "(¿©ÀÚ)¾ÆÀÌµé",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ìž„íŒ©íŠ¸",
+=======
+   "name": "ÀÓÆÑÆ®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ëŸ¬ë¸”ë¦¬ì¦ˆ",
+=======
+   "name": "·¯ºí¸®Áî",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¯¸ìŠ¤í„°ë¯¸ìŠ¤í„°",
+=======
+   "name": "¹Ì½ºÅÍ¹Ì½ºÅÍ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹„íŠ¸ìœˆ",
+=======
+   "name": "ºñÆ®À©",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ìŠ¤í”¼ë“œ",
+=======
+   "name": "½ºÇÇµå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ëª¨ëª¨ëžœë“œ",
+=======
+   "name": "¸ð¸ð·£µå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹„ë¹„ë“œê±¸",
+=======
+   "name": "ºñºñµå°É",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë“œë¦¼ìºì³",
+=======
+   "name": "µå¸²Ä³ÃÄ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¹„ì•„ì´ì§€",
+=======
+   "name": "ºñ¾ÆÀÌÁö",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë ˆì´ë””ìŠ¤ ì½”ë“œ",
+=======
+   "name": "·¹ÀÌµð½º ÄÚµå",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì¸í”¼ë‹ˆíŠ¸ ì—ì´ì¹˜",
+=======
+   "name": "ÀÎÇÇ´ÏÆ® ¿¡ÀÌÄ¡",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ì¸íˆ¬ìž‡",
+=======
+   "name": "ÀÎÅõÀÕ",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   },
   {
    "impor": 0,
+<<<<<<< HEAD
    "name": "ë¦¬ì–¼ê±¸í”„ë¡œì íŠ¸",
+=======
+   "name": "¸®¾ó°ÉÇÁ·ÎÁ§Æ®",
+>>>>>>> ab55b9d1f6d1db0dac1610c4840c9fcbff7dad1d
    "type": "artist"
   }
  ]

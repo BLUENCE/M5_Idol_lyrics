@@ -1,4 +1,4 @@
-<!-- http://localhost:8000/index0수정.html 실행 -->
+<!-- http://localhost:8000/lyricist_gen1.html 실행 -->
 
 <!DOCTYPE html>
 <html>
@@ -22,12 +22,6 @@
     </style>
   </head>
   <body>
-
-  <form id="Generation_Select">
-    <input  type='radio' id="gen1" name="mode" checked>Generation1</input>
-    <input type='radio' id="gen2" name="mode">Generation2</input>
-    <input type='radio' id="gen3" name="mode">Generation3</input>
-  </form>
 
 
   <script type="text/javascript">
@@ -76,7 +70,7 @@
     console.log(gen3);
   });
   //Load External Data
-  d3.json("gen3.json", function(dataset){
+  d3.json("composer_gen3.json", function(dataset){
     //Extract data from dataset
     var nodes = dataset.nodes,
         links = dataset.links;
@@ -139,7 +133,7 @@
   })
 
   function circleColour(d){
-  if(d.type =="lyricist"){
+  if(d.type =="composer"){
     return "#20C2AA";
   } else {
     return "red";
