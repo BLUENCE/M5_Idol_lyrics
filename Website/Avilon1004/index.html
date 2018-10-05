@@ -122,7 +122,7 @@
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" type="text/javascript"></script>
   <script src="britecharts.min.js" type="text/javascript"></script> -->
   <!-- linechart css Files -->
-  <link rel="stylesheet" href="britecharts.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/britecharts.min.css" type="text/css" />
 
   <!-- =======================================================
     Theme Name: Avilon
@@ -161,35 +161,26 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">Lyricsis</a></h1>
+        <h1><a href="index.html" class="scrollto">Lyricsis</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <!-- <li><a href="#features">Features</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#team">Team</a></li> -->
-          <!-- <li><a href="#gallery">Appendix</a></li> -->
-          <li class="menu-has-children"><a href="">Appendix</a>
+          <li class="menu-has-children"><a href="">Analysis</a>
             <ul>
-              <li><a href="#">Lyricist top 100</a></li>
-              <!-- <li class="menu-has-children"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Lyricist top 100</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-              <li><a href="#">Member participation ratio</a></li>
-              <li><a href="#">Lyricist Network</a></li>
-              <li><a href="#">소영님 버블차트</a></li>
+              <li><a href="analysis-lyrics.html">Lyrics - 가사분석</a></li>
+              <li><a href="analysis-industry.html">Industry - 산업분석</a></li>
             </ul>
+          </li>
+          <li class="menu-has-children"><a href="">More</a>
+            <ul>
+              <li><a href="search_lyricist.html">Lyricist/Composer Top 100</a></li>
+              <li><a href="network_lyricist_gen1.html">Lyricist Network</a></li>
+              <li><a href="#">Composer Network</a></li>
+            </ul>
+          <li class="menu-active"><a href="#team2">Team Lyricsis</a></li>
           </li>
           <!-- <li><a href="#contact">Contact Us</a></li> -->
         </ul>
@@ -203,7 +194,7 @@
   <section id="intro">
 
     <div class="intro-text">
-      <h2>OPPA! Dejavu</h2>
+      <h2>발표 제목</h2>
       <h3 id="subtitle">아이돌 음악 가사 속 젠더불균형 분석하기</h3>
       <p>Analysis of the comparison between the lyrics of female and male idol groups</p>
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
@@ -236,7 +227,7 @@
     <section id="about">
       <div class="container-fluid">
         <div class="section-header">
-          <h3 class="section-title">Oppa Dejavu?</h3>
+          <h3 class="section-title">발표 제목 변경</h3>
           <span class="section-divider"></span>
           <p class="section-description">
             데자뷰, 어딘가에서 본듯한 것 같은 기시감을 의미하는 말로 프랑스어로는 ‘이미 보았다’ 로 해석할 수 있습니다.<br>
@@ -269,36 +260,41 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/intro/트와이스.png" alt="" width="80%"></div>
-              <h4>Cheer Up</h4>
-              <span>트와이스</span><br>
-              <p>나도 니가 좋아 <br>
-                상처 입을까 봐 걱정되지만 <br>
-                여자니까 이해해주길
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/intro/블락비.png" alt="" width="80%"></div>
-              <h4>HER</h4>
-              <span>블락비<bR></span><br>
-              <p>아름다우신 그녀의 자태<br>
-                보통 여잔 명함도 못 내밀고<br>
-                끼리끼리 뭉쳐 네 험담을 나누겠지
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
               <div class="pic"><img src="img/intro/블랙핑크.png" alt="" width="80%"></div>
               <h4>뚜두뚜두</h4>
               <span>블랙핑크</span><br>
               <p>착한 얼굴에 그렇지 못한 태도<br>
                  가녀린 몸매 속 <br>
                  가려진 volume은 두 배로
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/intro/세븐틴.png" alt="" width="80%"></div>
+              <h4>표정관리</h4>
+              <span>세븐틴<bR></span><br>
+              <p>참 단정해 넌<br>
+                내 눈에만 복장불량<br>
+                발 무릎 발 조차도 안보이게<br>
+                치말 내려야 만족이 돼<br>
+                목까지 단추 꼭꼭 잠궈<br>
+                쇄골이 숨 못 쉬게
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/intro/트와이스.png" alt="" width="80%"></div>
+              <h4>Likey</h4>
+              <span>트와이스</span><br>
+              <p>BB크림 파파파<br>
+                립스틱을 맘맘마<br>
+                카메라에 담아볼까 예쁘게<br>
+                이거 보면 웃어줘 그리고 꼭 눌러줘<br>
+                저 밑에 앙증맞고 새빨간 Heart Heart
               </p>
             </div>
           </div>
@@ -371,7 +367,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-              <h4 class="title"><a href="">왜 가사를 분석하는가?</a></h4>
+              <h4 class="title"><a href="">!!왜 가사를 분석하는가?!!</a></h4>
               <p class="description">현재 가요 시장은 아이돌이 차지하는 비중이 큽니다. 이들은  세계 시장의 젊은 세대에게 막강한 영향력을 행사하고 있습니다.
                 영향력이 지대한 만큼 그들이 음악을 통해 전달하는 젠더와 관련한 메세지에 집중해보고자 합니다.
 
@@ -390,7 +386,7 @@
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">오빠 데자뷰 프로젝트는</a></h4>
+              <h4 class="title"><a href="">!!프젝제목!! 프로젝트는</a></h4>
               <p class="description">우리는 아이돌의 가사속에서 이러한 문제점들을 꼽아 보면서 작사가에게는 창작자로서의 책임을, 가수에게는 직접적으로 대중에게 가사를 전달하는 책임을 묻고 건강한 비판을 하고자 한다.
               </p>
             </div>
@@ -441,7 +437,7 @@
 
                 <div class="box wow fadeInRight" data-wow-delay="0.3s">
                   <div class="icon"><i class="icon ion-headphone"></i></div>
-                  <h4 class="title"><a href="">10,000곡</a></h4>
+                  <h4 class="title"><a href="">9,548곡</a></h4>
                   <p class="description">중복곡 제거</p>
                 </div>
               </div>
@@ -455,7 +451,7 @@
                 <div class="box wow fadeInRight" data-wow-delay="0.3s">
                   <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                   <h4 class="title"><a href="">27년</a></h4>
-                  <p class="description">서태지와 아이들 - 소녀시대 Oh!GG</p>
+                  <p class="description">서태지와 아이들부터  소녀시대 Oh!GG까지</p>
                 </div>
               </div>
             </div>
@@ -468,7 +464,7 @@
                 <div class="box wow fadeInRight" data-wow-delay="0.3s">
                   <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
                   <h4 class="title"><a href="">333개의 그룹</a></h4>
-                  <p class="description">그룹 유닛 중심. 솔로 제외. </p>
+                  <p class="description">그룹 유닛을 중심으로. 솔로 제외</p>
                 </div>
               </div>
             </div>
@@ -513,10 +509,9 @@
               <!-- <h2 class="metricName" id="chart1label"></h2> -->
               <h3 class="section-title">27년 간의 발매곡 수</h3>
               <span class="section-divider"></span>
-              <p class="section-description">1992년부터 2018년 9월 21일까지 여자와 남자 아이돌의 곡 발매 수 비교입니다.
-                해당 년도로 마우스를 가져가시면 상세한 곡 수를 확인할 수 있습니다.<br><br>
-              <span class="female">&bull;</span> 여자<br>
-              <span class="male">&bull;</span> 남자
+              <p class="section-description">1992년부터 2018년 9월 21일까지 아이돌의 곡 발매 수 비교입니다. 해당 년도로 마우스를 가져가시면 상세한 곡 수를 확인할 수 있습니다.<br><br>
+              <span class="male">&bull;</span> 남자아이돌<br>
+              <span class="female">&bull;</span> 여자아이돌
               </p>
             </div>
           </div>
@@ -527,7 +522,7 @@
         <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.4.4/d3.min.js" type="text/javascript"></script>
         <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js" type="text/javascript"></script>
-        <script src="britecharts.min.js" type="text/javascript"></script>
+        <script src="js/britecharts.min.js" type="text/javascript"></script>
 
         <script>
           Song_G_data ={
@@ -838,27 +833,21 @@
             <div class="section-header wow fadeIn" data-wow-duration="1s">
               <h3 class="section-title">장르 비교</h3>
               <span class="section-divider"></span>
-              <p class="section-description">여자와 남자 아이돌의 곡 장르 분포 비교입니다.<br><br></p>
+              <p class="section-description">곡 장르 분포 비교입니다.<br>상대적으로 남자아이돌이 여자아이돌보다 다양한 장르의 곡을 많이 발매한 것을 확인할 수 있습니다.<br></p>
               <div align="center">
                 <img src="img/genre_piechart.png" width="100%"></img>
               </div>
-
-              <div align="center">
-                <img src="img/genre_barh.png"></img>
-              </div>
-              </p>
             </div>
           </div>
         </div>
+        <div style="width:100%; height:100px"></div>
+        <div align="center">
+          <a href="#top30" class="btn-get-started scrollto">
+            <img src="img/next.png">
+          </a>
+        </div>
+        <div style="width:100%; height:150px"></div>
     </section>
-
-    <div align="center">
-      <a href="#top30" class="btn-get-started scrollto">
-        <img src="img/next.png">
-      </a>
-    </div>
-
-    <div style="width:100%; height:150px"></div>
     <!--==========================
             melon top30 bubble chart
     ============================-->
@@ -869,9 +858,9 @@
 
           <div class="col-12">
             <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">멜론 top30 아이돌</h3>
+              <h3 class="section-title">Melon Fan Top30</h3>
               <span class="section-divider"></span>
-              <p class="section-description">멜론 팬 수를 기준으로 인기 순위 top 30을 모아 곡 수를 원의 크기로 표현한 버블 차트입니다.<br>
+              <p class="section-description">멜론 팬 수를 기준으로 한 인기 순위 Top 30 버블 차트입니다. 각 아티스트의 크기는 곡 수를 의미합니다.<br>
                 버블을 터치하거나 더블 클릭 하시면 해당 그룹의 이름, 멤버, 곡 수, 인기 곡을 확인하실 수 있습니다. </p>
             </div>
           </div>
@@ -1500,12 +1489,14 @@
           </script>
 
       </div>
+      <div style="width:100%; height:50px"></div>
+      <div align="center">
+        <a href="#faq" class="btn-get-started scrollto">
+          <img src="img/next.png">
+        </a>
+      </div>
+      <div style="width:100%; height:60px"></div>
     </section>
-    <div align="center">
-      <a href="#faq" class="btn-get-started scrollto">
-        <img src="img/next.png">
-      </a>
-    </div>
 
     <!--==========================
         가설 소개
@@ -1514,1399 +1505,50 @@
       <div class="container">
 
         <div class="section-header">
-          <h3 class="section-title">가설 소개</h3>
+          <h3 class="section-title">가설 소개 및 결과</h3>
           <span class="section-divider"></span>
-          <p class="section-description">탐색에 사용된 가설과 그 결과<br><br>
+          <p class="section-description"><br>
             <span class="male">&bull;</span> YES<br>
             <span class="female">&bull;</span> NO<br>
-            <span class="unknown">&bull;</span> ?????<br>
           </p>
         </div>
 
         <ul id="faq-list" class="wow fadeInUp">
           <li>
-            <a data-toggle="collapse" class="collapsed" href="#faq1" style="color:#7A37F5">여성과 남성 아이돌의 곡 수가 비슷할 것이다.</a>
-            <!-- <div id="faq1" class="collapse" data-parent="#faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
-            </div> -->
+            <a data-toggle="collapse" class="collapsed" style="color:#20C2AA">가사 속에서 여성의 외모를 언급하거나 여성의 신체부위를 선정적으로 표현하는 빈도가 높을 것이다.</a>
           </li>
 
           <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">아이돌 노래 작사/작곡가들은 대다수 남성일 것이다.</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">아이돌 곡 전체에서 남자 아이돌 멤버가 작사, 작곡, 편곡에 참여하는 비율이 여자 아이돌보다 높을 것이다.</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">전체 곡에서 ‘오빠'라는 단어가 ‘누나'라는 단어보다 많이 나올 것이다.</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#7A37F5">성적인 단어, 외모 언급 단어가 많을 것이다.</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">여성의 신체부위는 성적인 맥락에서 쓰인 빈도가 높을 것이다.</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">남자는 능동적 여자는 수동적 표현이 많을 것이다.</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#20C2AA">가사로 소속사별 여성상을 알 수 있을 것이다</a>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" href="#faq2" class="collapsed" style="color:#CCCCCC">기계 학습으로 추출한 새로운 가사는 가사 속 고정관념을 더욱 잘 보여줄 것이다.</a>
+            <a data-toggle="collapse" class="collapsed" style="color:#20C2AA">아이돌 노래에서 남성 작사/작곡가의 참여가 여성 작사/작곡가보다 많을 것이다.</a>
           </li>
 
         </ul>
-        <div style="width:100%; height:150px"></div>
-        <div align="center">
-          <a href="#section-division2" class="btn-get-started scrollto">
-            <img src="img/next.png">
-          </a>
-        </div>
+        <div style="width:100%; height:100px"></div>
       </div>
     </section><!-- #faq -->
-
-
-    <section id="section-division2">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="cta-title">작사가 작곡가 분석</h3>
-          </div>
-          <!-- <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Call To Action</a> -->
-        </div>
-        <div align="center">
-          <a href="#network" class="btn-get-started scrollto">
-            <img src="img/next.png">
-          </a>
-        </div>
-      </div>
-    </section><!-- #call-to-action -->
-
-    <!--==========================
-            가빈님 네트워크 시각화
-          ============================-->
-    <div style="width:100%; height:50px"></div>
-    <section id="network">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-12">
-            <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">작사가와 가수 네트워크 세대별 시각화</h3>
-              <span class="section-divider"></span>
-              <p class="section-description">어떤 작사가가 어떤 가수에게 곡을 써주었을까요?<br>
-                작사가와 아이돌의 네트워크입니다.</p>
-              <div align="center">
-                <img src="img/nt_ph.png" width="100%"></img>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div style="width:100%; height:50px"></div>
-      <div align="center">
-        <a href="">더 알아보기</a>
-        <br><br>
-        <a href="#mratio" class="btn-get-started scrollto">
-          <img src="img/next.png">
-        </a>
-      </div>
-      </div>
-    </section>
-
-    <!--==========================
-                예원 검색 차트 - 더 알아보기
-              ============================-->
-          <section id="features">
-            <div class="container">
-              <div class="row">
-                <div class="col-12">
-                  <div class="section-header wow fadeIn" data-wow-duration="1s">
-                    <h3 class="section-title">작사/작곡가 TOP100</h3>
-                    <span class="section-divider"></span>
-                    <p class="section-description">어떤 작사/작곡가가 아이돌그룹에게 곡을 많이 주었는지 검색 할 수 있는 작사/작곡가 Top100차트입니다.<br>곡을 많이 발매한 작사/작곡가의 이름순으로 표시되며 데이터 상에서 솔로가수의 곡은 제외되었습니다.<br>이미지를 클릭해서 검색해보세요!<br><br>
-                    <span class="female">&bull;</span> 여성&nbsp;&nbsp; &nbsp;<span class="male">&bull;</span> 남성</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          <div class="row wow fadeIn">
-            <div class="container">
-              <a href="search_lyricist.html">
-                <img style="width:550px; height:auto;" align="left" src="img/작사.png" alt="">
-                <img style="width:550px; height:auto;" align="right" src="img/작곡.png" alt="">
-              </a>
-            </div>
-          </div>
-          </section>
-
-    <!--==========================
-            소현 멤버별 작사,작곡 참여율 그래프
-          ============================-->
-    <section id="mratio">
-      <div style="width:100%; height:60px"></div>
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-12">
-            <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">아이돌 멤버의 작곡, 작사 참여율 비교</h3>
-              <span class="section-divider"></span>
-              <p class="section-description">아이돌 멤버가 스스로의 곡 프로덕션에 참여한 비율은 어떨까요?<br>
-                1992년부터 2017년까지의 데이터를 모아보았습니다.<br><br>
-                x축 - 멤버가 직접 작사한 곡 수<br>
-                y축 - 멤버가 직접 작곡한 곡 수<br>
-                원의 크기 - 그 해 활동한 그룹 수
-              </p>
-              <div id="chart4" style="margin:0px"></div>
-              <div class="center_please" align="center">
-                <span id="min-time">1992</span>
-                <input type="range" name="points" min="0" max="26" step="1" value="0" id="slider-time" style="width:900px">
-                <span id="max-time">2018</span>
-                <br>
-                <p>
-                  <!-- Original creation by <a href="http://www.gapminder.org/world/">Gapminder</a> using <a href="https://github.com/RandomEtc/mind-gapper-js">Tom Carden</a> JavaScript version.<br>
-                Recreation by <a href="http://bost.ocks.org/mike/nations/">Mike Bostock</a> with <a href="http://d3js.org/">D3.js</a>.<br>
-                Re-Recreation using <a href="http://romsson.github.io/dragit/">dragit.js</a> by <a href="http://romain.vuillemot.net/">Romain Vuillemot</a> (view <a href="https://github.com/romsson/dragit/blob/master/example/nations.html">source</a> on GitHub). -->
-                  <!-- Place this tag in your head or just before your close body tag. -->
-                  <!-- <script type="text/javascript" src="https://apis.google.com/js/platform.js"></script> -->
-
-                  <br>
-              </div>
-
-              <script>
-
-                // Various accessors that specify the four dimensions of data to visualize.
-              function x(d) { return d.lyricist; }
-              function y(d) { return d.composer; }
-              function radius(d) { return d.group_number; }
-              function colors(d) { return d.region; }
-              function key(d) { return d.name; }
-
-              // Chart dimensions.
-              var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
-                  c4_width = 960 - margin.right,
-                  c4_height = 500 - margin.top - margin.bottom;
-
-              // Various scales. These domains make assumptions of data, naturally.
-              var xScale = d3_gap.scale.linear().domain([0, 350]).range([0, c4_width]),
-                  yScale = d3_gap.scale.linear().domain([0, 200]).range([c4_height, 0]),
-                  radiusScale = d3_gap.scale.sqrt().domain([0, 70]).range([0, 30]),
-                  // colorScale = d3_gap.scale.category10()
-                  colorScale = d3_gap.scale.linear()
-                    .domain([1, 2])
-                    .range(['#7A37F5', '#20C2AA']);
-
-              /// The x & y axes.
-              var xAxis = d3_gap.svg.axis().orient("bottom").scale(xScale),
-                  yAxis = d3_gap.svg.axis().scale(yScale).orient("left");
-              // Create the SVG container and set the origin.
-              var svgs = d3_gap.select("#chart4").append("svg")
-                  .attr("width", c4_width + margin.left + margin.right)
-                  .attr("height", c4_height + margin.top + margin.bottom)
-                .append("g")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                  .attr("class", "gRoot")
-              // Add the x-axis.
-              svgs.append("g")
-                  .attr("class", "x axis")
-                  .attr("transform", "translate(0," + c4_height + ")")
-                  .call(xAxis);
-              // Add the y-axis.
-              svgs.append("g")
-                  .attr("class", "y axis")
-                  .call(yAxis);
-              // Add an x-axis label.
-              svgs.append("text")
-                  .attr("class", "x label")
-                  .attr("text-anchor", "end")
-                  .attr("x", c4_width)
-                  .attr("y", c4_height - 6)
-                  .text("멤버가 작사한 곡 수");
-              // Add a y-axis label.
-              svgs.append("text")
-                  .attr("class", "y label")
-                  .attr("text-anchor", "end")
-                  .attr("y", 6)
-                  .attr("dy", ".75em")
-                  .attr("transform", "rotate(-90)")
-                  .text("멤버가 작곡한 곡 수");
-
-              // Add the year label; the value is set on transition.
-              var label = svgs.append("text")
-                  .attr("class", "year label")
-                  .attr("text-anchor", "end")
-                  .attr("y", c4_height - 24)
-                  .attr("x", c4_width)
-                  .text(1992);
-
-              // Add the country label; the value is set on transition.
-              var countrylabel = svgs.append("text")
-                  .attr("class", "country label")
-                  .attr("text-anchor", "start")
-                  .attr("y", 80)
-                  .attr("x", 20)
-                  .text(" ");
-
-              var first_time = true;
-
-              // Load the data.
-              d3_gap.json("data/nations.json", function(nations) {
-
-                // A bisector since many nation's data is sparsely-defined.
-                var bisect = d3_gap.bisector(function(d) { return d[0]; });
-
-                // Add a dot per nation. Initialize the data at 1993, and set the colors.
-                var dot = svgs.append("g")
-                    .attr("class", "dots")
-                  .selectAll(".dot")
-                    .data(interpolateData(1992))
-                  .enter().append("circle")
-                    .attr("class", "dot")
-                    // .style("fill", function(d) { return colorScale(color(d)); })
-                    .style("fill", function(d) { return colorScale(colors(d)); })
-                    .style("stroke-opacity", "0")
-                    .call(position)
-                    .on("mousedow", function(d, i) {
-
-                    })
-                    .on("mouseup", function(d, i) {
-                      dot.classed("selected", false);
-                      d3_gap.select(this).classed("selected", !d3_gap.select(this).classed("selected"));
-                      dragit.trajectory.display(d, i, "selected");
-
-                      //TODO: test if has been dragged
-                      // Look at the state machine history and find a drag event in it?
-
-                    })
-                    .on("mouseenter", function(d, i) {
-                      clear_demo();
-                      if(dragit.statemachine.current_state == "idle") {
-                        dragit.trajectory.display(d, i)
-                        dragit.utils.animateTrajectory(dragit.trajectory.display(d, i), dragit.time.current, 1000)
-                        countrylabel.text(d.name);
-                        dot.style("opacity", .4)
-                        d3_gap.select(this).style("opacity", 1)
-                        d3_gap.selectAll(".selected").style("opacity", 1)
-                      }
-                    })
-                    .on("mouseleave", function(d, i) {
-
-                      if(dragit.statemachine.current_state == "idle") {
-                        countrylabel.text("");
-                        dot.style("opacity", 1);
-                      }
-
-                      dragit.trajectory.remove(d, i);
-                    })
-                    .call(dragit.object.activate)
-
-                // Add a title.
-                dot.append("title")
-                    .text(function(d) { return d.name; });
-
-                // Start a transition that interpolates the data based on year.
-                svgs.transition()
-                    .duration(30000)
-                    .ease("linear")
-
-                // Positions the dots based on data.
-                function position(dot) {
-                  dot.attr("cx", function(d) { return xScale(x(d)); })
-                     .attr("cy", function(d) { return yScale(y(d)); })
-                     .attr("r", function(d) { return radiusScale(radius(d)); });
-                }
-
-                // Defines a sort order so that the smallest dots are drawn on top.
-                function order(a, b) {
-                  return radius(b) - radius(a);
-                }
-
-                // Updates the display to show the specified year.
-                function displayYear(year) {
-                  dot.data(interpolateData(year+dragit.time.min), key).call(position).sort(order);
-                  label.text(dragit.time.min + Math.round(year));
-                }
-
-                // Interpolates the dataset for the given (fractional) year.
-                function interpolateData(year) {
-                  return nations.map(function(d) {
-                    return {
-                      name: d.name,
-                      region: d.region,
-                      lyricist: interpolateValues(d.lyricist, year),
-                      group_number: interpolateValues(d.group_number, year),
-                      composer: interpolateValues(d.composer, year)
-                    };
-                  });
-                }
-
-                // Finds (and possibly interpolates) the value for the specified year.
-                function interpolateValues(values, year) {
-                  var i = bisect.left(values, year, 0, values.length - 1),
-                      a = values[i];
-                  if (i > 0) {
-                    var b = values[i - 1],
-                        t = (year - a[0]) / (b[0] - a[0]);
-                    return a[1] * (1 - t) + b[1] * t;
-                  }
-                  return a[1];
-                }
-
-                init();
-
-                function update(v, duration) {
-                  dragit.time.current = v || dragit.time.current;
-                  displayYear(dragit.time.current)
-                  d3_gap.select("#slider-time").property("value", dragit.time.current);
-                }
-
-                function init() {
-
-                  dragit.init(".gRoot");
-
-                  dragit.time = {min:1992, max:2019, step:1, current:1992}
-                  dragit.data = d3_gap.range(nations.length).map(function() { return Array(); })
-
-                  for(var yy = 1992; yy<2019; yy++) {
-
-                    interpolateData(yy).filter(function(d, i) {
-                      dragit.data[i][yy-dragit.time.min] = [xScale(x(d)), yScale(y(d))];
-
-                    })
-                  }
-
-                  dragit.evt.register("update", update);
-
-                  //d3_gap.select("#slider-time").property("value", dragit.time.current);
-
-                  d3_gap.select("#slider-time")
-                    .on("mousemove", function() {
-                      update(parseInt(this.value), 500);
-                      clear_demo();
-                    })
-
-                  var end_effect = function() {
-                    countrylabel.text("");
-                    dot.style("opacity", 1)
-                  }
-
-                  dragit.evt.register("dragend", end_effect)
-                }
-
-              function clear_demo() {
-                if(first_time) {
-                   svgs.transition().duration(0);
-                  first_time = false;
-                  window.clearInterval(demo_interval);
-                  countrylabel.text("");
-                  dragit.trajectory.removeAll();
-                  d3_gap.selectAll(".dot").style("opacity", 1)
-                }
-              }
-
-              function play_demo() {
-
-                var ex_nations = ["China", "India", "Indonesia", "Italy", "France", "Spain", "Germany", "United States"]
-                var index_random_nation = null;
-                var random_index = Math.floor(Math.random() * ex_nations.length);
-                var random_nation = nations.filter(function(d, i) {
-                  if(d.name == ex_nations[random_index]) {
-                    index_random_nation = i;
-                    return true;
-                  }
-                })[0];
-
-                var random_nation = nations[index_random_nation];
-
-                dragit.trajectory.removeAll();
-                dragit.trajectory.display(random_nation, index_random_nation);
-                countrylabel.text(random_nation.name);
-
-                dragit.utils.animateTrajectory(dragit.lineTrajectory, dragit.time.min, 2000)
-
-                d3_gap.selectAll(".dot").style("opacity", .4)
-
-                d3_gap.selectAll(".dot").filter(function(d) {
-                  return d.name == random_nation.name;
-                }).style("opacity", 1)
-              }
-
-              var demo_interval = null;
-
-              setTimeout(function() {
-                if(first_time) {
-                  play_demo()
-                  demo_interval = setInterval(play_demo, 3000)
-                }
-              }, 1000);
-
-              });
-
-              </script>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div align="center">
-      <a href="#team" class="btn-get-started scrollto">
-        <img src="img/next.png">
-      </a>
-    </div>
-    <div style="width:100%; height:60px"></div>
-
-    <section id="section-division1">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="cta-title">가사 자연어 분석</h3>
-          </div>
-          <!-- <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Call To Action</a> -->
-        </div>
-      </div>
-    </section><!-- #call-to-action -->
-
-    <!--==========================
-            전체 워드 클라우드 단어 빈도수
-          ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">최빈 워드 클라우드</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">가사엔 어떤 단어가 많이 등장할까?</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/test.jpg" alt=""></div>
-              <h4>곡 전체 빈도</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/test.jpg" alt=""></div>
-              <h4>여/남 빈도</h4>
-            </div>
-          </div>
-        </div>
-    </section>
-
-
-    <!--==========================
-              전체 워드 유니크 표
-            ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">유니크한 워드 표</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">한 곡 안에서 중복되는 걸 제외해보면 어떨까?</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/test.jpg" alt=""></div>
-              <h4>유니크 값 빈도</h4>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-                오빠 누나
-                ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">오빠와 누나</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">'오빠'와 '누나'라는 단어는 시대별로 얼마나 등장할까요?</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/oppa_nuna.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/oppa_nuna_timeseries.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/oppa_b_n_word.jpg" alt=""></div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-                소년 소녀
-                ============================-->
-
-    <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">소년과 소녀</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">소녀와 소년의 묘사는 다를까?</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/sonyeo_sonyeon_bargraph.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/sonyeo_b_n_word.jpg" alt=""></div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-                  성적인 단어, 외모 언급
-                  ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">성적인 단어, 외모 언급 단어가 많을까?</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">설명설명</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
-              <h4>바그래프1</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
-              <h4>바그래프2</h4>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-          예쁜, 잘생긴, 멋진
-          ============================-->
-    <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">예쁘고, 잘생기고, 멋지고</h3>
-          <span class="section-divider"></span>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/pretty_wordcloud.png" width="100%" alt=""></div>
-              <h4>'예쁜'이라는 단어를 수식하는 단어 중엔 여자와 얼굴이 많다!</h4><br><br><br>
-              <div class="pic"><img src="img/nlp/handsome_wordcloud.png" width="100%" alt=""></div>
-              <h4>....부처님?</h4><br><br><br>
-              <div class="pic"><img src="img/nlp/pretty_wordcloud.png" width="100%" alt=""></div>
-              <h4>엄청난 격차가 있다!<br><br><br>
-                그럼 그 다음 단어로 '멋지다'는 어떨까?</h4><br><br><br>
-              <div class="pic"><img src="img/nlp/cool_wordcloud.png" width="100%" alt=""></div>
-              <h4>
-                남자가 나오긴 하는데 다른 단어도 많다. <br>
-                멋진꿈을 향해 달리는 남자들의 얘긴가? <br>
-                그래서 문장을 찍어보았다.</h4>
-                <div style="width:100%; height:160px"></div>
-              <h2>
-                "멋진 각선미"<br><br>
-                "멋진 몸매"
-              </h2>
-              <div style="width:100%; height:160px"></div>
-              <div class="pic"><img src="img/thinking_face.png" width="300px" alt=""></div>
-              <div style="width:100%; height:100px"></div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-                여성 신체부위와 성적 맥락
-                ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">여성의 신체부위는 성적인 맥락에서 쓰였을까?</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">설명설명</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/highheel_b_n_word.jpg" alt=""></div>
-              <h4>가사 속 하이힐</h4>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-                  능동 수동
-                  ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">남자는 능동적 여자는 수동적 표현이 많을까?</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">설명설명</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
-              <h4>바그래프1</h4>
-            </div>
-          </div>
-        </div>
-
-    </section>
-
-    <!--==========================
-                    주제로 묶기
-                    ============================-->
-    <section id="more-features" class="section-bg">
-      <div class="container">
-
-        <div class="section-header">
-          <h3 class="section-title">주제 요약</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">주제로 보는 젠더 불균형</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title"><a href="">사회</a></h4>
-              <p class="description"> text
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInRight">
-              <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-              <h4 class="title"><a href="">청춘</a></h4>
-              <p class="description">text
-
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-              <h4 class="title"><a href="">사회</a></h4>
-              <p class="description">text</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInRight">
-              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">청춘</a></h4>
-              <p class="description">text
-              </p>
-            </div>
-          </div>
-          <a href="#features" class="btn-get-started scrollto">Next</a>
-        </div>
-      </div>
-    </section><!-- #more-features -->
-
-    <section id="section-division1">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="cta-title">세대와 소속사로 나누기</h3>
-          </div>
-          <!-- <div class="col-lg-3 cta-btn-container text-center">
-                      <a class="cta-btn align-middle" href="#">Call To Action</a> -->
-        </div>
-      </div>
-    </section><!-- #call-to-action -->
-    <!-- <div style="width:100%; height:150px"></div> -->
-
-    <!--==========================
-                    가사 최빈 남여 표현 차이
-                    ============================-->
-
-    <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">전체 가사에서 자주 등장하는 표현의 남/여 비율 비교</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">세대와 상관없이 많이 사용하는 단어를 품사별로 분석</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/bubble_chart.png" width="80%" alt=""></div>
-              <!-- <h4>버블차트 이미지</h4> -->
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!--==========================
-                      세대별 특성 비교
-                      ============================-->
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">1세대/2세대/3세대 가사 비교</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">세대별 가사 특성 비교</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/세대별_내용_요약.png" alt=""></div>
-              <h4>표1</h4>
-            </div>
-          </div>
-        </div>
-
-    </section>
-
-    <!--==========================
-      3대 소속사별 가사 비교
-    ============================-->
-
-    <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">3대 소속사별 여자아이돌 표현 단어</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">가사로 알아보는 3대소속사(SM/YG/JYP) 여자 아이돌 표현</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/sm_bubble.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/yg_bubble.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/nlp/jyp_bubble.png" alt=""></div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <section id="section-division1">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="cta-title">머신러닝</h3>
-          </div>
-          <!-- <div class="col-lg-3 cta-btn-container text-center">
-                            <a class="cta-btn align-middle" href="#">Call To Action</a> -->
-        </div>
-      </div>
-    </section><!-- #call-to-action -->
-
-    <!--==========================
-          Product Advanced Featuress Section
-        ============================-->
-    <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">Word2vec</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">설명</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="advanced-features">
-
-      <div class="features-row">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <img class="advanced-feature-img-left" src="img/advanced-feature-2.jpg" alt="">
-              <div class="wow fadeInRight">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum.</p>
-                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">학습 결과?</h3>
-          <span class="section-divider"></span>
-          <!-- <p class="section-description">세대별 가사 특성 비교</p> -->
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-12">
-            <div class="member">
-              <div class="pic"><img src="img/ph_graph.jpg" alt=""></div>
-              <h4>그러하다</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <!--==========================
-            Retrospect
-          ============================-->
-
-    <section id="section-division1">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h3 class="cta-title">회고</h3>
-          </div>
-          <!-- <div class="col-lg-3 cta-btn-container text-center">
-                                        <a class="cta-btn align-middle" href="#">Call To Action</a> -->
-        </div>
-      </div>
-    </section><!-- #call-to-action -->
-
-    <section id="features">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-8 offset-lg-4">
-            <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">회고</h3>
-              <span class="section-divider"></span>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
-          </div>
-
-          <div class="col-lg-8 col-md-7 ">
-
-            <div class="row">
-
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- #features -->
-
-    <!--==========================
-            마무리, 결론
-          ============================-->
-
-    <section id="intro">
-
-      <div class="intro-text">
-        <h3 id="subtitle">아이돌 가사, 어떻게 나아가야 할까?</h3>
-        <p class="con">아이돌 산업은 결국 시장 논리에 크게 영향을 받을 수밖에 없는 산업인 것은 확실합니다.<br>
-          사람들에게 자극적인 요소를 전달해야만 눈에 띌 수 있고, 경쟁에서 살아남을 수 있기 때문이지요.<br>
-          그러나 큰 영향력을 가진 만큼 제작자들은 사회적인 책임감을 가질 필요가 있습니다.<br>
-        </p>
-
-        <p class="con">케이팝이 세계적으로 인기를 얻고 있는 현재, 여성 아이돌은 성적 대상화된 컨셉과 여성 혐오적인 환경 안에서 인기를 얻고 있습니다.<br>
-          이는 해외라고 크게 다르지 않고, 그렇기에 우리는 그들의 성공뿐만 아니라 그들이 일하는 환경, 그들이 소비되는 방식을 들여다 볼 필요가 있습니다. <br>
-          여성이 가사를 통해 자신의 목소리를 낼 수 있고, 외모보다 능력을 인정받는 환경이 중요합니다. <br>
-          이를 위해서는 제작자뿐 아니라 소비자 또한 경각심을 가질 필요가 있습니다. <br>
-          무의식 중에 흥얼거리고 있는 음악의 가사가 어떻게 쓰여있는지 돌아보는 시간을 가져보면 어떨까요?<br>
-
-        </p>
-        <p class="con">가사에는 정답이 없습니다. <br>
-          그래도 더 좋은 노래, 더 좋은 가사에 대한 고민은 가수도, 팬도 함께 해나가는 사회적 분위기가 형성되면 좋겠습니다. <br>
-          다음 세대의 어린 아이들은 기시감 없이 가사를 마음 편히 즐길 수 있다면 좋지 않을까요.</p>
-        </p>
-      </div>
-    </section>
     <!--==========================
             Our Team Section
           ============================-->
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">Lyricsis</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team/team-1.jpg" alt=""></div>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
+          <section id="team2" class="section-bg">
+            <div class="container">
+              <div class="section-header">
+                <h3 class="section-title">Lyricsis</h3>
+                <span class="section-divider"></span>
+                <p class="section-description">리릭시스란 </p>
               </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team/team-2.jpg" alt=""></div>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team/team-4.jpg" alt=""></div>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- #team -->
-
-
-
-    <!--==========================
-          Product Advanced Featuress Section
-        ============================-->
-    <!-- <section id="advanced-features">
-
-      <div class="features-row section-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-1.jpg" alt="">
-              <div class="wow fadeInLeft">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                  non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="features-row">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <img class="advanced-feature-img-left" src="img/advanced-feature-2.jpg" alt="">
-              <div class="wow fadeInRight">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum.</p>
-                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="features-row section-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/advanced-feature-3.jpg" alt="">
-              <div class="wow fadeInLeft">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <i class="ion-ios-albums-outline"></i>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                  non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>-->
-    <!--==========================
-      Clients
-    ============================-->
-    <!-- <section id="clients">
-      <div class="container">
-
-        <div class="row wow fadeInUp">
-
-          <div class="col-md-2">
-            <img src="img/clients/client-1.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-2.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-3.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-4.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-5.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="img/clients/client-6.png" alt="">
-          </div>
-
-        </div>
-      </div>
-    </section> -->
-    <!--==========================
-      Pricing Section
-    ============================-->
-    <!-- <section id="pricing" class="section-bg">
-      <div class="container">
-
-        <div class="section-header">
-          <h3 class="section-title">Pricing</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box wow fadeInLeft">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> month</span></h4>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box featured wow fadeInUp">
-              <h3>Business</h3>
-              <h4><sup>$</sup>29<span> month</span></h4>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box wow fadeInRight">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>49<span> month</span></h4>
-              <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Quam adipiscing vitae proin</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nec feugiat nisl pretium</li>
-                <li><i class="ion-android-checkmark-circle"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="ion-android-checkmark-circle"></i> Pharetra massa massa ultricies</li>
-                <li><i class="ion-android-checkmark-circle"></i> Massa ultricies mi quis hendrerit</li>
-              </ul>
-              <a href="#" class="get-started-btn">Get Started</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>-->
-
-
-
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <!-- <section id="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-    </section> -->
-
-
-    <!--==========================
-      Gallery Section
-    ============================-->
-    <section id="gallery">
-      <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">Gallery</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-1.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-2.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-3.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-4.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-5.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
-                <img src="img/gallery/gallery-6.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #gallery -->
-
-    <!--==========================
-      Contact Section
-    ============================-->
-    <!-- <section id="contact">
-      <div class="container">
-        <div class="row wow fadeInUp">
-
-          <div class="col-lg-4 col-md-4">
-            <div class="contact-about">
-              <h3>Avilon</h3>
-              <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="info">
-              <div>
-                <i class="ion-ios-location-outline"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
-              </div>
-
-              <div>
-                <i class="ion-ios-email-outline"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="ion-ios-telephone-outline"></i>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
+              <div class="row wow fadeInUp">
+                <div class="member">
+                  <div class="pic" style="height:auto; margin-bottom:10px;"><img src="img/team/team.PNG" alt=""></div>
+                  <h4>권가빈 &nbsp;&nbsp;&nbsp; 정지은 &nbsp;&nbsp;&nbsp; 박소현 &nbsp;&nbsp;&nbsp; 차소영 &nbsp;&nbsp;&nbsp; 정예원 &nbsp;&nbsp;&nbsp; 김윤경</h4>
+                  <span>대다내 멋져</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-github"></i></a>
                   </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>-->
-
-  </main>
-
+              </div>
+              <div style="width:100%; height:60px"></div>
+          </section><!-- #team -->
+</main>
   <!--==========================
     Footer
   ============================-->
