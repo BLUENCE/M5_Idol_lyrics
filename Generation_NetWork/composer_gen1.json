@@ -1,0 +1,621 @@
+{
+ "links": [
+  {
+   "source": 0,
+   "target": 47,
+   "value": 47
+  },
+  {
+   "source": 1,
+   "target": 48,
+   "value": 47
+  },
+  {
+   "source": 2,
+   "target": 49,
+   "value": 29
+  },
+  {
+   "source": 3,
+   "target": 50,
+   "value": 19
+  },
+  {
+   "source": 4,
+   "target": 49,
+   "value": 17
+  },
+  {
+   "source": 5,
+   "target": 50,
+   "value": 16
+  },
+  {
+   "source": 6,
+   "target": 47,
+   "value": 15
+  },
+  {
+   "source": 7,
+   "target": 51,
+   "value": 15
+  },
+  {
+   "source": 8,
+   "target": 52,
+   "value": 14
+  },
+  {
+   "source": 9,
+   "target": 50,
+   "value": 14
+  },
+  {
+   "source": 10,
+   "target": 53,
+   "value": 14
+  },
+  {
+   "source": 11,
+   "target": 54,
+   "value": 13
+  },
+  {
+   "source": 3,
+   "target": 55,
+   "value": 13
+  },
+  {
+   "source": 12,
+   "target": 56,
+   "value": 13
+  },
+  {
+   "source": 13,
+   "target": 57,
+   "value": 13
+  },
+  {
+   "source": 14,
+   "target": 21,
+   "value": 12
+  },
+  {
+   "source": 7,
+   "target": 51,
+   "value": 12
+  },
+  {
+   "source": 15,
+   "target": 55,
+   "value": 12
+  },
+  {
+   "source": 16,
+   "target": 58,
+   "value": 12
+  },
+  {
+   "source": 3,
+   "target": 59,
+   "value": 11
+  },
+  {
+   "source": 17,
+   "target": 52,
+   "value": 11
+  },
+  {
+   "source": 18,
+   "target": 21,
+   "value": 11
+  },
+  {
+   "source": 19,
+   "target": 60,
+   "value": 10
+  },
+  {
+   "source": 20,
+   "target": 60,
+   "value": 10
+  },
+  {
+   "source": 21,
+   "target": 21,
+   "value": 10
+  },
+  {
+   "source": 22,
+   "target": 61,
+   "value": 9
+  },
+  {
+   "source": 23,
+   "target": 52,
+   "value": 9
+  },
+  {
+   "source": 24,
+   "target": 62,
+   "value": 9
+  },
+  {
+   "source": 25,
+   "target": 63,
+   "value": 9
+  },
+  {
+   "source": 26,
+   "target": 61,
+   "value": 9
+  },
+  {
+   "source": 13,
+   "target": 58,
+   "value": 9
+  },
+  {
+   "source": 23,
+   "target": 21,
+   "value": 8
+  },
+  {
+   "source": 27,
+   "target": 52,
+   "value": 8
+  },
+  {
+   "source": 28,
+   "target": 57,
+   "value": 8
+  },
+  {
+   "source": 29,
+   "target": 49,
+   "value": 8
+  },
+  {
+   "source": 30,
+   "target": 64,
+   "value": 8
+  },
+  {
+   "source": 31,
+   "target": 63,
+   "value": 8
+  },
+  {
+   "source": 32,
+   "target": 65,
+   "value": 7
+  },
+  {
+   "source": 33,
+   "target": 58,
+   "value": 7
+  },
+  {
+   "source": 34,
+   "target": 51,
+   "value": 7
+  },
+  {
+   "source": 3,
+   "target": 62,
+   "value": 7
+  },
+  {
+   "source": 35,
+   "target": 51,
+   "value": 7
+  },
+  {
+   "source": 36,
+   "target": 55,
+   "value": 7
+  },
+  {
+   "source": 37,
+   "target": 56,
+   "value": 7
+  },
+  {
+   "source": 38,
+   "target": 53,
+   "value": 7
+  },
+  {
+   "source": 39,
+   "target": 21,
+   "value": 6
+  },
+  {
+   "source": 40,
+   "target": 47,
+   "value": 6
+  },
+  {
+   "source": 41,
+   "target": 58,
+   "value": 6
+  },
+  {
+   "source": 42,
+   "target": 52,
+   "value": 6
+  },
+  {
+   "source": 43,
+   "target": 50,
+   "value": 6
+  },
+  {
+   "source": 44,
+   "target": 55,
+   "value": 6
+  },
+  {
+   "source": 4,
+   "target": 58,
+   "value": 6
+  },
+  {
+   "source": 5,
+   "target": 66,
+   "value": 6
+  },
+  {
+   "source": 45,
+   "target": 55,
+   "value": 6
+  },
+  {
+   "source": 46,
+   "target": 64,
+   "value": 6
+  }
+ ],
+ "nodes": [
+  {
+   "impor": 47,
+   "name": "박진영",
+   "type": "composer"
+  },
+  {
+   "impor": 47,
+   "name": "유건형",
+   "type": "composer"
+  },
+  {
+   "impor": 29,
+   "name": "박성호 (구피)",
+   "type": "composer"
+  },
+  {
+   "impor": 50,
+   "name": "유영진",
+   "type": "composer"
+  },
+  {
+   "impor": 23,
+   "name": "윤일상",
+   "type": "composer"
+  },
+  {
+   "impor": 22,
+   "name": "강타 (KANGTA)",
+   "type": "composer"
+  },
+  {
+   "impor": 15,
+   "name": "방시혁",
+   "type": "composer"
+  },
+  {
+   "impor": 27,
+   "name": "테디",
+   "type": "composer"
+  },
+  {
+   "impor": 14,
+   "name": "천명훈",
+   "type": "composer"
+  },
+  {
+   "impor": 14,
+   "name": "문희준",
+   "type": "composer"
+  },
+  {
+   "impor": 14,
+   "name": "안성일",
+   "type": "composer"
+  },
+  {
+   "impor": 13,
+   "name": "신승희",
+   "type": "composer"
+  },
+  {
+   "impor": 13,
+   "name": "김형석",
+   "type": "composer"
+  },
+  {
+   "impor": 22,
+   "name": "더 준",
+   "type": "composer"
+  },
+  {
+   "impor": 12,
+   "name": "고석영",
+   "type": "composer"
+  },
+  {
+   "impor": 12,
+   "name": "M (이민우)",
+   "type": "composer"
+  },
+  {
+   "impor": 12,
+   "name": "이윤상",
+   "type": "composer"
+  },
+  {
+   "impor": 11,
+   "name": "이현우",
+   "type": "composer"
+  },
+  {
+   "impor": 11,
+   "name": "윤우현",
+   "type": "composer"
+  },
+  {
+   "impor": 10,
+   "name": "Do",
+   "type": "composer"
+  },
+  {
+   "impor": 10,
+   "name": "이현도",
+   "type": "composer"
+  },
+  {
+   "impor": 10,
+   "name": "버즈",
+   "type": "composer"
+  },
+  {
+   "impor": 9,
+   "name": "김성태",
+   "type": "composer"
+  },
+  {
+   "impor": 17,
+   "name": "이상준",
+   "type": "composer"
+  },
+  {
+   "impor": 9,
+   "name": "서융근",
+   "type": "composer"
+  },
+  {
+   "impor": 9,
+   "name": "이재원",
+   "type": "composer"
+  },
+  {
+   "impor": 9,
+   "name": "신상근",
+   "type": "composer"
+  },
+  {
+   "impor": 8,
+   "name": "한창훈",
+   "type": "composer"
+  },
+  {
+   "impor": 8,
+   "name": "렌",
+   "type": "composer"
+  },
+  {
+   "impor": 8,
+   "name": "조성진",
+   "type": "composer"
+  },
+  {
+   "impor": 8,
+   "name": "박근태",
+   "type": "composer"
+  },
+  {
+   "impor": 8,
+   "name": "장우혁",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "신인수",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "마경식",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "송백경",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "페리",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "김도현",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "원상우",
+   "type": "composer"
+  },
+  {
+   "impor": 7,
+   "name": "김세진",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "박덕정",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "이단옆차기",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "최귀섭",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "신명호",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "장용진",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "지국현",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "에릭",
+   "type": "composer"
+  },
+  {
+   "impor": 6,
+   "name": "남기상",
+   "type": "composer"
+  },
+  {
+   "impor": 0,
+   "name": "god",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "언타이틀",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "구피",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에이치오티",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "원타임",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "엔알지",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "제이워크",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "테이크",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "신화",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "베이비 복스 리브",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "오션",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "버즈",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "젝스키스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에스이에스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "디베이스",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "샤크라",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "플라이 투 더 스카이",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "제이티엘",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "쥬얼리",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "핑클",
+   "type": "artist"
+  },
+  {
+   "impor": 0,
+   "name": "에스",
+   "type": "artist"
+  }
+ ]
+}

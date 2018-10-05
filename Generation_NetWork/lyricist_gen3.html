@@ -1,4 +1,4 @@
-<!-- http://localhost:8000/index0수정.html 실행 -->
+<!-- http://localhost:8000/lyricist_gen3.html 실행 -->
 
 <!DOCTYPE html>
 <html>
@@ -63,20 +63,9 @@
       .style("fill", "none")
       .style("pointer-events", "all");
 
-  var q = d3.queue();
-  q.defer(d3.json, "idol_lyricist_gen1.json")
-  q.defer(d3.json, "idol_lyricist_gen2.json")
-  q.defer(d3.json, "idol_lyricist_gen3.json")
-  q.awaitAll(function(err, data) {
-    var gen1 = data[0];
-    var gen2 = data[1];
-    var gen3 = data[2];
-    console.log(gen1);
-    console.log(gen2);
-    console.log(gen3);
-  });
+
   //Load External Data
-  d3.json("gen2.json", function(dataset){
+  d3.json("lyricist_gen3.json", function(dataset){
     //Extract data from dataset
     var nodes = dataset.nodes,
         links = dataset.links;
