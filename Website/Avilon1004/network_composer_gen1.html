@@ -156,9 +156,9 @@
         <script src="js/search.js"></script>
 
         <div>
-          <button type="button" onclick="location.href='network_lyricist_gen1.html'">1세대</button>
-          <button type="button" class="active-button" onclick="location.href='network_lyricist_gen2.html'">2세대</button>
-          <button type="button" onclick="location.href='network_lyricist_gen3.html'">3세대</button>
+          <button type="button" class="active-button" onclick="location.href='network_composer_gen1.html'">1세대</button>
+          <button type="button" onclick="location.href='network_composer_gen2.html'">2세대</button>
+          <button type="button" onclick="location.href='network_composer_gen3.html'">3세대</button>
         </div>
 
         <div style="width:100%; height:50px"></div>
@@ -230,7 +230,7 @@
             .style("pointer-events", "all");
 
         //Load External Data
-        d3.json("lyricist_gen2.json", function(dataset){
+        d3.json("composer_gen1.json", function(dataset){
           //Extract data from dataset
           var nodes = dataset.nodes,
               links = dataset.links;
@@ -295,7 +295,7 @@
         })
 
         function circleColour(d){
-        if(d.type =="lyricist"){
+        if(d.type =="composer"){
           return "#20C2AA";
         } else {
           return "red";
