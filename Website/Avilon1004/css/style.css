@@ -1174,7 +1174,69 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: "\f2c7" !important;
 }
 
+/* Q&A Section
+--------------------------------*/
+#qna {
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#qna #qna-list {
+  padding: 0;
+  list-style: none;
+}
+
+#qna #qna-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+#qna #qna-list a {
+  padding: 14px 0;
+  display: block;
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: 300;
+  padding-right: 20px;
+}
+
+#qna #qna-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#qna #qna-list p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #qna #qna-list a {
+    font-size: 18px;
+  }
+  #qna #qna-list i {
+    top: 13px;
+  }
+}
+
+#qna #qna-list a.collapse {
+  color: #1dc8cd;
+}
+
+#qna #qna-list a.collapsed {
+  color: #666666;
+}
+
+#qna #qna-list a.collapsed i::before {
+  content: "\f2c7" !important;
+}
+
+
 /*  team2*/
+
 #team2 {
   padding: 60px 0;
   overflow: hidden;
@@ -1195,10 +1257,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
+#team2 .m_name_box {
+  margin:0 auto;
+  width:100%;
+}
+
+#team2 .m_name {
+  float: left;
+  width: 16.66%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+}
+
+#team2 .m_name:nth-child(0) {
+  padding-left: 6px;
+}
+
+#team2 .m_name:nth-child(5) {
+  padding-right: 5px;
+}
+
+#team2 .m_name h4 {
+  padding-bottom: 10px;
+}
+
 #team2 .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
+}
+
+#team2 p {
+  font-size: 15px;
 }
 
 #team2 .member span {
@@ -1224,7 +1315,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+@media (max-width: 1000px) {
+  #team2 .m_name_box {
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+  }
+  #team2 .m_name {
+    width: 33%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+  #team2 p {
+    font-size: 10;
+  }
+}
 
+@media (max-width: 490px) {
+  #team2 .m_name_box {
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+  }
+  #team2 .m_name {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  #team2 p {
+    font-size: 10;
+  }
+}
 /* Our Team Section
 --------------------------------*/
 #team {
