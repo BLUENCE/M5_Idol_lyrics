@@ -155,6 +155,28 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/search.js"></script>
 
+        <div style="border: 3px solid transparent;
+          border-image: linear-gradient(to right, #20C2AA 0%, #7A37F5 100%);
+          border-image-slice: 1; background: #fff;  color: #000;
+          font-size: 15px; padding: 5px 20px; text-decoration: none;
+          font-weight: bold; text-transform: uppercase; width:600px;
+          margin-left:320px; margin-bottom:50px;">
+
+          < 아이돌 세대별 작사가 → 아티스트 네트워크 시각화 > <br><br>
+
+          작사가와 아티스트간의 관계도를 네트워크 시각화로 구현했습니다.<br>
+          마우스 스크롤로 화면을 확대/축소해볼 수 있습니다! <br>
+          원의 위치도 자유자재로 이동하면서 데이터를 살펴보세요:)<br><br>
+
+          - 파란색 원 : 작사가, 분홍색 원 : 아티스트<br>
+          - 원의 크기, 글자 크기 : 작사가의 곡 제작 횟수 비율<br><br>
+
+          - 1세대 : 1992 ~ 2000년 활동 그룹 대상<br>
+          - 2세대 : 2001 ~ 2009년 활동 그룹 대상<br>
+          - 3세대 : 2010 ~ 2018년 활동 그룹 대상<br>
+          
+        </div>
+
         <div>
           <button type="button" onclick="location.href='network_lyricist_gen1.html'">1세대</button>
           <button type="button" class="active-button" onclick="location.href='network_lyricist_gen2.html'">2세대</button>
@@ -210,8 +232,8 @@
               .on("zoom", zoomed);
 
 
-        var width = 960 - margin.left - margin.right;
-        var height = 700 - margin.top - margin.bottom;
+        var width = 1000 - margin.left - margin.right;
+        var height = 500 - margin.top - margin.bottom;
 
         //Load Color Scale
         var c10 = d3.scale.category10();
