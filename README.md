@@ -56,8 +56,18 @@ LSTM test model
 ```
 3대 기획사(SM, YG, JYP)소속 남/녀 아이돌 가사분석 코드입니다.
 ```
-
-
+### [EDA_next_word_yoon_ver01 ~ 03.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/EDA/EDA_next_word_yoon_ver03.ipynb)
+```
+해당 단어 앞/뒤에 오는 단어를 보는 코드의 EDA입니다.(+before_next_word_yoon_ver04.ipynb)
+```
+### [EDA_words_in_songs_yoon_ver1.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/EDA/EDA_words_in_songs_yoon_ver1.ipynb)
+```
+단어의 빈도 (곡 수)를 보는 코드입니다.
+```
+### [Ending_of_words_yoon.ipynb](https://github.com/BLUENCE/M5_Idol_lyrics/blob/master/EDA/Ending_of_words_yoon.ipynb)
+```
+단어의 어미를 보는 코드입니다.
+```
 
 ## Data 설명
 ### [드라이브 링크](https://drive.google.com/drive/folders/1XB4ubjht4tOPPZwKXrMugbOSefWe0xdD)
